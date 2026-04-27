@@ -70,7 +70,7 @@
     "guides_recommandes": [
       {"slug": "fissure-secheresse-rga", "raison": "Le 77 est le département le plus exposé d'IDF — guide central pour comprendre les démarches Cat-Nat"},
       {"slug": "fissure-horizontale", "raison": "Forme typique sur bas de murs de pavillon affecté par RGA"},
-      {"slug": "fissure-mur-parpaing", "raison": "Le pavillonnaire en parpaing creux est dominant dans le département"}
+      {"slug": "fissure-parpaing", "raison": "Le pavillonnaire en parpaing creux est dominant dans le département"}
     ],
     "faq_specific": [
       {
@@ -157,7 +157,7 @@
     ],
     "guides_recommandes": [
       {"slug": "fissure-secheresse-rga", "raison": "Le 91 figure parmi les départements les plus sinistrés sécheresse d'IDF"},
-      {"slug": "fissure-mur-parpaing", "raison": "Le pavillonnaire essonnien est massivement en parpaing"},
+      {"slug": "fissure-parpaing", "raison": "Le pavillonnaire essonnien est massivement en parpaing"},
       {"slug": "fissure-horizontale", "raison": "Forme typique en bas de mur de pavillon affecté par RGA"}
     ],
     "faq_specific": [
@@ -334,7 +334,7 @@
     "guides_recommandes": [
       {"slug": "fissure-secheresse-rga", "raison": "Plaine de France et couronne sud-est très exposées"},
       {"slug": "fissure-maison-ancienne", "raison": "Bâti rural en meulière et pierre du Vexin"},
-      {"slug": "fissure-mur-parpaing", "raison": "Pavillonnaire dominant en couronne sud (Sarcelles, Garges, Argenteuil)"}
+      {"slug": "fissure-parpaing", "raison": "Pavillonnaire dominant en couronne sud (Sarcelles, Garges, Argenteuil)"}
     ],
     "faq_specific": [
       {

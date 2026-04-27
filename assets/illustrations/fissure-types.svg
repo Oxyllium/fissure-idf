@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sprite SVG : schémas de fissures pour les pages guides.
+  Référencés via <use href="/assets/illustrations/fissure-types.svg#schema-X"/>.
+  Style éditorial : ink/paper + accent ocre pour la fissure elle-même.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+  <!-- Symbole partagé : façade vide (rect avec porte/fenêtres) -->
+  <symbol id="schema-base-facade" viewBox="0 0 320 240">
+    <rect x="20" y="40" width="280" height="180" fill="#f5f1ea" stroke="#111" stroke-width="1.4"/>
+    <path d="M20 40 L160 10 L300 40" fill="none" stroke="#111" stroke-width="1.4" stroke-linejoin="round"/>
+    <rect x="60" y="110" width="50" height="40" fill="none" stroke="#111" stroke-width="1.2"/>
+    <rect x="210" y="110" width="50" height="40" fill="none" stroke="#111" stroke-width="1.2"/>
+    <rect x="135" y="150" width="50" height="70" fill="none" stroke="#111" stroke-width="1.2"/>
+  </symbol>
+
+  <!-- Fissure HORIZONTALE -->
+  <symbol id="schema-horizontale" viewBox="0 0 320 240">
+    <use href="#schema-base-facade"/>
+    <path d="M40 130 L138 132 L195 129 L280 131" fill="none" stroke="#b8552e" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="290" y="125" font-family="Sora, sans-serif" font-size="11" fill="#b8552e" font-weight="500" text-anchor="end">~ niveau plancher haut</text>
+  </symbol>
+
+  <!-- Fissure VERTICALE -->
+  <symbol id="schema-verticale" viewBox="0 0 320 240">
+    <use href="#schema-base-facade"/>
+    <path d="M165 50 L163 80 L168 130 L162 175 L166 215" fill="none" stroke="#b8552e" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="180" y="62" font-family="Sora, sans-serif" font-size="11" fill="#b8552e" font-weight="500">jonction murs</text>
+  </symbol>
+
+  <!-- Fissure EN ESCALIER (sur joints de parpaing) -->
+  <symbol id="schema-escalier" viewBox="0 0 320 240">
+    <use href="#schema-base-facade"/>
+    <!-- Trame parpaing (joints en pointillés gris léger) -->
+    <g stroke="#c8c0af" stroke-width="0.6" stroke-dasharray="3 2">
+      <line x1="20" y1="80" x2="300" y2="80"/>
+      <line x1="20" y1="120" x2="300" y2="120"/>
+      <line x1="20" y1="160" x2="300" y2="160"/>
+      <line x1="20" y1="200" x2="300" y2="200"/>
+      <line x1="80" y1="40" x2="80" y2="220"/>
+      <line x1="160" y1="40" x2="160" y2="220"/>
+      <line x1="240" y1="40" x2="240" y2="220"/>
+    </g>
+    <!-- Fissure escalier -->
+    <path d="M40 200 L40 160 L80 160 L80 120 L160 120 L160 80 L240 80 L240 50" fill="none" stroke="#b8552e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <!-- Fissure TRAVERSANTE (vue en coupe) -->
+  <symbol id="schema-traversante" viewBox="0 0 320 240">
+    <!-- Mur en coupe -->
+    <rect x="60" y="40" width="200" height="180" fill="#ede7dc" stroke="#111" stroke-width="1.4"/>
+    <!-- Hachures exterieur -->
+    <pattern id="hatch-out" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#3a3a3a" stroke-width="0.5"/>
+    </pattern>
+    <rect x="0" y="40" width="60" height="180" fill="url(#hatch-out)" opacity="0.4"/>
+    <rect x="260" y="40" width="60" height="180" fill="url(#hatch-out)" opacity="0.4"/>
+    <text x="20" y="35" font-family="Sora, sans-serif" font-size="10" fill="#3a3a3a" letter-spacing="1">EXTÉRIEUR</text>
+    <text x="270" y="35" font-family="Sora, sans-serif" font-size="10" fill="#3a3a3a" letter-spacing="1">INTÉRIEUR</text>
+    <!-- Fissure qui traverse -->
+    <path d="M60 130 L130 128 L195 134 L260 130" fill="none" stroke="#b8552e" stroke-width="3" stroke-linecap="round"/>
+    <text x="160" y="115" font-family="Sora, sans-serif" font-size="11" fill="#b8552e" font-weight="500" text-anchor="middle">passage d'air, lumière, eau</text>
+  </symbol>
+
+  <!-- MICROFISSURE (réseau fin) -->
+  <symbol id="schema-microfissure" viewBox="0 0 320 240">
+    <use href="#schema-base-facade"/>
+    <g stroke="#b8552e" stroke-width="0.8" fill="none" stroke-linecap="round">
+      <path d="M50 60 L68 75 L62 95 L80 110"/>
+      <path d="M75 80 L95 92 L88 115"/>
+      <path d="M225 70 L240 88 L235 105 L255 118"/>
+      <path d="M250 95 L268 108"/>
+      <path d="M115 175 L132 188 L128 205"/>
+      <path d="M195 195 L210 210"/>
+    </g>
+  </symbol>
+
+  <!-- FISSURE STRUCTURELLE (large, oblique majeure) -->
+  <symbol id="schema-structurelle" viewBox="0 0 320 240">
+    <use href="#schema-base-facade"/>
+    <path d="M60 60 L90 100 L75 140 L110 180 L95 215" fill="none" stroke="#b8552e" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="60" cy="60" r="4" fill="#b8552e"/>
+    <text x="105" y="55" font-family="Sora, sans-serif" font-size="11" fill="#b8552e" font-weight="500">> 2 mm — diagnostic urgent</text>
+  </symbol>
+
+  <!-- COUPE DE FONDATION (RGA / tassement différentiel) -->
+  <symbol id="schema-rga" viewBox="0 0 320 240">
+    <!-- Sol -->
+    <rect x="0" y="160" width="320" height="80" fill="#ede7dc"/>
+    <line x1="0" y1="160" x2="320" y2="160" stroke="#111" stroke-width="1.4"/>
+    <!-- Strate argileuse signalée -->
+    <rect x="0" y="180" width="320" height="20" fill="#b8552e" opacity="0.18"/>
+    <text x="20" y="195" font-family="Sora, sans-serif" font-size="10" fill="#b8552e" font-weight="500" letter-spacing="1">ARGILES SENSIBLES AU RGA</text>
+    <!-- Maison qui penche (un côté plus enfoncé) -->
+    <g stroke="#111" stroke-width="1.4" fill="#f5f1ea" stroke-linejoin="round">
+      <path d="M70 90 L160 50 L260 70 L260 165 L70 168 Z"/>
+      <rect x="100" y="100" width="35" height="30" fill="none"/>
+      <rect x="195" y="105" width="35" height="30" fill="none"/>
+      <rect x="150" y="135" width="40" height="33" fill="none"/>
+    </g>
+    <!-- Fissure sur la maison -->
+    <path d="M75 95 L82 115 L78 135 L88 160" fill="none" stroke="#b8552e" stroke-width="2.2" stroke-linecap="round"/>
+    <!-- Flèches retrait du sol côté sec -->
+    <g stroke="#3a3a3a" stroke-width="1" fill="none" marker-end="url(#arr)">
+      <path d="M30 200 L30 180"/>
+    </g>
+    <defs>
+      <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+        <path d="M0 0 L6 3 L0 6 Z" fill="#3a3a3a"/>
+      </marker>
+    </defs>
+  </symbol>
+
+  <!-- ÉCHELLE DE GRAVITÉ (4 niveaux) -->
+  <symbol id="schema-gravite" viewBox="0 0 320 80">
+    <g font-family="Sora, sans-serif" font-size="11" fill="#111">
+      <rect x="10" y="20" width="70" height="40" fill="#2d5c3e"/>
+      <text x="45" y="40" text-anchor="middle" fill="#f5f1ea" font-weight="500">Bénin</text>
+      <text x="45" y="55" text-anchor="middle" fill="#f5f1ea" font-size="9">&lt; 0,2 mm</text>
+
+      <rect x="85" y="20" width="70" height="40" fill="#a86b1c"/>
+      <text x="120" y="40" text-anchor="middle" fill="#f5f1ea" font-weight="500">Surveiller</text>
+      <text x="120" y="55" text-anchor="middle" fill="#f5f1ea" font-size="9">0,2 – 1 mm</text>
+
+      <rect x="160" y="20" width="70" height="40" fill="#b8552e"/>
+      <text x="195" y="40" text-anchor="middle" fill="#f5f1ea" font-weight="500">Inquiétant</text>
+      <text x="195" y="55" text-anchor="middle" fill="#f5f1ea" font-size="9">1 – 2 mm</text>
+
+      <rect x="235" y="20" width="70" height="40" fill="#7a1f1f"/>
+      <text x="270" y="40" text-anchor="middle" fill="#f5f1ea" font-weight="500">Urgent</text>
+      <text x="270" y="55" text-anchor="middle" fill="#f5f1ea" font-size="9">&gt; 2 mm</text>
+    </g>
+  </symbol>
+
+</svg>

@@ -111,12 +111,12 @@ export function renderDept(ctx) {
             </div>
           </div>
           <dl class="hero__meta">
-            <dt>Population</dt>
-            <dd>${formatPop(geo.population_approx)} habitants</dd>
             <dt>Bâti dominant</dt>
             <dd>${escapeHtml(shortBati(geo.bati_dominant))}</dd>
             <dt>Tribunal compétent</dt>
             <dd>${escapeHtml(geo.tribunal_competent)}</dd>
+            <dt>Couverture</dt>
+            <dd>${geo.villes.length} communes prioritaires</dd>
           </dl>
         </div>
       </div>
@@ -285,7 +285,7 @@ function slugToTitle(slug) {
     "fissure-mur-exterieur-facade": "Fissure mur extérieur et façade",
     "fissure-mur-interieur": "Fissure mur intérieur",
     "fissure-dalle-beton": "Fissure dalle béton",
-    "fissure-mur-parpaing": "Fissure mur parpaing",
+    "fissure-parpaing": "Fissure mur parpaing",
     "fissure-maison-ancienne": "Fissures dans une maison ancienne",
     "fissure-maison-neuve": "Fissures dans une maison neuve",
     "fissure-horizontale": "Fissure horizontale",

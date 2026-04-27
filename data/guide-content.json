@@ -1,0 +1,1005 @@
+{
+  "_doc": "Contenu rédactionnel des 17 guides + chef-d'œuvre /guide/fissure-horizontale/. Croisé avec seo-pages.json (title, meta, h1) au moment du build.",
+
+  "fissure-horizontale": {
+    "enriched": true,
+    "schema": "schema-horizontale",
+    "intro_paragraphs": [
+      "Une fissure horizontale qui apparaît sur un mur intérieur ou en façade n'est presque jamais anodine. À la différence des fissures de retrait verticales ou des microfissures de surface, elle suit une logique mécanique précise : elle marque très souvent une rupture de continuité dans la maçonnerie, à hauteur d'un plancher, d'une dalle ou d'un linteau.",
+      "C'est aussi la forme la plus mal interprétée par les particuliers, qui la confondent fréquemment avec une simple fissure de finition. Or, en Île-de-France, sur du bâti haussmannien, du pavillonnaire d'avant-guerre ou même sur des constructions récentes en parpaing, elle peut signaler un désordre structurel sérieux qui justifie une expertise rapide."
+    ],
+    "definition": {
+      "title": "Qu'est-ce qu'une fissure horizontale ?",
+      "paragraphs": [
+        "Une fissure horizontale est, par définition, une fissure orientée parallèlement au sol, suivant ou non un joint de maçonnerie. Sa longueur peut varier de quelques dizaines de centimètres à plusieurs mètres. Sa largeur (ou « ouverture ») est le critère principal de gravité : on parle de microfissure en dessous de 0,2 mm, de fissure légère jusqu'à 2 mm, et de fissure structurelle au-delà.",
+        "Elle se distingue des autres formes par un trait essentiel : elle suit une ligne d'effort horizontale, c'est-à-dire un niveau particulier du bâti — souvent l'arrêt d'une dalle, le sommet d'un soubassement, le bas d'une chaînage horizontal ou la jonction entre deux étages. C'est pour cela qu'elle est si parlante pour un expert : sa position elle-même indique où chercher la cause."
+      ],
+      "sous_types": [
+        {
+          "name": "Fissure horizontale en bas de mur (soubassement)",
+          "description": "Située à 30-80 cm du sol, elle est souvent la signature d'un défaut de drainage périphérique ou d'une remontée capillaire ancienne qui a fragilisé l'enduit. Sur du pavillonnaire en parpaing, elle peut aussi marquer la jonction entre semelle et élévation."
+        },
+        {
+          "name": "Fissure horizontale à hauteur de plancher haut",
+          "description": "Apparaît à environ 2,40 à 2,70 m du sol au rez-de-chaussée, ou à l'étage à la même hauteur. C'est le marqueur classique d'un désordre lié au plancher (flexion, tassement de la dalle, défaut de chaînage) et la forme la plus inquiétante quand on observe une ouverture supérieure à 1 mm."
+        },
+        {
+          "name": "Fissure horizontale au-dessus d'une ouverture",
+          "description": "Au-dessus d'une fenêtre ou d'une porte, une fissure horizontale qui suit le linteau peut révéler une rupture du linteau, une descente de charge mal reprise, ou un tassement asymétrique des appuis."
+        },
+        {
+          "name": "Fissure horizontale en façade extérieure",
+          "description": "Très visible, souvent associée à des fissures secondaires en escalier ou obliques. En IDF, elle est régulièrement signalée sur le pavillonnaire affecté par le retrait-gonflement des argiles, particulièrement après les étés secs."
+        },
+        {
+          "name": "Fissure horizontale sur mur intérieur de refend",
+          "description": "Sur un mur porteur intérieur, elle peut traduire un mouvement de la structure (tassement différentiel, charges modifiées par travaux) et nécessite une analyse de l'ensemble du bâti, pas seulement du mur concerné."
+        }
+      ]
+    },
+    "gravite": {
+      "intro": "Toutes les fissures horizontales ne se valent pas. La gravité dépend de quatre paramètres : l'ouverture (largeur), la longueur, le caractère évolutif (s'élargit-elle dans le temps ?), et le contexte (où est-elle, sur quel élément structurel ?).",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "< 0,2 mm", "description": "Microfissure de finition ou de retrait. Aucune incidence structurelle. Surveillance simple.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "0,2 à 1 mm", "description": "Fissure superficielle. Mise en place d'un témoin (jauge ou plâtre) pour suivre l'évolution sur 3 à 6 mois.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "1 à 2 mm", "description": "Fissure significative. Diagnostic d'expert recommandé pour identifier la cause et chiffrer les éventuels travaux.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "> 2 mm", "description": "Fissure structurelle avérée. Expertise immédiate. Ne pas commencer de travaux de rebouchage avant le diagnostic.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "En Île-de-France, cinq causes dominent — et c'est la combinaison de plusieurs d'entre elles qui produit le plus souvent une fissure horizontale visible.",
+      "items": [
+        {"titre": "Retrait-gonflement des argiles (RGA)", "description": "Cause numéro 1 sur le pavillonnaire de grande couronne (77, 91, 95). Lors d'un été sec, les argiles superficielles se rétractent, faisant descendre une partie de la maison. La fissure horizontale apparaît au niveau d'un plancher haut, marquant la limite entre la zone qui a bougé et celle qui est restée en place."},
+        {"titre": "Tassement différentiel des fondations", "description": "Sur sols hétérogènes (très fréquent en IDF : remblais, gypse 93, alluvions de Seine 92/94), une partie de la maison s'enfonce plus que l'autre. Le mur résiste à la traction qui en résulte… jusqu'à céder horizontalement à la jonction la plus faible."},
+        {"titre": "Défaut de chaînage horizontal", "description": "Le chaînage est la ceinture de béton armé qui solidarise les murs au niveau de chaque plancher. Sur du bâti ancien (haussmannien, pavillons d'avant-guerre), il peut être absent ou sous-dimensionné. Une fissure horizontale à 2,40 m du sol en est souvent le marqueur."},
+        {"titre": "Surcharge de plancher", "description": "Lors d'une rénovation lourde (ajout d'une chape, d'une mezzanine, d'une bibliothèque massive), un plancher peut fléchir et entraîner l'ouverture d'une fissure horizontale à sa jonction avec le mur."},
+        {"titre": "Vibrations de chantier voisin", "description": "Les chantiers du Grand Paris Express (lignes 15, 16, 17) et plus largement tous les travaux lourds en zone dense peuvent générer des micro-mouvements répétés qui ouvrent des fissures horizontales sur les bâtis fragiles environnants."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Notre méthode de diagnostic s'appuie sur six étapes systématiques. Aucune n'est facultative.",
+      "etapes": [
+        {"titre": "Mesure précise de l'ouverture", "description": "Au pied à coulisse ou à la jauge graduée, à plusieurs points le long de la fissure. Une ouverture variable (plus large en haut ou en bas) est en soi un indice."},
+        {"titre": "Lecture du contexte de la fissure", "description": "Hauteur exacte par rapport au sol, alignement avec un plancher, présence ou absence d'autres fissures secondaires (en escalier, obliques) à proximité."},
+        {"titre": "Analyse du bâti", "description": "Type de maçonnerie (pierre, brique, parpaing, béton), présence ou non de chaînage, ancienneté, modifications structurelles connues."},
+        {"titre": "Lecture du sol et de l'environnement", "description": "Cartographie de l'aléa RGA, présence d'arbres en proximité, pente du terrain, drainage périphérique, chantiers voisins récents."},
+        {"titre": "Pose d'un témoin si l'évolutivité est en doute", "description": "Une jauge fissuromètre ou un témoin plâtre est posé pour suivre l'évolution sur quelques semaines à plusieurs mois. C'est ce qui distingue une fissure stabilisée d'une fissure active."},
+        {"titre": "Rédaction du rapport opposable", "description": "Document technique avec photographies cotées, hypothèses causales argumentées, niveau de gravité, préconisations de travaux et chiffrage indicatif."}
+      ]
+    },
+    "solutions": {
+      "intro": "Les solutions de réparation dépendent strictement du diagnostic. Une fissure horizontale stabilisée d'origine esthétique se traite en quelques heures pour quelques centaines d'euros. Une fissure structurelle évolutive sur tassement différentiel peut nécessiter une reprise en sous-œuvre à 30 000 €. D'où l'importance de ne pas se précipiter sur la réparation visible avant d'avoir traité la cause.",
+      "items": [
+        {"titre": "Rebouchage et reprise d'enduit (fissure stabilisée < 1 mm)", "description": "Mortier de réparation souple, peinture. Travaux esthétiques.", "prix": "200 € à 800 €"},
+        {"titre": "Pontage par bande armée + ré-enduit", "description": "Pour fissures stabilisées de 1 à 2 mm sur enduit extérieur. Bande de fibre de verre ou polyester noyée dans une couche d'accrochage.", "prix": "60 € à 120 € le mètre linéaire"},
+        {"titre": "Agrafage par armatures inox", "description": "Pour fissures structurelles stabilisées. Insertion d'agrafes métalliques perpendiculaires à la fissure pour solidariser les deux parties du mur.", "prix": "150 € à 300 € l'agrafe (10 à 30 agrafes en moyenne)"},
+        {"titre": "Injection de résine époxy ou acrylique", "description": "Pour fissures structurelles stabilisées sur béton ou maçonnerie dense. La résine remplit la fissure et restitue la continuité mécanique.", "prix": "80 € à 200 € le mètre linéaire"},
+        {"titre": "Reprise en sous-œuvre (micropieux ou injection résine expansive)", "description": "Pour les cas de tassement différentiel actif. Solution lourde mais durable, qui consolide les fondations elles-mêmes.", "prix": "15 000 € à 50 000 € selon surface"}
+      ]
+    },
+    "cas_concret": {
+      "titre": "Cas concret : pavillon des années 1970 à Meaux (77)",
+      "texte": "Une cliente nous contacte en septembre 2023 après l'apparition d'une fissure horizontale d'environ 1,5 mm de large, courant sur 3 mètres à hauteur du plancher haut, sur la façade arrière de son pavillon des années 1970. La maison est en parpaing creux sur semelle filante peu profonde. La cliente craint un effondrement. Notre diagnostic visuel identifie immédiatement la signature RGA : la fissure horizontale est associée à une fissure en escalier secondaire au-dessus de la fenêtre, et la commune a été reconnue Cat-Nat sécheresse en 2018, 2020 et 2022. Pose d'une jauge fissuromètre, rapport établi, déclaration auprès de l'assurance acceptée. Indemnisation finale : 18 000 € pour la pose de micropieux et la reprise d'enduit. Sans le rapport indépendant, l'expert d'assurance avait initialement chiffré l'indemnisation à 4 200 € pour un simple pontage."
+    },
+    "faq": [
+      {"q": "Une fissure horizontale est-elle toujours plus grave qu'une fissure verticale ?", "r": "Pas systématiquement, mais statistiquement, elle est plus souvent structurelle. Une fissure verticale peut être un simple retrait de matériaux. Une fissure horizontale, surtout au niveau d'un plancher haut ou d'un linteau, suit presque toujours une ligne d'effort mécanique — donc une cause structurelle."},
+      {"q": "Comment savoir si ma fissure horizontale est évolutive ?", "r": "La pose d'un témoin (jauge fissuromètre graduée, ou simple plâtre numéroté) permet de mesurer l'évolution sur 3 à 6 mois. Si l'ouverture augmente de plus de 0,2 mm sur cette période, la fissure est active et nécessite une intervention rapide."},
+      {"q": "Mon assurance refuse-t-elle de couvrir les fissures horizontales ?", "r": "Non, ce n'est pas le critère. Ce qui compte, c'est l'origine. En cas de RGA dans une commune reconnue Cat-Nat, votre assurance multirisque habitation doit indemniser. En cas de défaut de construction sur un bien de moins de 10 ans, la garantie décennale s'applique. Notre rapport indépendant établit l'origine et oriente la démarche."},
+      {"q": "Puis-je reboucher une fissure horizontale en attendant l'expertise ?", "r": "Surtout pas. Reboucher avant le diagnostic empêche l'expert d'observer la fissure dans son état réel, de mesurer son ouverture, de poser un témoin. Cela peut aussi être interprété par l'assurance comme une dissimulation. Attendez le passage de l'expert."},
+      {"q": "Combien de temps pour une expertise fissure horizontale en IDF ?", "r": "Intervention sur site sous 7 à 15 jours après votre demande. Rapport opposable transmis sous 10 à 15 jours après la visite. Soit un délai total de 3 à 5 semaines en moyenne."},
+      {"q": "Une fissure horizontale peut-elle apparaître sur du neuf ?", "r": "Oui. Sur du neuf ou semi-neuf (moins de 10 ans), elle peut révéler un défaut de chaînage, une dalle mal exécutée, ou un sol mal traité avant construction. Dans ce cas, la garantie décennale du constructeur peut être actionnée — un rapport d'expertise indépendant en est la pièce centrale."},
+      {"q": "Faut-il faire évacuer la maison en cas de fissure horizontale large ?", "r": "Très rarement. Le risque d'effondrement immédiat sur une maison individuelle est exceptionnel. En revanche, en cas de fissure > 5 mm évolutive et associée à des déformations de planchers, des étais provisoires peuvent être préconisés en attente des travaux."},
+      {"q": "Mon expert fissure peut-il aussi me conseiller sur les travaux ?", "r": "Oui : notre rapport contient des préconisations chiffrées et la liste des techniques adaptées à votre cas. En revanche, nous ne sommes pas l'entreprise qui réalise les travaux — c'est précisément ce qui garantit notre indépendance et l'opposabilité du rapport."}
+    ],
+    "guides_lies": ["fissure-secheresse-rga", "fissure-structurelle", "diagnostic-fissure-maison", "fissure-parpaing"],
+    "villes_phares": ["/77/meaux/", "/91/evry-courcouronnes/", "/93/saint-denis/", "/95/argenteuil/", "/92/boulogne-billancourt/"]
+  },
+
+  "fissure-plafond": {
+    "schema": "schema-horizontale",
+    "intro_paragraphs": [
+      "Une fissure au plafond est l'un des désordres qui inquiète le plus, à juste titre. Elle peut révéler un mouvement structurel sérieux — flexion d'un plancher haut, tassement différentiel, défaut de liaison entre les murs et la dalle — ou simplement résulter d'un retrait du matériau de finition.",
+      "Le travail de l'expert consiste à distinguer ces deux familles : la fissure de finition, sans gravité, et la fissure structurelle, qui appelle des travaux. La forme, la position et l'évolution sont les trois critères clés."
+    ],
+    "definition": {
+      "title": "Les types de fissures au plafond",
+      "paragraphs": [
+        "On distingue couramment trois grandes familles : les fissures linéaires longues (souvent au droit d'un joint de dalle ou d'une jonction mur/plafond), les fissures en réseau (microfissures de retrait du plâtre), et les fissures évolutives ponctuelles autour d'un point précis (qui peuvent signaler une fuite ou une déformation locale)."
+      ]
+    },
+    "gravite": {
+      "intro": "Au plafond comme ailleurs, l'ouverture et l'évolutivité priment.",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "< 0,3 mm", "description": "Microfissures de retrait. Esthétique, sans gravité.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "0,3 à 1 mm", "description": "Fissures linéaires modérées. Témoin recommandé.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "1 à 2 mm", "description": "Fissures avec déformation visible du plafond. Diagnostic d'expert.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "> 2 mm + flexion", "description": "Affaissement local du plafond. Expertise immédiate, étaiement éventuel.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Cinq causes principales, sans ordre :",
+      "items": [
+        {"titre": "Retrait du matériau de finition (plâtre, enduit)", "description": "Cause la plus fréquente, sans gravité structurelle. Apparaît dans les semaines ou mois suivant la pose."},
+        {"titre": "Flexion ou déformation du plancher haut", "description": "Plancher bois ancien fatigué, dalle béton sous-dimensionnée, surcharge récente."},
+        {"titre": "Tassement différentiel de la structure", "description": "Une partie de la maison bouge, le plafond enregistre cette déformation au niveau de ses jonctions."},
+        {"titre": "Fuite ou infiltration", "description": "Cernes humides associés à la fissure : fuite d'un appartement supérieur, défaut d'étanchéité de toiture."},
+        {"titre": "Travaux dans le lot supérieur (en copropriété)", "description": "Percement de mur porteur, dépose de cloison, charge ajoutée — fréquent à Paris haussmannien."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Quatre étapes :",
+      "etapes": [
+        {"titre": "Identification de la forme et de la position", "description": "Linéaire, en réseau, ponctuelle, alignée ou non avec un mur porteur."},
+        {"titre": "Recherche de cernes humides ou décollements", "description": "Pour exclure une cause hydraulique (fuite, infiltration)."},
+        {"titre": "Pose d'un témoin", "description": "Pour vérifier la stabilité ou l'évolutivité."},
+        {"titre": "Vérification du plancher haut", "description": "Niveau de la dalle, alignement, pente éventuelle."}
+      ]
+    },
+    "solutions": {
+      "intro": "Du simple rebouchage à la reprise structurelle, le coût varie de 200 € à plusieurs milliers d'euros.",
+      "items": [
+        {"titre": "Rebouchage + peinture (fissure stabilisée fine)", "description": "Pâte à reboucher souple, ponçage, mise en peinture.", "prix": "200 € à 600 €"},
+        {"titre": "Reprise par bande de calicot + enduit + peinture", "description": "Pour fissures linéaires modérées stabilisées.", "prix": "400 € à 1 200 €"},
+        {"titre": "Étaiement provisoire + reprise structurelle", "description": "Pour flexion de plancher avérée. Solution lourde, à coordonner avec un bureau d'études.", "prix": "5 000 € à 25 000 €"}
+      ]
+    },
+    "faq": [
+      {"q": "Une fissure au plafond peut-elle annoncer un effondrement ?", "r": "Très rarement, et jamais sans signes annonciateurs (déformation visible, bruits de craquement, déplacement de menuiseries). Une fissure stabilisée < 1 mm n'est pratiquement jamais le signe d'un risque immédiat."},
+      {"q": "Mon plafond suinte ou présente des taches — est-ce lié ?", "r": "Probablement. Une fissure associée à des cernes humides relève d'une cause hydraulique (fuite, infiltration). Le diagnostic technique inclut alors une recherche de fuite — souvent prise en charge par votre assurance dans le cadre d'un dégât des eaux."},
+      {"q": "Mon voisin du dessus a fait des travaux — peut-il en être responsable ?", "r": "Oui, si les travaux ont déstabilisé un mur porteur ou une dalle commune. En copropriété, la procédure passe par le syndic et engage une expertise contradictoire. Notre rapport indépendant est la pièce maîtresse de la démarche."}
+    ],
+    "guides_lies": ["fissure-structurelle", "fissure-maison-ancienne", "diagnostic-fissure-maison"],
+    "villes_phares": ["/75/", "/92/boulogne-billancourt/", "/75/paris-15e/", "/75/paris-16e/"]
+  },
+
+  "fissure-mur-interieur": {
+    "schema": "schema-verticale",
+    "intro_paragraphs": [
+      "Une fissure sur un mur intérieur est rarement anodine, mais rarement immédiatement dangereuse non plus. Tout dépend de sa forme, de son ouverture et du type de mur (porteur ou cloison de distribution). C'est l'un des motifs d'expertise les plus fréquents en Île-de-France.",
+      "Le risque principal n'est pas l'effondrement, mais le sous-diagnostic : une fissure interprétée comme esthétique alors qu'elle révèle un mouvement structurel actif peut, à terme, dégrader sérieusement la stabilité du bâti."
+    ],
+    "definition": {
+      "title": "Mur porteur ou cloison ?",
+      "paragraphs": [
+        "C'est la première question. Une fissure sur cloison de distribution (placo ou carreau de plâtre) a presque toujours une origine bénigne : tassement local, retrait, choc. Une fissure sur mur porteur (pierre, brique, parpaing, béton) demande une analyse beaucoup plus approfondie : elle peut traduire un mouvement de la structure du bâtiment."
+      ]
+    },
+    "gravite": {
+      "intro": "L'ouverture, la longueur et la trajectoire (verticale, oblique, en escalier) sont les indices clés.",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "< 0,2 mm", "description": "Microfissure cosmétique. Aucune incidence.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "0,2 à 1 mm", "description": "Fissure modérée. Témoin et photo datée.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "1 à 2 mm", "description": "Diagnostic recommandé, surtout si trajectoire oblique ou en escalier.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "> 2 mm", "description": "Fissure structurelle. Expertise immédiate.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Cinq causes courantes :",
+      "items": [
+        {"titre": "Retrait du plâtre ou de l'enduit (cloison)", "description": "Cause la plus fréquente sur cloisons de distribution. Sans gravité."},
+        {"titre": "Tassement différentiel de la structure", "description": "Sur sols hétérogènes (très fréquent en IDF), un mouvement des fondations se transmet aux murs porteurs intérieurs."},
+        {"titre": "Modification structurelle (suppression de mur, percement)", "description": "Travaux mal exécutés ou non sécurisés."},
+        {"titre": "RGA — retrait-gonflement des argiles", "description": "Particulièrement sur pavillonnaire de grande couronne (77, 91, 95)."},
+        {"titre": "Vibrations de chantier voisin", "description": "Grand Paris Express en zone dense."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Quatre étapes systématiques :",
+      "etapes": [
+        {"titre": "Identification du type de mur", "description": "Test au son ou au perçage léger pour distinguer porteur / cloison."},
+        {"titre": "Mesure et cartographie de la fissure", "description": "Ouverture, longueur, trajectoire, ramifications."},
+        {"titre": "Recherche de fissures associées en façade", "description": "Une fissure intérieure isolée est différente d'une fissure couplée à une fissure extérieure (signe structurel fort)."},
+        {"titre": "Pose d'un témoin et lecture du contexte (sol, bâti)", "description": "Pour distinguer fissure stabilisée et fissure active."}
+      ]
+    },
+    "solutions": {
+      "intro": "De 200 € à plusieurs dizaines de milliers d'euros selon la cause.",
+      "items": [
+        {"titre": "Rebouchage + peinture (cloison)", "description": "Pâte à reboucher souple.", "prix": "200 € à 500 €"},
+        {"titre": "Bande de calicot + enduit + peinture", "description": "Pour fissures stabilisées sur mur porteur fin.", "prix": "400 € à 1 000 €"},
+        {"titre": "Agrafage inox + reprise enduit", "description": "Pour fissures structurelles stabilisées sur mur porteur.", "prix": "150 € à 300 € l'agrafe"},
+        {"titre": "Reprise en sous-œuvre", "description": "Pour cause de tassement différentiel actif.", "prix": "15 000 € à 50 000 €"}
+      ]
+    },
+    "faq": [
+      {"q": "Comment savoir si mon mur est porteur ?", "r": "Un mur porteur est généralement plus épais (15 cm minimum), résonne plein quand on le frappe, et continue d'un étage à l'autre. En cas de doute, l'expert le détermine en quelques secondes lors de la visite."},
+      {"q": "La fissure traverse mon mur de part en part — est-ce grave ?", "r": "Toujours sérieux : c'est par définition une fissure traversante. Voir notre guide dédié. Une expertise est recommandée pour diagnostiquer la cause et préconiser les travaux."},
+      {"q": "Mon mur est en pierre apparente (haussmannien) — la lecture est-elle différente ?", "r": "Oui. Sur du moellon ou de la pierre de taille, les fissures suivent souvent les joints — ce qui rend leur lecture plus subtile. Une expertise spécialisée bâti ancien est alors recommandée."}
+    ],
+    "guides_lies": ["fissure-structurelle", "fissure-horizontale", "diagnostic-fissure-maison"],
+    "villes_phares": ["/75/", "/92/", "/93/saint-denis/"]
+  },
+
+  "fissure-mur-exterieur-facade": {
+    "schema": "schema-escalier",
+    "intro_paragraphs": [
+      "Une fissure sur un mur extérieur ou en façade est, en Île-de-France, le motif d'expertise le plus fréquent. C'est aussi l'endroit où les pathologies sont le plus visibles : exposée aux variations climatiques, aux infiltrations et aux mouvements de fondations, la façade enregistre fidèlement les désordres du bâti.",
+      "La distinction entre fissure superficielle (esthétique, dans l'enduit) et fissure structurelle (atteignant le mur porteur) est cruciale. Une lecture attentive de la trajectoire et de l'environnement immédiat est indispensable."
+    ],
+    "definition": {
+      "title": "Lire une fissure de façade",
+      "paragraphs": [
+        "Trois éléments à observer : la trajectoire (verticale, horizontale, oblique, en escalier), la position (en pied de mur, à hauteur de plancher, au-dessus d'une ouverture), et la couleur des bords (nets et clairs = récente, encrassés et patinés = ancienne stabilisée)."
+      ]
+    },
+    "gravite": {
+      "intro": "L'ouverture est mesurée à plusieurs points le long de la fissure.",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "< 0,2 mm", "description": "Microfissure de retrait sur enduit. Esthétique.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "0,2 à 1 mm", "description": "Fissure d'enduit plus marquée. Témoin.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "1 à 2 mm", "description": "Probable atteinte du support. Diagnostic.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "> 2 mm", "description": "Fissure structurelle. Expertise immédiate.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Six causes dominent :",
+      "items": [
+        {"titre": "Retrait de l'enduit (esthétique)", "description": "Apparaît dans les premières années après ravalement."},
+        {"titre": "Retrait-gonflement des argiles (RGA)", "description": "Cause numéro 1 sur pavillonnaire grande couronne."},
+        {"titre": "Tassement différentiel des fondations", "description": "Sur sols hétérogènes."},
+        {"titre": "Défaut de chaînage horizontal", "description": "Bâti ancien sans ceinture béton armé."},
+        {"titre": "Infiltration et cycles gel/dégel", "description": "Sur enduit ciment fissuré, l'eau pénètre, gèle, et élargit la fissure."},
+        {"titre": "Vibrations de chantier voisin", "description": "Grand Paris Express, démolition voisine, gros œuvre."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Cinq étapes :",
+      "etapes": [
+        {"titre": "Lecture de la trajectoire", "description": "Verticale, horizontale, en escalier, oblique."},
+        {"titre": "Sondage léger de l'enduit", "description": "Pour vérifier si la fissure atteint le support."},
+        {"titre": "Mesure de l'ouverture et de la longueur", "description": "À plusieurs points."},
+        {"titre": "Recherche de désordres associés", "description": "Cernes humides, décollements, fissures intérieures correspondantes."},
+        {"titre": "Pose d'un témoin si évolutivité en doute", "description": "Suivi sur 3 à 6 mois."}
+      ]
+    },
+    "solutions": {
+      "intro": "Largement variable selon la cause.",
+      "items": [
+        {"titre": "Rebouchage + ré-enduit (fissure d'enduit)", "description": "Mortier de réparation souple.", "prix": "30 € à 60 € le mètre linéaire"},
+        {"titre": "Pontage par bande armée + enduit imperméabilisant", "description": "Pour fissures stabilisées en façade.", "prix": "60 € à 120 € le mètre linéaire"},
+        {"titre": "Agrafage inox sur structurelles stabilisées", "description": "Solidarisation mécanique.", "prix": "150 € à 300 € l'agrafe"},
+        {"titre": "Reprise en sous-œuvre (RGA actif)", "description": "Micropieux ou résine expansive.", "prix": "15 000 € à 50 000 €"}
+      ]
+    },
+    "faq": [
+      {"q": "Quand s'inquiéter d'une fissure en façade ?", "r": "Dès qu'elle dépasse 1 mm d'ouverture, qu'elle s'allonge ou s'élargit dans le temps, qu'elle est associée à une fissure intérieure correspondante, ou qu'elle apparaît après une période sèche (signal RGA)."},
+      {"q": "La garantie décennale couvre-t-elle les fissures de façade ?", "r": "Sur un bien de moins de 10 ans, oui — à condition que la fissure compromette la solidité ou la destination de l'ouvrage. Notre rapport établit ce caractère décennal."},
+      {"q": "Mon ravalement est récent et déjà fissuré — recours ?", "r": "Si le ravalement a moins de 10 ans, la garantie décennale du ravaleur s'applique. Si la fissure provient du support et non de l'enduit, c'est plus complexe — l'expertise départage."}
+    ],
+    "guides_lies": ["fissure-secheresse-rga", "fissure-horizontale", "fissure-enduit-crepi", "fissure-parpaing"],
+    "villes_phares": ["/77/", "/91/", "/95/argenteuil/"]
+  },
+
+  "fissure-dalle-beton": {
+    "schema": "schema-horizontale",
+    "intro_paragraphs": [
+      "Les fissures sur dalle béton — terrasse, garage, sous-sol, dalle de plancher — peuvent être totalement bénignes (retrait de prise du béton) ou révéler un défaut structurel sérieux (sous-dimensionnement, tassement). La lecture est très différente selon le type de dalle et son usage."
+    ],
+    "definition": {
+      "title": "Trois grandes familles",
+      "paragraphs": [
+        "On distingue les fissures de retrait (apparues dans les semaines suivant la prise du béton, en réseau ou linéaires fines), les fissures de flexion (apparues plus tard, dans le sens transversal à la portée de la dalle), et les fissures de tassement (associées à un mouvement du sol support)."
+      ]
+    },
+    "gravite": {
+      "intro": "Sur dalle béton, l'ouverture seule ne suffit pas : la trajectoire et la flèche associée sont déterminantes.",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "< 0,3 mm en réseau", "description": "Retrait de prise. Sans gravité.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "0,3 à 1 mm linéaire", "description": "Fissure modérée. Vérifier l'évolution.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "1 à 2 mm + flèche", "description": "Diagnostic. Risque de désordre porteur.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "> 2 mm + flèche > L/300", "description": "Étaiement, expertise immédiate.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Quatre causes principales :",
+      "items": [
+        {"titre": "Retrait de prise", "description": "Phénomène normal, fissures fines apparues dans les semaines après coulage."},
+        {"titre": "Sous-dimensionnement de la dalle", "description": "Épaisseur ou ferraillage insuffisants pour la portée."},
+        {"titre": "Tassement du sol support", "description": "RGA, mauvais compactage, infiltration."},
+        {"titre": "Surcharge", "description": "Charge supérieure à la capacité de la dalle (véhicule lourd sur terrasse, mezzanine ajoutée)."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Trois étapes :",
+      "etapes": [
+        {"titre": "Identification de la trajectoire et du réseau", "description": "Réseau aléatoire = retrait. Trajectoire perpendiculaire à la portée = flexion."},
+        {"titre": "Mesure de la flèche éventuelle", "description": "À la règle, en plusieurs points."},
+        {"titre": "Sondage du ferraillage si suspicion structurelle", "description": "Détecteur d'armatures."}
+      ]
+    },
+    "solutions": {
+      "intro": "Du rebouchage simple à la reprise en sous-œuvre.",
+      "items": [
+        {"titre": "Injection résine époxy (fissures stabilisées)", "description": "Restitue la continuité mécanique.", "prix": "80 € à 200 € le mètre linéaire"},
+        {"titre": "Renfort fibres carbone collées", "description": "Pour reprise structurelle locale.", "prix": "300 € à 600 € le mètre carré"},
+        {"titre": "Reprise en sous-œuvre (cause sol)", "description": "Micropieux, injection.", "prix": "15 000 € à 40 000 €"}
+      ]
+    },
+    "faq": [
+      {"q": "Ma dalle de garage est fissurée — est-ce grave ?", "r": "Probablement non si la fissure est fine et apparue tôt. Plus inquiétant si elle s'élargit, est associée à un affaissement, ou apparaît plusieurs années après coulage."},
+      {"q": "Comment réparer une fissure de dalle extérieure ?", "r": "Pour une fissure stabilisée < 1 mm, mortier de réparation souple. Au-delà, injection résine. Au-delà de 2 mm avec flèche, expertise indispensable avant tout rebouchage."}
+    ],
+    "guides_lies": ["fissure-structurelle", "fissure-secheresse-rga", "diagnostic-fissure-maison"],
+    "villes_phares": ["/77/", "/91/", "/94/"]
+  },
+
+  "fissure-maison-ancienne": {
+    "schema": "schema-microfissure",
+    "intro_paragraphs": [
+      "Une maison ancienne — haussmannien, pavillon d'avant-guerre, longère, hôtel particulier, bâti rural en pierre — vit, respire et se déforme lentement depuis sa construction. Beaucoup de fissures qu'on y observe sont anciennes, stabilisées et sans gravité. Mais certaines révèlent des désordres actifs.",
+      "La lecture des fissures sur bâti ancien demande une compétence spécifique : connaissance des matériaux historiques (pierre, brique pleine, moellon, enduit chaux), des techniques constructives anciennes (fondations rudimentaires, absence de chaînage), et des pathologies typiques liées à leur vieillissement."
+    ],
+    "definition": {
+      "title": "Spécificités du bâti ancien",
+      "paragraphs": [
+        "Trois caractéristiques clés : fondations souvent peu profondes ou hétérogènes, absence fréquente de chaînage horizontal en béton armé, et grande sensibilité aux modifications hydrauliques (drainage, gouttières, rejets en pied de mur)."
+      ]
+    },
+    "gravite": {
+      "intro": "Sur bâti ancien, l'ancienneté et l'évolutivité sont plus parlantes que l'ouverture brute.",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "Stabilisée < 1 mm", "description": "Fissure de vie ancienne. Surveillance simple.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "Stabilisée 1-2 mm", "description": "Témoin pour confirmer la stabilité.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "Évolutive 1-2 mm", "description": "Diagnostic des causes (RGA, drainage, travaux voisins).", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "Évolutive > 2 mm", "description": "Expertise immédiate.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Cinq causes typiques :",
+      "items": [
+        {"titre": "Tassement lent des fondations rudimentaires", "description": "Souvent stabilisé depuis longtemps."},
+        {"titre": "Modification du drainage périphérique", "description": "Imperméabilisation des sols voisins, rejet de gouttière modifié."},
+        {"titre": "Rénovation lourde mal exécutée", "description": "Suppression de mur porteur, mise aux normes thermiques modifiant les charges."},
+        {"titre": "Retrait-gonflement des argiles (RGA)", "description": "Sur les bâtis ruraux et pavillonnaires de couronne."},
+        {"titre": "Vibrations de chantier voisin", "description": "Particulièrement sensible sur bâtis fragiles."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Cinq étapes :",
+      "etapes": [
+        {"titre": "Datation visuelle de la fissure", "description": "Bords nets et clairs = récente. Bords patinés et encrassés = ancienne."},
+        {"titre": "Lecture du bâti et de ses matériaux", "description": "Type de pierre, nature des joints, présence ou non de chaînage."},
+        {"titre": "Recherche des modifications récentes", "description": "Travaux, drainage, charges ajoutées."},
+        {"titre": "Analyse de l'environnement immédiat", "description": "Arbres, terrain, voisinage."},
+        {"titre": "Témoin et suivi sur quelques mois", "description": "Pour confirmer activité ou stabilité."}
+      ]
+    },
+    "solutions": {
+      "intro": "Sur bâti ancien, la sobriété est de mise. Mieux vaut surveiller que sur-traiter.",
+      "items": [
+        {"titre": "Rejointoiement à la chaux (joints fragilisés)", "description": "Préserve la respiration du bâti.", "prix": "60 € à 120 € le mètre carré"},
+        {"titre": "Reprise d'enduit à la chaux", "description": "Pour fissures stabilisées.", "prix": "40 € à 80 € le mètre carré"},
+        {"titre": "Agrafage discret sur fissures structurelles stabilisées", "description": "Solidarisation mécanique invisible.", "prix": "150 € à 300 € l'agrafe"},
+        {"titre": "Reprise en sous-œuvre (cause active)", "description": "Cas lourd, à éviter sauf nécessité.", "prix": "15 000 € à 60 000 €"}
+      ]
+    },
+    "faq": [
+      {"q": "Ma maison a 200 ans, des fissures sont-elles forcément graves ?", "r": "Pas du tout. Beaucoup de fissures observées sur bâti ancien sont stabilisées depuis des décennies. Le travail de l'expert consiste à distinguer les fissures de vie (sans gravité) des fissures actives."},
+      {"q": "Faut-il utiliser du ciment sur une vieille maison en pierre ?", "r": "Surtout pas. Un enduit ciment sur un mur en pierre étanche le bâti, accumule l'humidité dans les murs et accélère leur dégradation. Toujours préférer la chaux."},
+      {"q": "Mon haussmannien parisien se fissure — est-ce normal ?", "r": "Le bâti haussmannien est très ancien, repose sur des fondations modestes et a connu des décennies de modifications (rénovations, suppressions de murs, raccordements). Les fissures y sont fréquentes mais leur gravité varie énormément. Une expertise est recommandée dès qu'une fissure dépasse 1 mm."}
+    ],
+    "guides_lies": ["fissure-mur-interieur", "fissure-mur-exterieur-facade", "expert-fissure-independant"],
+    "villes_phares": ["/75/", "/78/versailles/", "/95/"]
+  },
+
+  "microfissure": {
+    "schema": "schema-microfissure",
+    "intro_paragraphs": [
+      "Une microfissure est, par définition, une fissure dont l'ouverture est inférieure à 0,2 mm — soit l'épaisseur d'un cheveu humain. Elle est presque toujours sans gravité structurelle, mais elle peut, dans certains cas, être un signal précoce d'un désordre en développement."
+    ],
+    "definition": {
+      "title": "Reconnaître une microfissure",
+      "paragraphs": [
+        "Largeur < 0,2 mm. Souvent en réseau (faïençage) sur enduit, plâtre, peinture. Peut aussi être linéaire fine, surtout sur béton ou plafonds en plâtre."
+      ]
+    },
+    "gravite": {
+      "intro": "Bénigne dans 95 % des cas. Vigilance sur les 5 % restants.",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "Réseau stabilisé", "description": "Faïençage de finition. Aucune incidence.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "Linéaire isolée nouvelle", "description": "Photo datée et observation sur 3 mois.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "Microfissures multiples + extension", "description": "Diagnostic recommandé.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "Microfissures associées à fissure > 1 mm", "description": "Expertise sans tarder.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Trois causes dominantes :",
+      "items": [
+        {"titre": "Retrait de matériaux de finition", "description": "Plâtre, enduit, peinture qui sèchent et se rétractent."},
+        {"titre": "Variations thermiques", "description": "Cycles dilatation/contraction, surtout sur murs ouest et sud."},
+        {"titre": "Vibrations légères répétées", "description": "Trafic, travaux voisins."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Deux étapes simples suffisent dans la plupart des cas :",
+      "etapes": [
+        {"titre": "Photo datée et localisation précise", "description": "Pour pouvoir comparer dans le temps."},
+        {"titre": "Observation sur 3 à 6 mois", "description": "Si pas d'évolution : sans suite. Sinon, expertise."}
+      ]
+    },
+    "solutions": {
+      "intro": "Solutions très légères dans la plupart des cas.",
+      "items": [
+        {"titre": "Rebouchage + repeinte", "description": "Pâte à reboucher fine, ponçage, mise en peinture.", "prix": "200 € à 600 €"},
+        {"titre": "Bande de calicot + enduit + peinture", "description": "Pour microfissure linéaire isolée.", "prix": "300 € à 800 €"}
+      ]
+    },
+    "faq": [
+      {"q": "Une microfissure peut-elle s'aggraver ?", "r": "Très rarement, mais c'est possible. C'est pour cela qu'on recommande systématiquement une photo datée et une observation sur quelques mois."},
+      {"q": "Faut-il s'inquiéter de microfissures sur du neuf ?", "r": "Peu. Les premiers mois suivant la livraison d'une construction neuve, des microfissures de retrait apparaissent presque toujours. Elles relèvent de la garantie de parfait achèvement (1 an), pas de la décennale."}
+    ],
+    "guides_lies": ["fissure-mur-interieur", "fissure-mur-exterieur-facade", "diagnostic-fissure-maison"],
+    "villes_phares": ["/75/", "/92/"]
+  },
+
+  "fissure-secheresse-rga": {
+    "schema": "schema-rga",
+    "intro_paragraphs": [
+      "Le retrait-gonflement des argiles, dit RGA, est devenu en l'espace de quelques années la première cause de sinistres fissures en Île-de-France. Les sécheresses successives de 2018, 2020, 2022 et 2023 ont multiplié les arrêtés de catastrophe naturelle et révélé la vulnérabilité du pavillonnaire francilien.",
+      "Ce phénomène mécanique est aussi simple à comprendre qu'il est dévastateur sur le bâti : les sols argileux gonflent quand ils s'humidifient et se rétractent quand ils sèchent. Sur sols hétérogènes ou en présence de végétation absorbante (arbres en proximité), une partie de la maison se retrouve « suspendue », pendant qu'une autre conserve son support — d'où le tassement différentiel et l'apparition de fissures caractéristiques."
+    ],
+    "definition": {
+      "title": "Le mécanisme du RGA",
+      "paragraphs": [
+        "Les argiles dites plastiques (vertes, marnes, smectites) absorbent l'eau et gonflent en saison humide, puis se rétractent en saison sèche. Sur un cycle annuel normal, le mouvement est imperceptible. Mais en cas de sécheresse prolongée — comme celles connues depuis 2018 — la rétractation devient profonde et durable, entraînant un tassement différentiel des fondations.",
+        "L'Île-de-France compte près de 48 % de son territoire classé en aléa moyen à fort RGA. Les départements les plus exposés sont la Seine-et-Marne (77), l'Essonne (91) et le Val-d'Oise (95), mais aucune zone n'est épargnée."
+      ]
+    },
+    "gravite": {
+      "intro": "La gravité dépend de l'ouverture des fissures, de leur évolutivité et de l'extension du désordre sur le bâtiment.",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "< 0,5 mm isolée", "description": "Surveillance et témoin.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "0,5 à 1 mm + escalier", "description": "Témoin sur 6 mois et déclaration préventive.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "1 à 3 mm + escalier multiple", "description": "Expertise pour déclaration Cat-Nat.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "> 3 mm + déformation", "description": "Expertise immédiate, étais éventuels.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Cinq facteurs aggravants combinés au sol argileux :",
+      "items": [
+        {"titre": "Sécheresses prolongées (été)", "description": "Multiplication des épisodes Cat-Nat depuis 2018."},
+        {"titre": "Présence d'arbres en proximité", "description": "Pompage des racines (chêne, peuplier, saule particulièrement)."},
+        {"titre": "Fondations superficielles non adaptées", "description": "Pavillonnaire 1960-2000 sans étude géotechnique."},
+        {"titre": "Drainage périphérique défaillant", "description": "Eaux pluviales mal évacuées, infiltrations en pied de mur."},
+        {"titre": "Modifications hydrauliques voisines", "description": "Imperméabilisation, fuite de canalisation, pompage."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Cinq étapes spécifiques au RGA :",
+      "etapes": [
+        {"titre": "Identification des signatures visuelles", "description": "Fissures en escalier sur façade, lézardes au-dessus des ouvertures, fissures horizontales hauteur plancher."},
+        {"titre": "Vérification de la cartographie aléa RGA", "description": "Carte BRGM officielle pour la commune."},
+        {"titre": "Vérification de la reconnaissance Cat-Nat", "description": "Arrêtés sécheresse récents pour la commune."},
+        {"titre": "Inspection du sol et de la végétation", "description": "Arbres en proximité, drainage, pente."},
+        {"titre": "Témoin et suivi pluriannuel si possible", "description": "Pour caractériser le caractère évolutif."}
+      ]
+    },
+    "solutions": {
+      "intro": "Solutions hiérarchisées : la cause d'abord, le rebouchage ensuite.",
+      "items": [
+        {"titre": "Mesures préventives (drainage, écran anti-racines)", "description": "Pour limiter l'aggravation.", "prix": "1 500 € à 5 000 €"},
+        {"titre": "Pontage par bande armée + ré-enduit", "description": "Pour fissures stabilisées légères.", "prix": "60 € à 120 € le mètre linéaire"},
+        {"titre": "Agrafage + reprise enduit", "description": "Pour fissures structurelles stabilisées.", "prix": "150 € à 300 € l'agrafe"},
+        {"titre": "Reprise en sous-œuvre par micropieux", "description": "Pour cas avérés de tassement actif.", "prix": "20 000 € à 60 000 €"},
+        {"titre": "Reprise par injection résine expansive", "description": "Alternative aux micropieux dans certains cas.", "prix": "10 000 € à 30 000 €"}
+      ]
+    },
+    "faq": [
+      {"q": "Comment savoir si ma commune est reconnue Cat-Nat sécheresse ?", "r": "La liste officielle est publiée par arrêté ministériel au Journal Officiel. La quasi-totalité des communes de Seine-et-Marne, de l'Essonne et du Val-d'Oise a été reconnue au moins une fois depuis 2018. Lors de votre demande, indiquez votre commune : nous vérifions pour vous."},
+      {"q": "Quel est le délai pour déclarer un sinistre RGA à mon assurance ?", "r": "30 jours à compter de la publication de l'arrêté Cat-Nat au Journal Officiel pour votre commune. Au-delà, vous risquez de perdre votre droit à indemnisation."},
+      {"q": "Mon assurance refuse l'indemnisation — quels recours ?", "r": "Trois options : contre-expertise amiable (notre rôle d'expert d'assuré), saisine du médiateur de l'assurance, procédure judiciaire avec notre rapport comme pièce centrale."},
+      {"q": "L'expertise est-elle prise en charge par l'assurance ?", "r": "L'expert d'assurance est désigné et payé par votre assureur — il défend les intérêts de l'assureur. Une contre-expertise indépendante (notre rôle) peut être prise en charge dans le cadre du sinistre Cat-Nat, mais c'est à négocier."},
+      {"q": "Mon arrêté Cat-Nat sécheresse a été refusé — quels recours ?", "r": "Un refus Cat-Nat ne signifie pas absence d'indemnisation possible. La cause peut être autre (défaut de construction, responsabilité voisine). Une expertise indépendante identifie la vraie cause et oriente vers la procédure adaptée."}
+    ],
+    "guides_lies": ["fissure-horizontale", "fissure-parpaing", "expert-fissure-independant", "diagnostic-fissure-maison"],
+    "villes_phares": ["/77/meaux/", "/77/melun/", "/91/evry-courcouronnes/", "/95/argenteuil/"]
+  },
+
+  "fissure-verticale": {
+    "schema": "schema-verticale",
+    "intro_paragraphs": [
+      "Une fissure verticale est, contrairement à l'idée reçue, généralement moins préoccupante qu'une fissure horizontale ou en escalier — mais tout dépend de sa position, de son ouverture et de son contexte. Sur murs intérieurs, elle accompagne souvent un retrait de plâtre. En façade, elle peut signaler un mouvement à la jonction de deux maçonneries différentes."
+    ],
+    "definition": {
+      "title": "Lire une fissure verticale",
+      "paragraphs": [
+        "Position critique : à la jonction de deux murs (angle), au-dessus ou en dessous d'une ouverture, à hauteur d'un poteau de structure. Une fissure verticale isolée au milieu d'un mur lisse est généralement sans gravité."
+      ]
+    },
+    "gravite": {
+      "intro": "L'ouverture et la position priment.",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "< 0,3 mm", "description": "Retrait de matériau. Esthétique.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "0,3 à 1 mm", "description": "Témoin si position en jonction.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "1 à 2 mm", "description": "Diagnostic recommandé.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "> 2 mm", "description": "Expertise immédiate.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Quatre causes :",
+      "items": [
+        {"titre": "Retrait du matériau", "description": "Plâtre, enduit, béton."},
+        {"titre": "Désolidarisation à la jonction de deux maçonneries", "description": "Mur ancien et extension récente, deux types de blocs différents."},
+        {"titre": "Tassement asymétrique", "description": "Une partie de la maison s'enfonce."},
+        {"titre": "Surcharge ponctuelle", "description": "Au droit d'un poteau ou d'un appui de plancher."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Trois étapes :",
+      "etapes": [
+        {"titre": "Mesure et cartographie", "description": "Ouverture, longueur, trajectoire, présence ou non de ramifications."},
+        {"titre": "Analyse de la position", "description": "Jonction, ouverture, poteau, libre."},
+        {"titre": "Témoin et suivi", "description": "Sur 3 à 6 mois pour caractériser l'évolutivité."}
+      ]
+    },
+    "solutions": {
+      "intro": "Solutions standard.",
+      "items": [
+        {"titre": "Rebouchage + peinture (fissure stabilisée fine)", "description": "Pâte à reboucher souple.", "prix": "200 € à 600 €"},
+        {"titre": "Bande de calicot + enduit + peinture", "description": "Pour fissures linéaires stabilisées.", "prix": "400 € à 1 000 €"},
+        {"titre": "Agrafage si structurelle stabilisée", "description": "Solidarisation mécanique.", "prix": "150 € à 300 € l'agrafe"}
+      ]
+    },
+    "faq": [
+      {"q": "Une fissure verticale en angle est-elle grave ?", "r": "Souvent : c'est typiquement la signature d'une désolidarisation entre deux maçonneries, ou d'un mouvement asymétrique. Elle mérite presque toujours un diagnostic d'expert."},
+      {"q": "Mon extension récente se fissure à la jonction avec l'existant — pourquoi ?", "r": "Très fréquent : les deux corps de bâtiment ne tassent pas de la même façon. Si la fissure reste fine et stable, c'est sans gravité. Si elle s'élargit, expertise recommandée."}
+    ],
+    "guides_lies": ["fissure-structurelle", "fissure-horizontale", "diagnostic-fissure-maison"],
+    "villes_phares": ["/77/", "/91/", "/93/"]
+  },
+
+  "fissure-enduit-crepi": {
+    "schema": "schema-microfissure",
+    "intro_paragraphs": [
+      "Une fissure sur enduit ou crépi extérieur est l'un des désordres les plus fréquents en façade — et l'un des plus mal interprétés. Beaucoup sont superficielles et concernent uniquement la couche de finition. Mais certaines révèlent des mouvements du support qui appellent un diagnostic plus poussé."
+    ],
+    "definition": {
+      "title": "Trois familles de fissures d'enduit",
+      "paragraphs": [
+        "Les fissures de retrait (fines, en réseau ou linéaires courtes), les fissures de dilatation (plus larges, suivant des cycles thermiques), et les fissures de support (qui prolongent une fissure du mur lui-même)."
+      ]
+    },
+    "gravite": {
+      "intro": "Bénigne dans 80 % des cas.",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "< 0,3 mm en réseau", "description": "Retrait. Sans gravité.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "0,3 à 1 mm linéaire", "description": "Test : la fissure traverse-t-elle l'enduit ?", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "1 à 2 mm + traversante enduit", "description": "Diagnostic du support.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "Fissure de support > 2 mm", "description": "Expertise.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Quatre causes :",
+      "items": [
+        {"titre": "Retrait de l'enduit", "description": "Apparaît dans les premiers mois après pose."},
+        {"titre": "Cycles thermiques", "description": "Expositions sud et ouest particulièrement."},
+        {"titre": "Mauvaise préparation du support", "description": "Adhérence insuffisante."},
+        {"titre": "Mouvement du support", "description": "RGA, tassement — l'enduit fissure parce que le mur fissure."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Trois étapes :",
+      "etapes": [
+        {"titre": "Sondage léger de l'enduit", "description": "La fissure atteint-elle le support ou s'arrête-t-elle dans l'enduit ?"},
+        {"titre": "Recherche de fissures intérieures correspondantes", "description": "Si oui, fissure de support : expertise plus poussée."},
+        {"titre": "Vérification de l'environnement (RGA, voisinage)", "description": "Pour identifier une éventuelle cause structurelle."}
+      ]
+    },
+    "solutions": {
+      "intro": "Solutions adaptées au niveau de désordre.",
+      "items": [
+        {"titre": "Pontage par bande armée + ré-enduit", "description": "Solution standard sur fissures stabilisées.", "prix": "60 € à 120 € le mètre linéaire"},
+        {"titre": "Décrépissage et ré-enduisage complet", "description": "Pour réseau de fissures multiples.", "prix": "60 € à 100 € le mètre carré"},
+        {"titre": "Reprise du support + ré-enduit", "description": "Si fissure de support avérée.", "prix": "150 € à 400 € le mètre linéaire"}
+      ]
+    },
+    "faq": [
+      {"q": "Mon ravalement a 2 ans et déjà fissuré — recours ?", "r": "Garantie décennale du ravaleur applicable si la fissure compromet la fonction d'étanchéité. Notre rapport établit ce caractère."},
+      {"q": "Crépi écaillé ou fissuré : la décennale couvre-t-elle ?", "r": "Si le défaut compromet l'étanchéité (le crépi protège du ruissellement), oui. Sinon, c'est plus discutable."}
+    ],
+    "guides_lies": ["fissure-mur-exterieur-facade", "fissure-secheresse-rga"],
+    "villes_phares": ["/77/", "/91/"]
+  },
+
+  "fissure-parpaing": {
+    "schema": "schema-escalier",
+    "intro_paragraphs": [
+      "Le parpaing creux est le matériau dominant du pavillonnaire francilien construit entre 1960 et 2000. Massivement présent en grande couronne (77, 78, 91, 95), c'est aussi celui qui fissure le plus, particulièrement sur les fissures en escalier suivant les joints de blocs."
+    ],
+    "definition": {
+      "title": "Spécificités du parpaing creux",
+      "paragraphs": [
+        "Bloc rectangulaire creux en béton, posé en assises décalées et joints au mortier. Sa résistance dépend largement du chaînage horizontal et vertical (poteaux et ceintures en béton armé). Sans ce chaînage, les fissures suivent les joints de mortier — d'où la fameuse fissure en escalier."
+      ]
+    },
+    "gravite": {
+      "intro": "Sur parpaing, la fissure en escalier est la plus typique et la plus parlante.",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "Hairline", "description": "Retrait du mortier. Sans gravité.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "0,3 à 1 mm escalier", "description": "Témoin et observation.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "1 à 2 mm escalier", "description": "Diagnostic des causes.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "> 2 mm escalier ou rupture de bloc", "description": "Expertise immédiate.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Quatre causes principales :",
+      "items": [
+        {"titre": "Retrait-gonflement des argiles (RGA)", "description": "Cause numéro 1 sur pavillonnaire en parpaing. Tassement différentiel des fondations."},
+        {"titre": "Défaut ou absence de chaînage", "description": "Sur pavillons d'avant 1980, le chaînage est parfois sous-dimensionné ou absent."},
+        {"titre": "Joints de mortier vieillissants", "description": "Effritement ou décollement aux joints."},
+        {"titre": "Charges modifiées par travaux", "description": "Mezzanine, surélévation, suppression de mur intérieur."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Quatre étapes :",
+      "etapes": [
+        {"titre": "Lecture de la trajectoire", "description": "Escalier régulier suivant les joints = signature parpaing typique."},
+        {"titre": "Mesure de l'ouverture aux différents niveaux", "description": "Souvent variable : plus large en haut ou en bas selon le mécanisme."},
+        {"titre": "Vérification du chaînage (visuel ou sondage)", "description": "Présence de poteaux et ceintures en béton armé."},
+        {"titre": "Inspection RGA et environnement", "description": "Sécheresses, arbres, drainage."}
+      ]
+    },
+    "solutions": {
+      "intro": "Solutions adaptées à la cause.",
+      "items": [
+        {"titre": "Rejointoiement (joints fragilisés)", "description": "Mortier neuf en remplacement des anciens.", "prix": "30 € à 60 € le mètre linéaire"},
+        {"titre": "Pontage par bande armée + enduit", "description": "Pour fissures stabilisées.", "prix": "60 € à 120 € le mètre linéaire"},
+        {"titre": "Agrafage par armatures inox", "description": "Pour fissures structurelles stabilisées.", "prix": "150 € à 300 € l'agrafe"},
+        {"titre": "Reprise en sous-œuvre (RGA actif)", "description": "Micropieux ou résine expansive.", "prix": "20 000 € à 60 000 €"}
+      ]
+    },
+    "faq": [
+      {"q": "Pourquoi les fissures en escalier sont si fréquentes sur parpaing ?", "r": "Parce que les joints de mortier sont les zones les plus faibles du mur. Tout mouvement structurel suit la ligne de moindre résistance, qui passe par les joints — d'où le dessin en escalier."},
+      {"q": "Mon pavillon est en parpaing avec ravalement — la fissure est-elle dans le mur ou l'enduit ?", "r": "Sondage léger pour vérifier. Si la fissure traverse l'enduit et atteint les joints du mur, c'est une fissure de support : la cause est dans le mur ou les fondations."}
+    ],
+    "guides_lies": ["fissure-secheresse-rga", "fissure-horizontale", "fissure-structurelle"],
+    "villes_phares": ["/77/", "/91/", "/95/"]
+  },
+
+  "fissure-structurelle": {
+    "schema": "schema-structurelle",
+    "intro_paragraphs": [
+      "Une fissure structurelle est une fissure qui atteint un élément porteur du bâtiment (mur de refend, façade portante, dalle, poutre, poteau) et qui peut compromettre, à terme, sa solidité ou sa destination. Elle se distingue d'une fissure cosmétique par son ouverture, sa trajectoire et son évolutivité.",
+      "C'est le motif d'expertise le plus sérieux. Une fissure structurelle non diagnostiquée peut, dans les cas extrêmes, conduire à une dégradation progressive du bâti et, à très long terme, à un sinistre lourd."
+    ],
+    "definition": {
+      "title": "Reconnaître une fissure structurelle",
+      "paragraphs": [
+        "Quatre critères convergents : ouverture supérieure à 2 mm, trajectoire suivant un élément porteur (mur de refend, linteau, dalle), évolutivité observée (élargissement dans le temps), et association avec d'autres désordres (déformation de planchers, blocage de menuiseries, descellements)."
+      ]
+    },
+    "gravite": {
+      "intro": "Une fissure structurelle requiert toujours une expertise.",
+      "niveaux": [
+        {"label": "Surveiller", "ouverture": "1 à 2 mm stabilisée", "description": "Témoin obligatoire.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "2 à 5 mm évolutive", "description": "Expertise sous quelques jours.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "> 5 mm + déformation", "description": "Étais, expertise immédiate.", "couleur": "alert"},
+        {"label": "Danger", "ouverture": "Bâti déformé, menuiseries bloquées", "description": "Évacuation préventive éventuelle. Sapeurs-pompiers si suspicion d'effondrement.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Cinq causes structurelles fréquentes :",
+      "items": [
+        {"titre": "Tassement différentiel des fondations", "description": "Cause numéro 1. Sols hétérogènes, remblais, RGA."},
+        {"titre": "Surcharge non prévue", "description": "Étage ajouté, charges concentrées, mezzanine."},
+        {"titre": "Modification structurelle mal exécutée", "description": "Suppression de mur porteur sans étude, percement non sécurisé."},
+        {"titre": "Vieillissement et défauts de chaînage", "description": "Bâti ancien sans ceinture béton armé."},
+        {"titre": "Vibrations de chantiers voisins lourds", "description": "Démolition, GPE, gros œuvre voisin."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Cinq étapes obligatoires :",
+      "etapes": [
+        {"titre": "Mesure précise de l'ouverture en plusieurs points", "description": "Pour caractériser le mécanisme."},
+        {"titre": "Cartographie complète des désordres associés", "description": "Fissures secondaires, déformations, descellements."},
+        {"titre": "Analyse du bâti (matériaux, chaînage, ferraillage)", "description": "Avec sondages si nécessaire."},
+        {"titre": "Étude du sol et de l'environnement", "description": "Cartographie aléa, voisinage, chantiers."},
+        {"titre": "Témoin instrumenté et suivi", "description": "Pour confirmer évolutivité ou stabilité."}
+      ]
+    },
+    "solutions": {
+      "intro": "Solutions lourdes mais durables. La cause se traite avant le rebouchage visible.",
+      "items": [
+        {"titre": "Étaiement provisoire", "description": "En attente des travaux définitifs.", "prix": "1 500 € à 5 000 €"},
+        {"titre": "Agrafage massif + injection résine", "description": "Pour structurelles stabilisées.", "prix": "300 € à 600 € le mètre linéaire"},
+        {"titre": "Renfort fibres carbone collées", "description": "Pour reprise locale.", "prix": "300 € à 600 € le mètre carré"},
+        {"titre": "Reprise en sous-œuvre par micropieux", "description": "Solution majeure pour tassements actifs.", "prix": "20 000 € à 60 000 €"},
+        {"titre": "Reconstruction partielle (cas extrêmes)", "description": "Mur ou façade entière.", "prix": "Variable, à partir de 50 000 €"}
+      ]
+    },
+    "faq": [
+      {"q": "Une fissure structurelle peut-elle entraîner un effondrement ?", "r": "À court terme, c'est exceptionnel pour une maison individuelle. Sur un immeuble, c'est plus rare encore. Mais sur le long terme, une fissure structurelle non traitée peut entraîner une dégradation progressive avec atteinte sérieuse à la solidité."},
+      {"q": "Quel est le délai d'intervention en cas de suspicion structurelle ?", "r": "Sous 7 à 10 jours pour les cas non urgents. Sous 48-72 h pour les cas avec déformation visible, blocage de menuiseries ou évolutivité rapide constatée."},
+      {"q": "Mon assurance prend-elle en charge l'expertise structurelle ?", "r": "Si la cause est Cat-Nat (sécheresse, mouvement de terrain), oui. Si la cause est un défaut de construction sur bâti < 10 ans, garantie décennale du constructeur. Dans les autres cas, à votre charge — mais c'est un investissement qui sécurise votre bien."}
+    ],
+    "guides_lies": ["fissure-horizontale", "fissure-traversante", "diagnostic-fissure-maison", "expert-fissure-independant"],
+    "villes_phares": ["/93/saint-denis/", "/77/", "/91/"]
+  },
+
+  "fissure-traversante": {
+    "schema": "schema-traversante",
+    "intro_paragraphs": [
+      "Une fissure traversante est une fissure qui traverse de part en part l'épaisseur d'un mur — visible des deux côtés, parfois laissant passer l'air, la lumière ou l'eau. C'est, par définition, un désordre sérieux qui appelle systématiquement une expertise."
+    ],
+    "definition": {
+      "title": "Identifier une fissure traversante",
+      "paragraphs": [
+        "Deux tests simples : passer une feuille de papier dans la fissure (sur un mur peu épais), ou observer s'il y a un courant d'air sensible en proximité immédiate. Sur les murs épais (pierre, brique pleine), une lecture aux deux faces est nécessaire pour confirmer le caractère traversant."
+      ]
+    },
+    "gravite": {
+      "intro": "Toujours sérieux. La gravité dépend de l'ouverture et du caractère évolutif.",
+      "niveaux": [
+        {"label": "Surveiller", "ouverture": "1 à 2 mm stabilisée", "description": "Témoin et expertise.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "2 à 5 mm", "description": "Expertise rapide. Travaux d'étanchéité urgents.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "> 5 mm", "description": "Étais, expertise immédiate.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Quatre causes :",
+      "items": [
+        {"titre": "Tassement différentiel important", "description": "Mécanisme structurel."},
+        {"titre": "Défaut majeur de construction", "description": "Sur bâti récent : ferraillage insuffisant, dalle mal exécutée."},
+        {"titre": "Vibrations sévères répétées", "description": "Chantier lourd voisin."},
+        {"titre": "Vieillissement extrême du bâti", "description": "Sur bâti ancien fragilisé."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Quatre étapes prioritaires :",
+      "etapes": [
+        {"titre": "Confirmation du caractère traversant", "description": "Test papier ou observation aux deux faces."},
+        {"titre": "Cartographie complète du désordre", "description": "Fissures secondaires, déformations associées."},
+        {"titre": "Analyse structurelle approfondie", "description": "Avec sondages si nécessaire."},
+        {"titre": "Préconisation immédiate (étais, étanchéité)", "description": "Pour sécuriser en attente des travaux."}
+      ]
+    },
+    "solutions": {
+      "intro": "Solutions structurelles, jamais cosmétiques.",
+      "items": [
+        {"titre": "Injection résine époxy haute viscosité", "description": "Pour fissures traversantes stabilisées sur béton ou maçonnerie dense.", "prix": "200 € à 400 € le mètre linéaire"},
+        {"titre": "Agrafage massif des deux faces", "description": "Solidarisation mécanique.", "prix": "300 € à 600 € le mètre linéaire"},
+        {"titre": "Reprise structurelle complète", "description": "Si compromission de la solidité.", "prix": "10 000 € à 50 000 €"}
+      ]
+    },
+    "faq": [
+      {"q": "Une fissure traversante laisse-t-elle passer l'eau ?", "r": "Souvent. C'est l'un des risques principaux : l'humidité pénètre dans le mur, dégrade les matériaux, aggrave le désordre. Une étanchéité provisoire est souvent préconisée en urgence."},
+      {"q": "Mon mur de soubassement est traversé — risque de remontée capillaire ?", "r": "Oui, fortement. La fissure devient une voie privilégiée pour l'eau du sol. Étanchéité urgente et reprise structurelle à programmer."}
+    ],
+    "guides_lies": ["fissure-structurelle", "fissure-horizontale", "expert-fissure-independant"],
+    "villes_phares": ["/93/", "/77/", "/91/"]
+  },
+
+  "fissure-maison-neuve": {
+    "schema": "schema-microfissure",
+    "intro_paragraphs": [
+      "Voir apparaître des fissures sur une maison neuve ou semi-neuve (moins de 10 ans) est toujours déconcertant. Heureusement, dans la majorité des cas, ces fissures sont normales et liées au retrait du béton ou des matériaux de finition. Mais quand elles dépassent un certain seuil, elles peuvent activer la garantie décennale du constructeur."
+    ],
+    "definition": {
+      "title": "Quelles fissures sont normales sur du neuf ?",
+      "paragraphs": [
+        "Microfissures de retrait sur les enduits (premiers mois), microfissures sur dalle béton (premières années), fines fissures aux jonctions de matériaux différents (mur béton / cloison plâtre par exemple). Tout ce qui dépasse 0,3 mm ou apparaît après plusieurs années mérite un diagnostic."
+      ]
+    },
+    "gravite": {
+      "intro": "Sur du neuf, le seuil de vigilance est plus bas que sur de l'ancien.",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "Microfissures < 0,3 mm", "description": "Retrait normal.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "0,3 à 1 mm", "description": "Photo datée, surveiller sur 6 mois.", "couleur": "warn"},
+        {"label": "Inquiétant", "ouverture": "> 1 mm", "description": "Diagnostic + activation garantie décennale.", "couleur": "ocre"},
+        {"label": "Urgent", "ouverture": "> 2 mm évolutive", "description": "Mise en demeure, expertise.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Cinq causes côté neuf :",
+      "items": [
+        {"titre": "Retrait du béton et des enduits", "description": "Normal dans les premiers mois et années."},
+        {"titre": "Tassement résiduel des fondations", "description": "Stabilisation lente sur sols compressibles."},
+        {"titre": "Sous-dimensionnement du ferraillage", "description": "Défaut de construction."},
+        {"titre": "Mauvaise étude géotechnique préalable", "description": "Maison construite sur sol mal caractérisé."},
+        {"titre": "Défaut de mise en œuvre", "description": "Coulage mal exécuté, bétonnage par temps inadapté."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Trois étapes :",
+      "etapes": [
+        {"titre": "Datation et caractérisation", "description": "Quand sont apparues les fissures ? Comment ont-elles évolué ?"},
+        {"titre": "Identification de la cause probable", "description": "Retrait normal vs défaut de construction."},
+        {"titre": "Évaluation du caractère décennal", "description": "La fissure compromet-elle la solidité ou la destination ?"}
+      ]
+    },
+    "solutions": {
+      "intro": "Sur du neuf, le constructeur prend en charge dans le cadre de la garantie décennale si le caractère décennal est établi.",
+      "items": [
+        {"titre": "Rebouchage cosmétique (microfissures de retrait)", "description": "À votre charge, sans gravité.", "prix": "200 € à 800 €"},
+        {"titre": "Reprise par le constructeur (garantie décennale)", "description": "Travaux pris en charge si décennal.", "prix": "Pris en charge"},
+        {"titre": "Procédure judiciaire si refus", "description": "Avec notre rapport comme pièce centrale.", "prix": "Frais d'avocat à votre charge initialement"}
+      ]
+    },
+    "faq": [
+      {"q": "Quelles garanties protègent ma maison neuve ?", "r": "Trois niveaux : garantie de parfait achèvement (1 an, tous défauts), garantie biennale (2 ans, équipements), garantie décennale (10 ans, gros œuvre et solidité). Les fissures structurelles relèvent de la décennale."},
+      {"q": "Mon constructeur refuse de prendre en charge — que faire ?", "r": "Mise en demeure par lettre recommandée avec accusé de réception, puis saisine de l'assurance dommages-ouvrage (qui doit être active sur tous les biens neufs). Notre rapport indépendant est la pièce centrale du dossier."},
+      {"q": "Puis-je faire une expertise avant la fin de la garantie décennale ?", "r": "Absolument. Et c'est même recommandé : faire le point juste avant l'expiration des 10 ans permet de déclencher des recours encore couverts."}
+    ],
+    "guides_lies": ["fissure-structurelle", "expert-fissure-independant", "diagnostic-fissure-maison"],
+    "villes_phares": ["/77/", "/91/", "/78/"]
+  },
+
+  "tarif-expertise-fissure": {
+    "schema": "schema-gravite",
+    "intro_paragraphs": [
+      "Le coût d'une expertise fissure varie largement selon la surface du bien, la complexité du diagnostic, l'éloignement et la nature du rapport demandé. Cette page détaille les fourchettes tarifaires en vigueur en 2026 pour l'Île-de-France et les facteurs qui influencent le prix.",
+      "Important : un devis personnalisé et gratuit est systématiquement transmis sous 24 h ouvrées après votre demande. Aucun engagement, aucun frais caché."
+    ],
+    "definition": {
+      "title": "Que comprend une expertise fissure ?",
+      "paragraphs": [
+        "Trois prestations essentielles : la visite sur site (mesures, photos, lecture du bâti et du sol), la rédaction du rapport opposable (diagnostic, hypothèses causales, niveaux de gravité, préconisations chiffrées), et l'accompagnement post-expertise (réponses aux questions, démarches assurance)."
+      ]
+    },
+    "gravite": {
+      "intro": "Fourchettes tarifaires indicatives 2026 en IDF :",
+      "niveaux": [
+        {"label": "Studio / petit appartement", "ouverture": "≤ 50 m²", "description": "600 € à 1 000 € HT", "couleur": "safe"},
+        {"label": "Appartement standard", "ouverture": "50 à 100 m²", "description": "800 € à 1 400 € HT", "couleur": "warn"},
+        {"label": "Maison individuelle", "ouverture": "100 à 200 m²", "description": "1 200 € à 2 200 € HT", "couleur": "ocre"},
+        {"label": "Maison ancienne ou cas complexe", "ouverture": "> 200 m² ou patrimonial", "description": "1 800 € à 3 500 € HT", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Cinq facteurs influencent le tarif :",
+      "items": [
+        {"titre": "Surface du bien et nombre de pièces concernées", "description": "Plus de surface = plus de temps d'inspection."},
+        {"titre": "Complexité du sinistre", "description": "Nombre de fissures, ramifications, désordres associés."},
+        {"titre": "Type de bâti (ancien, neuf, patrimonial)", "description": "Le bâti ancien demande plus d'expertise spécifique."},
+        {"titre": "Localisation et accessibilité", "description": "Centre-ville ou périphérie, contraintes d'accès."},
+        {"titre": "Niveau de rapport demandé", "description": "Rapport synthétique vs rapport judiciaire opposable détaillé."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Le devis prend en compte ces paramètres dès la première prise de contact.",
+      "etapes": [
+        {"titre": "Description précise de votre situation", "description": "Type de bien, nombre de fissures, contexte."},
+        {"titre": "Devis personnalisé sous 24 h ouvrées", "description": "Détaillé, sans engagement."},
+        {"titre": "Validation et planification", "description": "Date d'intervention sous 7 à 15 jours."},
+        {"titre": "Visite + rapport sous 10 à 15 jours", "description": "Délai total : 3 à 5 semaines."}
+      ]
+    },
+    "solutions": {
+      "intro": "Modalités de prise en charge possibles.",
+      "items": [
+        {"titre": "À votre charge (cas standard)", "description": "Investissement qui sécurise votre bien.", "prix": "Devis personnalisé"},
+        {"titre": "Pris en charge par l'assurance (Cat-Nat)", "description": "Dans le cadre d'une déclaration sécheresse acceptée.", "prix": "Selon contrat"},
+        {"titre": "Pris en charge par le constructeur (décennale)", "description": "Si défaut décennal avéré.", "prix": "Pris en charge"}
+      ]
+    },
+    "faq": [
+      {"q": "Pourquoi cet écart entre 600 € et 3 500 € ?", "r": "Une expertise sur un studio parisien fissuré sans gravité prend 2 h sur site et un rapport synthétique. Une expertise sur une longère ancienne avec 20 fissures, pose de témoins et rapport judiciaire complet peut nécessiter une demi-journée et 15 h de travail de rédaction."},
+      {"q": "Le devis est-il vraiment gratuit ?", "r": "Oui, totalement. Et sans aucun engagement de votre part. Vous restez libre d'accepter ou non, et de comparer avec d'autres cabinets."},
+      {"q": "Le coût de l'expertise est-il déductible des impôts ?", "r": "Pour une résidence principale, non. Pour un bien locatif ou un local professionnel, oui, en frais réels."}
+    ],
+    "guides_lies": ["diagnostic-fissure-maison", "expert-fissure-independant"],
+    "villes_phares": ["/", "/75/", "/92/"]
+  },
+
+  "diagnostic-fissure-maison": {
+    "schema": "schema-rga",
+    "intro_paragraphs": [
+      "Diagnostiquer une fissure de maison ne se résume pas à mesurer son ouverture. C'est un travail d'enquête méthodique qui croise lecture du bâti, lecture du sol, analyse de l'environnement et suivi dans le temps. Cette page détaille la méthode complète qu'utilisent nos experts.",
+      "Bien menée, cette démarche distingue en quelques heures une fissure cosmétique sans suite d'une fissure structurelle qui demande des travaux. Elle est aussi la pièce centrale de toute déclaration auprès d'une assurance ou d'un constructeur."
+    ],
+    "definition": {
+      "title": "Pourquoi un diagnostic professionnel ?",
+      "paragraphs": [
+        "Trois raisons : la sécurité (éviter de minimiser une fissure réellement structurelle), l'économie (éviter de sur-traiter une fissure bénigne), et la défense de vos intérêts (assurance, garantie décennale, recours)."
+      ]
+    },
+    "gravite": {
+      "intro": "Le diagnostic aboutit à un classement en 4 niveaux :",
+      "niveaux": [
+        {"label": "Bénin", "ouverture": "< 0,2 mm stabilisée", "description": "Pas d'intervention nécessaire.", "couleur": "safe"},
+        {"label": "Surveiller", "ouverture": "0,2-1 mm stabilisée", "description": "Témoin et observation.", "couleur": "warn"},
+        {"label": "Travaux conseillés", "ouverture": "1-2 mm ou évolutive", "description": "Réparation à programmer.", "couleur": "ocre"},
+        {"label": "Travaux urgents", "ouverture": "> 2 mm évolutive ou structurelle", "description": "Intervention rapide.", "couleur": "alert"}
+      ]
+    },
+    "causes": {
+      "intro": "Le diagnostic identifie l'une des sept grandes familles causales :",
+      "items": [
+        {"titre": "Retrait des matériaux", "description": "Plâtre, enduit, béton de finition."},
+        {"titre": "Retrait-gonflement des argiles (RGA)", "description": "Cause numéro 1 en pavillonnaire IDF."},
+        {"titre": "Tassement différentiel des fondations", "description": "Sols hétérogènes, remblais."},
+        {"titre": "Défaut de construction", "description": "Sous-dimensionnement, ferraillage, chaînage."},
+        {"titre": "Surcharge ou modification structurelle", "description": "Travaux mal exécutés."},
+        {"titre": "Vibrations chantiers voisins", "description": "Grand Paris, démolition."},
+        {"titre": "Causes hydrauliques", "description": "Infiltrations, fuites, drainage défaillant."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Sept étapes systématiques :",
+      "etapes": [
+        {"titre": "Recueil de l'historique", "description": "Date d'apparition, évolution, contexte (sécheresse, travaux, voisinage)."},
+        {"titre": "Mesure et cartographie de chaque fissure", "description": "Ouverture (à plusieurs points), longueur, trajectoire, ramifications."},
+        {"titre": "Lecture du bâti", "description": "Type de maçonnerie, présence de chaînage, modifications connues."},
+        {"titre": "Inspection du sol et de l'environnement", "description": "Cartographie aléa RGA, arbres, drainage, voisinage, chantiers."},
+        {"titre": "Recherche de désordres associés", "description": "Déformations, descellements, infiltrations, blocages."},
+        {"titre": "Pose de témoin si évolutivité en doute", "description": "Jauge fissuromètre, témoin plâtre numéroté."},
+        {"titre": "Synthèse et rapport opposable", "description": "Diagnostic, hypothèses causales argumentées, niveau de gravité, préconisations chiffrées."}
+      ]
+    },
+    "solutions": {
+      "intro": "Le diagnostic oriente vers la bonne solution.",
+      "items": [
+        {"titre": "Pas de travaux (fissure stabilisée bénigne)", "description": "Surveillance simple.", "prix": "0 €"},
+        {"titre": "Travaux cosmétiques", "description": "Rebouchage + peinture.", "prix": "200 € à 1 000 €"},
+        {"titre": "Travaux d'enduit et pontage", "description": "Pour fissures stabilisées modérées.", "prix": "60 € à 120 € le mètre linéaire"},
+        {"titre": "Travaux structurels (agrafage, injection)", "description": "Pour fissures stabilisées structurelles.", "prix": "150 € à 600 € le mètre linéaire"},
+        {"titre": "Reprise en sous-œuvre", "description": "Pour tassement actif.", "prix": "20 000 € à 60 000 €"}
+      ]
+    },
+    "faq": [
+      {"q": "Combien de temps prend un diagnostic complet ?", "r": "Visite sur site : 1 à 4 h selon la complexité. Rapport : transmis sous 10 à 15 jours après visite. Délai total : 3 à 5 semaines en moyenne."},
+      {"q": "Le diagnostic peut-il se faire à distance via photos ?", "r": "Pour une première évaluation gratuite, oui (photos et description). Pour un rapport opposable utilisable en assurance ou justice, non : la visite sur site est indispensable."},
+      {"q": "Mon expert peut-il aussi proposer les travaux ?", "r": "Non, et c'est précisément ce qui garantit son indépendance. Notre rapport contient les préconisations chiffrées (techniques, fourchettes), mais c'est vous qui choisissez librement l'entreprise de travaux."}
+    ],
+    "guides_lies": ["expert-fissure-independant", "tarif-expertise-fissure", "fissure-horizontale", "fissure-secheresse-rga"],
+    "villes_phares": ["/", "/75/", "/77/", "/93/"]
+  },
+
+  "expert-fissure-independant": {
+    "schema": "schema-gravite",
+    "intro_paragraphs": [
+      "Choisir un expert fissure indépendant — par opposition à un expert d'assurance ou à un expert envoyé par une entreprise de réparation — n'est pas un détail. C'est ce qui garantit que le rapport produit défend uniquement les faits, et non les intérêts d'un tiers.",
+      "C'est la raison pour laquelle nous avons fait de l'indépendance le pilier central de notre cabinet. Aucune de nos missions n'est commandée ou rémunérée par une compagnie d'assurance ou par une entreprise de travaux."
+    ],
+    "definition": {
+      "title": "Trois familles d'experts fissure",
+      "paragraphs": [
+        "L'expert d'assurance est désigné et rémunéré par votre assureur. Son rapport vise à chiffrer le sinistre dans les conditions les plus favorables à l'assureur. L'expert constructeur ou réparateur est rattaché à une entreprise qui réalise les travaux : son intérêt est que les travaux soient validés. L'expert indépendant — c'est notre rôle — n'a aucun lien avec l'un ou l'autre. Il défend uniquement la réalité technique."
+      ]
+    },
+    "gravite": {
+      "intro": "Quatre situations où l'indépendance est cruciale :",
+      "niveaux": [
+        {"label": "Sinistre Cat-Nat", "ouverture": "RGA, sécheresse", "description": "Contre-expertise indispensable face à l'expert d'assurance.", "couleur": "ocre"},
+        {"label": "Garantie décennale", "ouverture": "Bien < 10 ans", "description": "Rapport indépendant pour faire valoir vos droits face au constructeur.", "couleur": "ocre"},
+        {"label": "Litige judiciaire", "ouverture": "Procédure en cours ou à venir", "description": "Pièce centrale du dossier, recevable au tribunal.", "couleur": "alert"},
+        {"label": "Achat ou vente immobilière", "ouverture": "Avant signature", "description": "Diagnostic neutre pour décision d'achat éclairée.", "couleur": "warn"}
+      ]
+    },
+    "causes": {
+      "intro": "Cinq engagements concrets de notre indépendance :",
+      "items": [
+        {"titre": "Aucune relation d'affaires avec les compagnies d'assurance", "description": "Notre rémunération vient exclusivement de nos clients particuliers."},
+        {"titre": "Aucune relation d'affaires avec les entreprises de réparation", "description": "Nous ne touchons aucune commission sur les travaux préconisés."},
+        {"titre": "Préconisations chiffrées sans intérêt à les sur-évaluer", "description": "Notre rémunération ne dépend pas du montant des travaux."},
+        {"titre": "Rapport opposable et détaillé", "description": "Recevable par toutes les compagnies d'assurance et au tribunal."},
+        {"titre": "Confidentialité absolue", "description": "Vos données ne sont jamais transmises à un tiers."}
+      ]
+    },
+    "diagnostic": {
+      "intro": "Notre méthode d'expertise indépendante en pratique :",
+      "etapes": [
+        {"titre": "Devis transparent et personnalisé", "description": "Sous 24 h, sans engagement, sans frais caché."},
+        {"titre": "Visite sur site complète", "description": "Mesures, photos, lecture du bâti, du sol et de l'environnement."},
+        {"titre": "Rapport opposable", "description": "Diagnostic, hypothèses causales argumentées, gravité, préconisations chiffrées."},
+        {"titre": "Accompagnement neutre dans vos démarches", "description": "Assurance, constructeur, copropriété, tribunal."}
+      ]
+    },
+    "solutions": {
+      "intro": "Notre rapport vous sert dans toutes les situations.",
+      "items": [
+        {"titre": "Déclaration de sinistre à votre assurance", "description": "Pièce technique de référence.", "prix": "Inclus"},
+        {"titre": "Contre-expertise face à l'expert d'assurance", "description": "Pour négocier l'indemnisation.", "prix": "Inclus"},
+        {"titre": "Mise en demeure du constructeur (garantie décennale)", "description": "Pour faire valoir vos droits.", "prix": "Inclus"},
+        {"titre": "Production en justice", "description": "Recevable devant les tribunaux.", "prix": "Inclus"}
+      ]
+    },
+    "faq": [
+      {"q": "Pourquoi ne pas accepter l'expert envoyé par mon assurance ?", "r": "Vous pouvez l'accepter, mais ses conclusions visent à minimiser le coût pour l'assureur. Une contre-expertise indépendante rééquilibre le débat et permet souvent d'augmenter sensiblement votre indemnisation finale."},
+      {"q": "Combien coûte une contre-expertise ?", "r": "Mêmes fourchettes que pour une expertise standard (600 € à 3 500 € HT selon le bien). Souvent négociable avec l'assureur dans le cadre du sinistre Cat-Nat."},
+      {"q": "Mon constructeur me dit que la fissure est normale — qui croire ?", "r": "Le constructeur a un intérêt manifeste à minimiser. Une expertise indépendante chez vous tranche objectivement. Si la fissure est effectivement bénigne, nous le confirmons. Si elle est anormale, vous avez la pièce nécessaire pour activer la garantie décennale."}
+    ],
+    "guides_lies": ["diagnostic-fissure-maison", "tarif-expertise-fissure", "fissure-secheresse-rga"],
+    "villes_phares": ["/", "/77/", "/91/", "/93/"]
+  }
+}
