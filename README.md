@@ -21,9 +21,9 @@ Site local SEO pour **Global Expertises**, dédié à l'expertise des fissures e
 | 4 | 7 villes prioritaires P0 (Search Console) | ✅ |
 | 5 | 20 pages villes Paris (arrondissements) | ✅ |
 | 6 | ~28 pages villes petite couronne (92, 93, 94) | ✅ |
-| 7 | ~30 pages villes grande couronne (77, 78, 91, 95) | ⏳ |
+| 7 | ~30 pages villes grande couronne (77, 78, 91, 95) | ✅ |
 
-Total cible : **112 pages**.
+Total livré : **107 pages** (1 home + 1 contact + 1 mentions + 8 dépt + 1 index guide + 17 guides + 78 villes).
 
 ## Structure du repo
 
