@@ -14,6 +14,7 @@ import { renderDept } from "./render-dept.mjs";
 import { renderGuide } from "./render-guide.mjs";
 import { renderGuideIndex } from "./render-guide-index.mjs";
 import { renderVille } from "./render-ville.mjs";
+import { renderBlogIndex, renderBlogCategory, renderBlogArticle } from "./render-blog.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -22,6 +23,7 @@ const idfGeo = JSON.parse(readFileSync(join(ROOT, "data/idf-geo.json"), "utf8"))
 const deptContent = JSON.parse(readFileSync(join(ROOT, "data/dept-content.json"), "utf8"));
 const guideContent = JSON.parse(readFileSync(join(ROOT, "data/guide-content.json"), "utf8"));
 const villeContent = JSON.parse(readFileSync(join(ROOT, "data/ville-content.json"), "utf8"));
+const blogContent = JSON.parse(readFileSync(join(ROOT, "data/blog-content.json"), "utf8"));
 const seoPages = JSON.parse(readFileSync(join(ROOT, "data/seo-pages.json"), "utf8"));
 
 // Index par code/slug pour lookups rapides
@@ -53,7 +55,7 @@ const allGuidesSeo = Object.fromEntries(
 );
 const guideIndexSeo = seoPages.pages_statiques.find(p => p.type === "guide_index");
 
-let counts = { dept: 0, guide: 0, index: 0, ville: 0 };
+let counts = { dept: 0, guide: 0, index: 0, ville: 0, blog: 0 };
 
 // ----- 1. Piliers départementaux -------------------------------------------
 console.log("\n— Piliers départementaux —");
@@ -142,4 +144,67 @@ for (const dept of idfGeo.departements) {
   }
 }
 
-console.log(`\n${counts.dept + counts.guide + counts.index + counts.ville} page(s) générée(s) — ${counts.dept} dépt, ${counts.guide} guides, ${counts.index} index, ${counts.ville} villes.`);
+// ----- 5. Blog : index + 6 catégories + N articles -------------------------
+console.log("\n— Blog —");
+const blogIndexSeo = seoPages.blog?.index || {
+  title: "Blog fissure bâtiment actualités et conseils d'experts en IDF",
+  meta_description: "Actualités, cas pratiques et conseils d'experts sur les fissures du bâtiment en Île-de-France. Arrêtés sécheresse, nouvelles méthodes, retours d'expérience.",
+  h1: "Actualités et conseils d'experts fissures"
+};
+const categoriesSeoMap = Object.fromEntries(
+  (seoPages.blog?.categories_suggerees || []).map(c => [c.slug, c])
+);
+
+// Construit la liste des articles publiés (à partir de blog-content.json articles)
+const articles = Object.entries(blogContent.articles || {}).map(([slug, a]) => ({
+  slug,
+  ...a
+}));
+
+// 5.a — Index
+const blogIndexHtml = renderBlogIndex({
+  seo: blogIndexSeo,
+  blogContent,
+  articles,
+  categoriesSeo: categoriesSeoMap
+});
+const blogIndexPath = join(ROOT, "blog", "index.html");
+mkdirSync(dirname(blogIndexPath), { recursive: true });
+writeFileSync(blogIndexPath, blogIndexHtml, "utf8");
+console.log(`✓ /blog/ (${(blogIndexHtml.length / 1024).toFixed(1)} KB)`);
+counts.blog++;
+
+// 5.b — Catégories (6)
+for (const [catSlug, catContent] of Object.entries(blogContent.categories)) {
+  const seoCat = categoriesSeoMap[catSlug] || {};
+  const catArticles = articles.filter(a => a.category === catSlug);
+  const html = renderBlogCategory({
+    slug: catSlug,
+    content: catContent,
+    seo: seoCat,
+    articles: catArticles
+  });
+  const outPath = join(ROOT, "blog", catSlug, "index.html");
+  mkdirSync(dirname(outPath), { recursive: true });
+  writeFileSync(outPath, html, "utf8");
+  console.log(`✓ /blog/${catSlug}/ (${(html.length / 1024).toFixed(1)} KB) [${catArticles.length} article(s)]`);
+  counts.blog++;
+}
+
+// 5.c — Articles
+for (const article of articles) {
+  const html = renderBlogArticle({
+    slug: article.slug,
+    article,
+    geoIndex,
+    allGuidesSeo
+  });
+  const outPath = join(ROOT, "blog", article.slug, "index.html");
+  mkdirSync(dirname(outPath), { recursive: true });
+  writeFileSync(outPath, html, "utf8");
+  console.log(`✓ /blog/${article.slug}/ (${(html.length / 1024).toFixed(1)} KB)`);
+  counts.blog++;
+}
+
+const total = counts.dept + counts.guide + counts.index + counts.ville + counts.blog;
+console.log(`\n${total} page(s) générée(s) — ${counts.dept} dépt, ${counts.guide} guides, ${counts.index} index, ${counts.ville} villes, ${counts.blog} blog.`);

@@ -22,8 +22,10 @@ Site local SEO pour **Global Expertises**, dédié à l'expertise des fissures e
 | 5 | 20 pages villes Paris (arrondissements) | ✅ |
 | 6 | ~28 pages villes petite couronne (92, 93, 94) | ✅ |
 | 7 | ~30 pages villes grande couronne (77, 78, 91, 95) | ✅ |
+| 8 | Blog (index + 6 catégories + 1 article modèle) | ✅ |
 
-Total livré : **107 pages** (1 home + 1 contact + 1 mentions + 8 dépt + 1 index guide + 17 guides + 78 villes).
+Total livré : **115 pages** (1 home + 1 contact + 1 mentions + 8 dépt + 1 index guide + 17 guides + 78 villes + 1 index blog + 6 catégories blog + 1 article).
+Sitemap : **114 URLs** (mentions-legales en noindex donc exclue).
 
 ## Structure du repo
 

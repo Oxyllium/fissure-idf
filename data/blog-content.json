@@ -1,0 +1,145 @@
+{
+  "_doc": "Contenu rédactionnel du blog : descriptions des 6 catégories + articles individuels. Chaque catégorie est croisée avec seo-pages.json (categories_suggerees) + idees_articles_prioritaires pour afficher les articles à venir.",
+
+  "categories": {
+    "diagnostic-expertise": {
+      "intro_long": "Tout commence par un diagnostic rigoureux. Cette catégorie rassemble nos articles sur les méthodes d'expertise, les critères de gravité, les outils utilisés sur site (jauges fissuromètres, télémètres, mesures d'humidité), et les cas concrets de diagnostic différenciel. Pour les particuliers qui veulent comprendre ce qui distingue une fissure cosmétique d'une fissure structurelle, et pour les copropriétés qui doivent décider d'engager une expertise.",
+      "themes_couverts": [
+        "Méthodologie de diagnostic visuel pas à pas",
+        "Critères différentiels fissure structurelle vs cosmétique",
+        "Outils d'expertise : témoins, jauges, mesures d'évolutivité",
+        "Cas pratiques de diagnostic différenciel",
+        "Distinction entre expertise amiable, judiciaire et contre-expertise"
+      ]
+    },
+    "types-de-fissures": {
+      "intro_long": "Une fissure raconte presque toujours sa cause par sa forme et sa position. Cette catégorie publie des analyses détaillées par typologie : fissures en escalier, fissures lézardes, fissures traversantes, fissures rayonnantes, microfissures évolutives. L'objectif : aider les particuliers à mieux interpréter ce qu'ils voient avant de nous solliciter, et compléter les guides de fond avec des actualités sur des typologies émergentes (fissures post-canicule, fissures post-chantiers GPE, etc.).",
+      "themes_couverts": [
+        "Analyses détaillées par typologie (escalier, lézarde, traversante, étoile)",
+        "Signatures particulières : RGA, gypse, vibrations, modifications structurelles",
+        "Évolutions des typologies observées (post-canicules, post-GPE)",
+        "Lectures comparées : même cause, formes différentes selon le bâti",
+        "Vrai-faux : croyances populaires sur les fissures"
+      ]
+    },
+    "reparation-solutions": {
+      "intro_long": "Une fois le diagnostic établi, quelles solutions choisir, à quel coût, avec quelles garanties ? Cette catégorie détaille les techniques de réparation : agrafage par armatures inox, injection de résine époxy ou acrylique, reprise en sous-œuvre par micropieux, ravalements et pontages. Avec des fourchettes de coûts à jour, les avantages et limites de chaque technique, et les pièges à éviter dans le choix d'une entreprise.",
+      "themes_couverts": [
+        "Comparatifs techniques (agrafage vs injection vs reprise en sous-œuvre)",
+        "Choisir une entreprise de travaux : critères et pièges",
+        "Garanties d'achèvement et décennale sur les travaux de réparation",
+        "Coûts comparés selon les zones et les types de bâti",
+        "Suivi post-travaux : témoins, expertises de réception"
+      ]
+    },
+    "cas-pratiques": {
+      "intro_long": "Trois cents à quatre cents dossiers traités chaque mois nous donnent un retour d'expérience exceptionnel sur les pathologies fissurations en Île-de-France. Cette catégorie publie des cas anonymisés instructifs : des situations courantes aux situations atypiques, en passant par les dossiers à fort enjeu juridique. Tous les noms et adresses précis sont systématiquement modifiés pour préserver la confidentialité de nos clients.",
+      "themes_couverts": [
+        "Études de cas sur pavillonnaire RGA (77, 91, 95)",
+        "Diagnostic en copropriété haussmannienne (75, 92)",
+        "Pathologies post-chantier Grand Paris Express",
+        "Cavités gypse en Seine-Saint-Denis et nord de Paris",
+        "Cas de litiges judiciaires : qui a gagné quoi"
+      ]
+    },
+    "assurance-reglementation": {
+      "intro_long": "Une grande partie de la difficulté à obtenir une indemnisation tient à la méconnaissance des procédures. Cette catégorie démystifie : reconnaissance Cat-Nat sécheresse, déclaration de sinistre dans les 30 jours, contre-expertise amiable et judiciaire, garantie décennale et garantie de parfait achèvement, responsabilité civile du voisin lors d'un chantier. Avec un focus sur l'actualité réglementaire (réformes assurance, jurisprudence récente).",
+      "themes_couverts": [
+        "Procédures Cat-Nat sécheresse : démarches et délais",
+        "Garantie décennale : conditions, exclusions, recours",
+        "Contre-expertise et expertise judiciaire : quand et comment",
+        "Litiges entre voisins (chantiers, modifications)",
+        "Actualités réglementaires et jurisprudence"
+      ]
+    },
+    "actualites-idf": {
+      "intro_long": "Île-de-France oblige : cette catégorie suit l'actualité spécifiquement régionale. Arrêtés sécheresse Cat-Nat communes par communes, avancement des chantiers du Grand Paris Express et leurs impacts sur le bâti environnant, retours d'expérience de saison sur les pathologies observées. Mise à jour fréquente après chaque arrêté ministériel.",
+      "themes_couverts": [
+        "Arrêtés Cat-Nat sécheresse : mises à jour communes par communes",
+        "Avancement Grand Paris Express et impacts sur le bâti",
+        "Bilans saisonniers (canicules, étés secs, hivers humides)",
+        "Initiatives publiques : aides, subventions, plans climat",
+        "Retours d'expérience de terrain en IDF"
+      ]
+    }
+  },
+
+  "articles": {
+    "arrete-catastrophe-naturelle-secheresse-idf-2024": {
+      "category": "actualites-idf",
+      "title": "Arrêté sécheresse 2024 en IDF communes reconnues et délais",
+      "h1": "Arrêté catastrophe naturelle sécheresse 2024 en Île-de-France : ce qu'il faut savoir",
+      "meta_description": "Quelles communes IDF sont reconnues Cat-Nat sécheresse pour 2024 ? Liste actualisée par département, délais pour déclarer votre sinistre fissure à l'assurance.",
+      "keyword_primary": "arrêté sécheresse 2024 IDF",
+      "date_published": "2026-04-15",
+      "date_modified": "2026-04-27",
+      "intro_paragraphs": [
+        "Comme en 2018, 2020, 2022 et 2023, l'année 2024 a fait l'objet d'arrêtés de catastrophe naturelle reconnaissant l'état de sécheresse géotechnique sur de nombreuses communes franciliennes. Pour les propriétaires concernés par des fissures apparues ou aggravées après l'été 2024, c'est la fenêtre administrative qui permet d'enclencher une demande d'indemnisation auprès de leur assurance multirisque habitation.",
+        "Cette page synthétise les informations essentielles : départements et communes reconnus, délais pour déclarer le sinistre, démarches à effectuer, et erreurs à éviter. Elle est mise à jour régulièrement à chaque nouvel arrêté ministériel publié au Journal Officiel."
+      ],
+      "sections": [
+        {
+          "h2": "Comment savoir si votre commune est reconnue ?",
+          "paragraphs": [
+            "Les arrêtés de reconnaissance Cat-Nat sécheresse sont publiés par décret au Journal Officiel, généralement plusieurs mois après l'épisode reconnu (la sécheresse 2024 fait l'objet d'arrêtés publiés courant 2025-2026). Chaque arrêté liste précisément les communes reconnues, par département.",
+            "Pour vérifier si votre commune est concernée, deux sources fiables : le site officiel <strong>georisques.gouv.fr</strong> (recherche par adresse) et le site <strong>Légifrance</strong> qui publie l'intégralité des arrêtés. Lors de votre demande de devis, nous vérifions systématiquement la situation de votre commune pour vous éviter cette étape."
+          ]
+        },
+        {
+          "h2": "Tendances 2024 par département francilien",
+          "paragraphs": [
+            "Sans préjuger des arrêtés à venir (ils se publient progressivement), on peut anticiper les tendances par département à partir des données pluviométriques et géotechniques disponibles."
+          ],
+          "list": [
+            "<strong>Seine-et-Marne (77)</strong> : département le plus exposé d'IDF. Comme les années précédentes, on s'attend à une reconnaissance large des communes du plateau briard, du nord (Meaux, Lagny) au sud (Melun, Fontainebleau).",
+            "<strong>Essonne (91)</strong> : également très exposé. Les communes de la couronne sud (Évry-Courcouronnes, Corbeil-Essonnes, Massy) figurent traditionnellement parmi les plus reconnues.",
+            "<strong>Val-d'Oise (95)</strong> : la plaine de France et la couronne sud-est (Argenteuil, Sarcelles, Goussainville) sont les zones les plus touchées.",
+            "<strong>Yvelines (78)</strong> : le Mantois et la vallée de Seine sont les zones les plus exposées au RGA.",
+            "<strong>Petite couronne (92, 93, 94)</strong> : le RGA est moins actif que sur la grande couronne, mais des reconnaissances ponctuelles existent, particulièrement sur le pavillonnaire de la couronne sud du 94 (Champigny, Sucy).",
+            "<strong>Paris (75)</strong> : Paris intra-muros n'est généralement pas reconnu Cat-Nat sécheresse au même titre que les départements de couronne, le RGA y étant moins actif."
+          ]
+        },
+        {
+          "h2": "Délais pour déclarer votre sinistre",
+          "paragraphs": [
+            "<strong>Vous disposez de 30 jours à compter de la publication de l'arrêté Cat-Nat au Journal Officiel</strong> pour déclarer le sinistre à votre assurance. Au-delà, vous risquez de perdre votre droit à indemnisation pour les désordres concernés.",
+            "Cette échéance est stricte. Il est donc essentiel de surveiller la publication des arrêtés dès qu'ils sont annoncés, et de ne pas attendre que vos fissures s'aggravent encore avant d'engager les démarches. Une expertise indépendante préalable n'est pas obligatoire, mais elle accélère et sécurise considérablement le traitement de votre dossier."
+          ]
+        },
+        {
+          "h2": "Étapes pour déclarer un sinistre Cat-Nat sécheresse",
+          "list": [
+            "<strong>1.</strong> Vérifier que votre commune est reconnue (arrêté publié au JO).",
+            "<strong>2.</strong> Déclarer le sinistre à votre assurance par lettre recommandée avec accusé de réception, dans les 30 jours.",
+            "<strong>3.</strong> Joindre photos datées des désordres et description précise (date d'apparition, évolution, localisation).",
+            "<strong>4.</strong> Recevoir l'expert d'assurance désigné par votre assureur — qui défend les intérêts de l'assureur.",
+            "<strong>5.</strong> Si l'indemnisation proposée vous semble sous-évaluée, demander une contre-expertise indépendante (notre rôle d'expert d'assuré). Vous pouvez aussi nous solliciter avant la visite de l'expert d'assurance, ce qui facilite ensuite la négociation.",
+            "<strong>6.</strong> En cas de désaccord persistant : saisine du médiateur de l'assurance, puis procédure judiciaire le cas échéant."
+          ]
+        },
+        {
+          "h2": "Erreurs fréquentes à éviter",
+          "list": [
+            "<strong>Reboucher les fissures avant le passage de l'expert.</strong> C'est la principale erreur : sans pouvoir observer les fissures dans leur état réel, l'expert ne peut ni mesurer correctement les désordres ni établir un lien certain avec le RGA.",
+            "<strong>Attendre que les fissures s'aggravent.</strong> Plus le délai s'allonge entre l'apparition et la déclaration, plus il devient difficile d'établir le lien avec l'épisode de sécheresse reconnu.",
+            "<strong>Accepter sans contre-expertise une indemnisation manifestement basse.</strong> L'expert d'assurance défend les intérêts de l'assureur. Une contre-expertise indépendante permet souvent d'augmenter sensiblement l'indemnisation finale.",
+            "<strong>Croire que le refus initial est définitif.</strong> Trois recours existent : contre-expertise amiable, médiateur de l'assurance, procédure judiciaire. Notre rapport indépendant est la pièce centrale de chacun de ces recours."
+          ]
+        },
+        {
+          "h2": "Que faire si votre commune n'est pas (encore) reconnue ?",
+          "paragraphs": [
+            "Si votre commune n'apparaît pas dans la liste des arrêtés 2024 mais que vous observez des fissures compatibles avec le RGA, plusieurs options restent ouvertes. D'abord, surveiller les futurs arrêtés : la procédure de reconnaissance peut s'étaler sur plusieurs mois ou années après l'épisode. Ensuite, faire un signalement préventif à votre mairie qui peut elle-même solliciter une reconnaissance Cat-Nat. Enfin, examiner d'autres voies d'indemnisation : garantie décennale si votre bien a moins de 10 ans, responsabilité civile d'un voisin (chantier, modifications), défaut de construction.",
+            "Une expertise indépendante préalable identifie la cause réelle des désordres et oriente vers la bonne procédure d'indemnisation."
+          ]
+        }
+      ],
+      "cta_box": {
+        "title": "Une fissure liée à la sécheresse 2024 ?",
+        "text": "Notre cabinet établit votre rapport d'expertise sous 3 à 5 semaines, recevable par toutes les compagnies d'assurance. Devis personnalisé sous 24 h ouvrées."
+      },
+      "guides_lies": ["fissure-secheresse-rga", "expert-fissure-independant", "diagnostic-fissure-maison"],
+      "villes_phares": ["/77/", "/91/", "/95/", "/77/meaux/", "/95/argenteuil/", "/91/evry-courcouronnes/"]
+    }
+  }
+}

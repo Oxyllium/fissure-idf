@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Sitemap incrémental — étapes 1 + 2 + 3.
-  À compléter aux étapes suivantes (78 villes + blog).
+  Sitemap final — 112 URLs.
+  Étapes 1-7 : statiques + dépt + guides + villes + blog.
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Pilier régional + statiques -->
   <url><loc>https://expert-fissure-idf.fr/</loc><lastmod>2026-04-27</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://expert-fissure-idf.fr/contact/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
@@ -17,12 +18,27 @@
   <url><loc>https://expert-fissure-idf.fr/94/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://expert-fissure-idf.fr/95/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
 
-  <!-- Villes P0 (Search Console prioritaires) -->
-  <url><loc>https://expert-fissure-idf.fr/91/evry-courcouronnes/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/92/boulogne-billancourt/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/93/saint-denis/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/93/montreuil/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/95/argenteuil/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- Index Guide -->
+  <url><loc>https://expert-fissure-idf.fr/guide/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Guides — chef-d'œuvre 0.8, autres 0.6-0.7 -->
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-horizontale/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/diagnostic-fissure-maison/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/expert-fissure-independant/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-secheresse-rga/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-mur-interieur/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-mur-exterieur-facade/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-plafond/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-dalle-beton/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-maison-ancienne/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-maison-neuve/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/microfissure/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-verticale/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-enduit-crepi/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-parpaing/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-structurelle/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/fissure-traversante/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/guide/tarif-expertise-fissure/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- Paris : 20 arrondissements (15e/16e P0 + 18e/19e/20e/5e/11e enrichis géo) -->
   <url><loc>https://expert-fissure-idf.fr/75/paris-1er/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -47,6 +63,7 @@
   <url><loc>https://expert-fissure-idf.fr/75/paris-20e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- Petite couronne — 92 -->
+  <url><loc>https://expert-fissure-idf.fr/92/boulogne-billancourt/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://expert-fissure-idf.fr/92/neuilly-sur-seine/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://expert-fissure-idf.fr/92/levallois-perret/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://expert-fissure-idf.fr/92/issy-les-moulineaux/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -58,6 +75,8 @@
   <url><loc>https://expert-fissure-idf.fr/92/asnieres-sur-seine/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- Petite couronne — 93 -->
+  <url><loc>https://expert-fissure-idf.fr/93/saint-denis/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/93/montreuil/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://expert-fissure-idf.fr/93/aubervilliers/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://expert-fissure-idf.fr/93/aulnay-sous-bois/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://expert-fissure-idf.fr/93/pantin/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -96,6 +115,7 @@
   <url><loc>https://expert-fissure-idf.fr/78/rambouillet/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- Grande couronne — 91 -->
+  <url><loc>https://expert-fissure-idf.fr/91/evry-courcouronnes/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://expert-fissure-idf.fr/91/corbeil-essonnes/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://expert-fissure-idf.fr/91/massy/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://expert-fissure-idf.fr/91/palaiseau/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -105,6 +125,7 @@
   <url><loc>https://expert-fissure-idf.fr/91/longjumeau/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- Grande couronne — 95 -->
+  <url><loc>https://expert-fissure-idf.fr/95/argenteuil/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://expert-fissure-idf.fr/95/cergy/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://expert-fissure-idf.fr/95/sarcelles/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://expert-fissure-idf.fr/95/pontoise/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -113,25 +134,13 @@
   <url><loc>https://expert-fissure-idf.fr/95/goussainville/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://expert-fissure-idf.fr/95/bezons/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
-  <!-- Index Guide -->
-  <url><loc>https://expert-fissure-idf.fr/guide/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-
-  <!-- Guides — chef-d'œuvre en priorité 0.8 -->
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-horizontale/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/diagnostic-fissure-maison/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/expert-fissure-independant/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-secheresse-rga/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-mur-interieur/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-mur-exterieur-facade/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-plafond/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-dalle-beton/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-maison-ancienne/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-maison-neuve/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/microfissure/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-verticale/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-enduit-crepi/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-parpaing/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-structurelle/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/fissure-traversante/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/guide/tarif-expertise-fissure/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <!-- Blog : index + 6 catégories + 1 article publié -->
+  <url><loc>https://expert-fissure-idf.fr/blog/</loc><lastmod>2026-04-27</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/blog/diagnostic-expertise/</loc><lastmod>2026-04-27</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/blog/types-de-fissures/</loc><lastmod>2026-04-27</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/blog/reparation-solutions/</loc><lastmod>2026-04-27</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/blog/cas-pratiques/</loc><lastmod>2026-04-27</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/blog/assurance-reglementation/</loc><lastmod>2026-04-27</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/blog/actualites-idf/</loc><lastmod>2026-04-27</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/blog/arrete-catastrophe-naturelle-secheresse-idf-2024/</loc><lastmod>2026-04-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
