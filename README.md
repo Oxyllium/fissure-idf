@@ -16,7 +16,7 @@ Site local SEO pour **Global Expertises**, dédié à l'expertise des fissures e
 | Étape | Périmètre | Statut |
 |---|---|---|
 | 1 | Fondations + home + contact + mentions légales | ✅ |
-| 2 | 8 piliers départementaux (75/77/78/91/92/93/94/95) | ⏳ |
+| 2 | 8 piliers départementaux (75/77/78/91/92/93/94/95) | ✅ |
 | 3 | 18 guides + index `/guide/` (priorité `/guide/fissure-horizontale/`) | ⏳ |
 | 4 | 7 villes prioritaires P0 (Search Console) | ⏳ |
 | 5 | 20 pages villes Paris (arrondissements) | ⏳ |
@@ -30,8 +30,13 @@ Total cible : **112 pages**.
 ```
 .
 ├── index.html                       # Pilier régional /
+├── 75/index.html … 95/index.html    # 8 piliers départementaux
 ├── contact/index.html               # /contact/
 ├── mentions-legales/index.html      # /mentions-legales/
+├── build/                           # Générateur Node ES modules
+│   ├── partials.mjs                 # Header, footer, blocs partagés
+│   ├── render-dept.mjs              # Renderer pages dépt
+│   └── build.mjs                    # Orchestrateur
 ├── css/
 │   ├── tokens.css                   # Variables (palette, typo, spacing)
 │   ├── reset.css
@@ -49,7 +54,8 @@ Total cible : **112 pages**.
 ├── data/
 │   ├── idf-geo.json                 # Géo : 8 dépt + 78 villes + sols + bâti
 │   ├── global-expertises.json       # Identité, chiffres, processus, FAQ
-│   └── seo-pages.json               # Plan SEO 112 pages + insights GSC
+│   ├── seo-pages.json               # Plan SEO 112 pages + insights GSC
+│   └── dept-content.json            # Rédactionnel différencié par dépt
 ├── site.config.js                   # Config : email, tel, domaine, endpoint form
 ├── robots.txt
 ├── sitemap.xml                      # Incrémental, complété par étape
@@ -98,7 +104,11 @@ Site 100 % statique. Compatible :
 - Cloudflare Pages
 - OVH / Infomaniak hébergement statique
 
-Pas de build pour l'instant. Pour l'étape 2 (8 dépt) et au-delà, un mini builder Node sera ajouté pour générer les pages depuis les JSON.
+Builder Node ES modules en place dès l'étape 2. Pour régénérer toutes les pages dépt :
+```bash
+node build/build.mjs
+```
+Aucune dépendance externe (Node 18+ requis pour ESM natif).
 
 ## Crédits
 
