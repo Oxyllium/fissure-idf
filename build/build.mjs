@@ -120,9 +120,9 @@ for (const dept of idfGeo.departements) {
     const content = villeContent[villeKey]; // null si non enrichie (étapes 5-7)
     const seo = seoPages.pages_statiques.find(p => p.slug === `/${code}/${ville.slug}/` && p.type === "ville");
     if (!seo) continue;
-    // Étape 4 : on ne génère que les villes ayant un content enrichi (P0)
-    // Étapes 5-7 : on retirera ce filtre pour générer les 78 villes.
-    if (!content) continue;
+    // Étape 5 : génération des 20 arrondissements Paris (75) en complément des P0.
+    // Pour les villes hors-75 sans content : skip (étapes 6-7 retireront ce filtre).
+    if (!content && code !== "75") continue;
 
     const html = renderVille({
       ville,

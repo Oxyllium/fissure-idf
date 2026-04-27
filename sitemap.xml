@@ -18,13 +18,33 @@
   <url><loc>https://expert-fissure-idf.fr/95/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
 
   <!-- Villes P0 (Search Console prioritaires) -->
-  <url><loc>https://expert-fissure-idf.fr/75/paris-15e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://expert-fissure-idf.fr/75/paris-16e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://expert-fissure-idf.fr/91/evry-courcouronnes/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://expert-fissure-idf.fr/92/boulogne-billancourt/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://expert-fissure-idf.fr/93/saint-denis/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://expert-fissure-idf.fr/93/montreuil/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://expert-fissure-idf.fr/95/argenteuil/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Paris : 20 arrondissements (15e/16e P0 + 18e/19e/20e/5e/11e enrichis géo) -->
+  <url><loc>https://expert-fissure-idf.fr/75/paris-1er/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-2e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-3e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-4e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-5e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-6e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-7e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-8e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-9e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-10e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-11e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-12e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-13e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-14e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-15e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-16e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-17e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-18e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-19e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://expert-fissure-idf.fr/75/paris-20e/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- Index Guide -->
   <url><loc>https://expert-fissure-idf.fr/guide/</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>

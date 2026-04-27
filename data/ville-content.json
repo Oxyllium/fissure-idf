@@ -440,5 +440,320 @@
         "r": "Pour un appartement haut de gamme, comptez entre 1 200 € et 2 200 € HT selon la surface et la complexité. Pour un hôtel particulier ou une copropriété (parties communes), le tarif peut atteindre 3 000 € HT. La haute qualité du bâti demande une lecture experte et un rapport particulièrement détaillé. Devis personnalisé et gratuit sous 24 h."
       }
     ]
+  },
+
+  "75/paris-5e": {
+    "tier": "P1",
+    "accroche": "Le Quartier Latin et la Mouffetard reposent sur un sous-sol unique à Paris : l'un des plus anciens, traversé par l'ancienne Bièvre, marqué par les Catacombes et leurs cavités calcaires. Diagnostic d'expert pour bâti pré-haussmannien et médiéval.",
+    "intro_paragraphs": [
+      "Le 5e arrondissement présente un patrimoine parmi les plus anciens de Paris. L'urbanisation y est continue depuis l'époque gallo-romaine, et de nombreux immeubles datent du XVIIe ou XVIIIe siècle, voire avant. Cette ancienneté du bâti, combinée à un sous-sol particulièrement complexe, en fait l'un des arrondissements où les pathologies fissurations demandent une lecture spécialisée du bâti historique.",
+      "Le sous-sol du 5e a deux particularités majeures : la présence des Catacombes et des cavités calcaires sur une partie de l'arrondissement (notamment sous le Val-de-Grâce et le quartier Mouffetard), et l'ancien tracé de la Bièvre — petite rivière aujourd'hui canalisée souterrainement — qui traverse l'arrondissement. Les bâtiments construits sur ce tracé connaissent encore aujourd'hui des mouvements lents liés aux variations hydrauliques.",
+      "Le Quartier Latin et la rive de Seine concentrent un bâti pré-haussmannien dense, avec des immeubles parfois antérieurs à 1700 dont les fondations sont rudimentaires (souvent de simples soubassements en moellon). Les modifications successives — surélévations, réunions d'appartements, mises aux normes — ont aggravé certaines pathologies. Une expertise du 5e demande donc une lecture experte du bâti ancien, complétée d'une vérification du tracé des cavités auprès de l'IGC."
+    ],
+    "pullquote": "Sous le 5e, l'histoire géologique se lit à plusieurs étages : Catacombes calcaires, ancienne Bièvre canalisée, et fondations parfois antérieures à 1700.",
+    "enjeux_locaux": [
+      "Cavités calcaires des Catacombes : risque d'affaissements lents (Val-de-Grâce, Mouffetard sud)",
+      "Ancien tracé de la Bièvre : sols hétérogènes et variations hydrauliques",
+      "Bâti pré-haussmannien et médiéval : fondations sommaires, parfois antérieures à 1700",
+      "Surélévations et modifications successives : charges modifiées, désordres post-travaux",
+      "Quartier Latin dense : copropriétés très anciennes, pathologies de gestion partagée"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Quartier Latin",
+        "description": "Cœur étudiant et culturel. Bâti dense des XVIIe au XIXe siècles. Pathologies typiques : fissures sur fondations très anciennes, désordres liés aux modifications successives, pathologies de copropriété sur immeubles vétustes."
+      },
+      {
+        "nom": "Mouffetard",
+        "description": "Quartier historique le plus ancien. Bâti médiéval et XVIIe-XVIIIe. Sous-sol marqué par les Catacombes au sud. Pathologies : affaissements lents possibles (cavités), désordres patrimoniaux sur enduits chaux."
+      },
+      {
+        "nom": "Jardin des Plantes",
+        "description": "Bordant l'ancien lit de la Bièvre. Bâti XIXe et début XXe. Pathologies : sols hétérogènes liés à l'ancienne rivière, variations hydrauliques saisonnières."
+      },
+      {
+        "nom": "Val-de-Grâce",
+        "description": "Marqué par les anciennes carrières des Catacombes. Bâti haussmannien et institutionnel. Pathologies : risque d'affaissement localisé, vérification IGC indispensable."
+      }
+    ],
+    "cas_locaux": [
+      "Fissures de tassement sur immeubles pré-haussmanniens du Quartier Latin",
+      "Pathologies patrimoniales sur enduits chaux d'immeubles XVIIe-XVIIIe",
+      "Affaissements lents possibles sous Val-de-Grâce et sud Mouffetard (cavités)",
+      "Désordres post-surélévation sur immeubles bourgeois XIXe",
+      "Fissures sur immeubles bordant l'ancien lit de la Bièvre"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-maison-ancienne", "raison": "Bâti antérieur à 1900 quasi-exclusif"},
+      {"slug": "fissure-structurelle", "raison": "Vigilance cavités calcaires"},
+      {"slug": "expert-fissure-independant", "raison": "Crucial pour bâti patrimonial et copropriété ancienne"}
+    ],
+    "villes_voisines": ["paris-4e", "paris-6e", "paris-13e", "paris-1er"],
+    "faq_specific": [
+      {
+        "q": "Je crains une cavité calcaire sous mon immeuble du Val-de-Grâce ou Mouffetard, comment vérifier ?",
+        "r": "Une consultation préalable de l'Inspection Générale des Carrières (IGC) de la Ville de Paris est indispensable. Elle dispose de la cartographie des cavités connues et peut confirmer ou infirmer la présence sous votre adresse. Si une cavité est connue, un suivi est généralement déjà mis en place. Sinon, et en cas de signes visibles (affaissement, fissures multi-directionnelles), une étude géotechnique avec sondages s'impose."
+      },
+      {
+        "q": "Mon immeuble du Quartier Latin date du XVIIIe, des fissures sont-elles forcément graves ?",
+        "r": "Non. Le bâti très ancien vit, respire, se déforme lentement depuis sa construction. Beaucoup de fissures observées sont stabilisées depuis des décennies, voire des siècles, et sans gravité. Le travail de l'expert consiste à distinguer les fissures de vie (stables, bénignes) des fissures actives (qui demandent intervention). Cette lecture demande une expertise spécifique du bâti pré-haussmannien."
+      },
+      {
+        "q": "Peut-on rénover lourdement un bâti du XVIIIe sans risque ?",
+        "r": "C'est délicat. Toute modification structurelle (suppression de mur, surélévation, mise aux normes lourde) doit être précédée d'une étude de structure par un bureau d'études spécialisé bâti ancien. Notre rapport préalable permet de cadrer les contraintes et d'éviter les désordres post-travaux qui sont fréquents sur ce type de bâti."
+      }
+    ]
+  },
+
+  "75/paris-11e": {
+    "tier": "P1",
+    "accroche": "Bastille, République, Roquette : l'arrondissement le plus dense de France conjugue bâti haussmannien dense, anciennes friches industrielles reconverties et un sous-sol marqué par d'anciens marais autour du Temple.",
+    "intro_paragraphs": [
+      "Le 11e arrondissement est, statistiquement, l'un des arrondissements les plus densément peuplés au monde. Cette densité se traduit par une concentration exceptionnelle d'immeubles haussmanniens et Belle Époque, complétée depuis les années 1990 par d'importantes opérations de reconversion d'anciennes friches industrielles (impasses-passages emblématiques du Faubourg-Saint-Antoine).",
+      "Le sous-sol y est marqué par l'ancien tracé des marais du Temple et de la Roquette, asséchés et urbanisés progressivement à partir du XVIIe siècle. Cette histoire hydraulique laisse, encore aujourd'hui, des sols meubles et hétérogènes par endroits, sensibles aux variations de nappe et aux modifications de drainage. La nappe phréatique reste haute dans certaines zones, particulièrement vers la Bastille et le Canal Saint-Martin.",
+      "Les pathologies fissurations dominantes relèvent de quatre familles : pathologies du bâti haussmannien sur fondations modestes, désordres post-rénovation lourde (la pression de la rénovation thermique et énergétique est très forte sur cet arrondissement), pathologies de copropriété sur immeubles bourgeois 1900-1930, et désordres ponctuels liés aux modifications hydrauliques du sous-sol."
+    ],
+    "pullquote": "Sur le 11e, derrière la densité visible se cachent d'anciens marais asséchés au XVIIe siècle — leur mémoire hydraulique fait encore bouger les fondations.",
+    "enjeux_locaux": [
+      "Bâti haussmannien et Belle Époque très dense : fondations modestes",
+      "Anciens marais du Temple et de la Roquette : sols hétérogènes",
+      "Reconversion massive de friches industrielles depuis 1990 : copropriétés modernes sur remblais",
+      "Pression de la rénovation thermique : modifications structurelles fréquentes",
+      "Nappe phréatique haute en zone Bastille : sensibilité aux variations saisonnières"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Bastille",
+        "description": "Cœur emblématique, bâti haussmannien dense. Nappe haute. Pathologies : fissures de tassement sur fondations anciennes, désordres post-rénovation, pathologies de copropriété."
+      },
+      {
+        "nom": "République",
+        "description": "Bordant le 3e et le 10e. Bâti haussmannien et bourgeois 1900. Pathologies typiques : fissures structurelles après modifications lourdes, désordres en copropriété."
+      },
+      {
+        "nom": "Roquette",
+        "description": "Quartier en mutation, anciennes friches industrielles reconverties (Charonne, Sedaine). Pathologies dominantes : tassements résiduels sur remblais, fissures sur copropriétés récentes."
+      },
+      {
+        "nom": "Folie-Méricourt",
+        "description": "Bâti haussmannien dense, gentrification continue. Pathologies : fissures de tassement, désordres patrimoniaux, modifications structurelles fréquentes."
+      }
+    ],
+    "cas_locaux": [
+      "Fissures structurelles sur immeubles haussmanniens après suppression de mur porteur",
+      "Désordres en copropriété sur immeubles bourgeois 1900-1930",
+      "Tassements résiduels sur copropriétés récentes du Faubourg-Saint-Antoine",
+      "Pathologies post-rénovation thermique sur bâti haussmannien",
+      "Fissures liées à la nappe phréatique haute en zone Bastille"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-horizontale", "raison": "Forme dominante sur copropriétés haussmanniennes"},
+      {"slug": "fissure-maison-ancienne", "raison": "Bâti pré-1950 majoritaire"},
+      {"slug": "expert-fissure-independant", "raison": "Crucial en copropriété dense"}
+    ],
+    "villes_voisines": ["paris-3e", "paris-4e", "paris-12e", "paris-20e"],
+    "faq_specific": [
+      {
+        "q": "Mon immeuble Bastille présente des fissures, est-ce lié à la nappe phréatique ?",
+        "r": "Possible. Le secteur Bastille est connu pour avoir une nappe phréatique haute, dont les variations saisonnières peuvent générer des mouvements lents des fondations. Si les fissures évoluent particulièrement en hiver (nappe haute) ou en été sec (nappe basse), c'est un indice fort. Une expertise visuelle confirme ou infirme cette hypothèse."
+      },
+      {
+        "q": "Mon appartement haussmannien a été rénové pour les normes thermiques, des fissures apparaissent — recours ?",
+        "r": "La rénovation thermique implique souvent des modifications de cloisons, d'enduits, et parfois de structures. Si la rénovation a fragilisé le bâti, la responsabilité de l'entreprise est engagée (garantie décennale si moins de 10 ans). Notre rapport indépendant établit techniquement le lien de causalité — pièce centrale du dossier."
+      },
+      {
+        "q": "Combien coûte une expertise fissure dans le 11e ?",
+        "r": "Pour un appartement parisien standard, comptez entre 900 € et 1 600 € HT selon la surface. Pour une copropriété (parties communes) ou un cas complexe avec modifications structurelles, le tarif peut atteindre 2 200 € HT. Devis personnalisé et gratuit sous 24 h."
+      }
+    ]
+  },
+
+  "75/paris-18e": {
+    "tier": "P0-geo",
+    "accroche": "Montmartre, Goutte d'Or, Clignancourt : le 18e est l'arrondissement parisien le plus marqué par la dissolution du gypse antéludien. Diagnostic d'expert indispensable face aux signes d'affaissement.",
+    "intro_paragraphs": [
+      "Le 18e arrondissement concentre la plus forte exposition à la dissolution du gypse antéludien de Paris intra-muros. La butte Montmartre elle-même est largement constituée de cette roche soluble, et les anciennes carrières souterraines — d'abord exploitées pour le plâtre puis abandonnées — quadrillent une grande partie du sous-sol. L'IGC (Inspection Générale des Carrières) tient une cartographie précise de ces zones, mais des affaissements localisés continuent d'être documentés.",
+      "Le bâti se distribue en plusieurs typologies : immeubles haussmanniens et Belle Époque dans la partie sud (Pigalle, Trinité, La Fourche), bâti plus modeste et ancien dans la partie nord (Goutte d'Or, Château-Rouge, Clignancourt), et patrimoine architectural exceptionnel autour de Montmartre. Toutes ces typologies présentent des pathologies fissurations spécifiques, aggravées par l'instabilité du sous-sol.",
+      "À cela s'ajoutent les phénomènes plus récents : pression de la rénovation thermique sur les copropriétés, gentrification de la Goutte d'Or amenant des travaux lourds, et impact résiduel des chantiers de prolongement de la ligne 14. Une expertise dans le 18e demande donc une vérification systématique auprès de l'IGC en complément du diagnostic visuel."
+    ],
+    "pullquote": "Sous le 18e, le gypse antéludien dissout par les eaux pluviales a creusé des cavités sur plus de cent ans. Chaque expertise commence par une vérification cartographique IGC.",
+    "enjeux_locaux": [
+      "Gypse antéludien : dissolution active sur l'ensemble du territoire (affaissements localisés)",
+      "Anciennes carrières souterraines : risque résiduel de cavités (vérification IGC obligatoire)",
+      "Bâti haussmannien et Belle Époque dense au sud",
+      "Bâti modeste et ancien au nord (Goutte d'Or, Château-Rouge) : fondations sommaires",
+      "Gentrification et pression de la rénovation : modifications structurelles fréquentes"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Montmartre",
+        "description": "Butte emblématique. Bâti hétérogène : maisons de village pré-haussmanniennes, immeubles 1900, et patrimoine remarquable. Sous-sol marqué par les anciennes carrières de gypse. Pathologies : affaissements localisés possibles, désordres patrimoniaux."
+      },
+      {
+        "nom": "Goutte d'Or",
+        "description": "Quartier dense, bâti modeste et ancien. Pathologies typiques : fissures sur fondations sommaires, désordres post-rénovation, problématiques de copropriété sur bâti vétuste."
+      },
+      {
+        "nom": "Clignancourt",
+        "description": "Marché aux Puces et bâti hétérogène. Sous-sol marqué par d'importantes carrières de gypse. Pathologies : risque d'affaissement, désordres sur bâti ancien."
+      },
+      {
+        "nom": "Barbès",
+        "description": "Quartier dense en mutation. Bâti haussmannien et début XXe. Pathologies : fissures de tassement, désordres post-rénovation lourde, pathologies de copropriété."
+      }
+    ],
+    "cas_locaux": [
+      "Affaissements localisés sur immeubles de Montmartre et Clignancourt (suspicion cavité gypse)",
+      "Fissures structurelles sur bâti modeste de la Goutte d'Or",
+      "Désordres post-rénovation thermique sur copropriétés haussmanniennes",
+      "Pathologies patrimoniales sur immeubles 1900-1930 du sud de l'arrondissement",
+      "Fissures sur immeubles bordant les anciens tracés de carrières souterraines"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-structurelle", "raison": "Vigilance dissolution gypse — diagnostic prioritaire"},
+      {"slug": "fissure-maison-ancienne", "raison": "Bâti pré-1950 dominant"},
+      {"slug": "expert-fissure-independant", "raison": "Crucial pour activer l'IGC et les démarches d'indemnisation"}
+    ],
+    "villes_voisines": ["paris-9e", "paris-17e", "paris-19e", "saint-denis"],
+    "faq_specific": [
+      {
+        "q": "Mon immeuble Montmartre s'affaisse, est-ce une cavité de gypse ?",
+        "r": "Possible. Le 18e est l'arrondissement parisien le plus exposé à la dissolution du gypse antéludien. Les signatures visibles d'une cavité incluent un affaissement localisé d'un coin du bâtiment, des fissures multi-directionnelles convergentes, et une déformation des planchers. Première étape : consulter l'IGC pour vérifier la présence connue d'une cavité sous votre adresse. Notre cabinet peut coordonner cette démarche et l'étude géotechnique complémentaire si nécessaire."
+      },
+      {
+        "q": "Comment consulter l'IGC pour mon adresse parisienne ?",
+        "r": "L'Inspection Générale des Carrières (IGC) de la Ville de Paris dispose de la cartographie officielle des cavités connues. Vous pouvez en faire la demande directement, ou nous pouvons la coordonner pour vous dans le cadre de l'expertise. Cette consultation est systématique pour toute expertise dans le 18e."
+      },
+      {
+        "q": "Le 18e est-il reconnu Cat-Nat sécheresse ?",
+        "r": "Paris intra-muros n'est généralement pas reconnu Cat-Nat sécheresse au même titre que les départements de couronne, le RGA y étant moins actif. Les pathologies fissurations parisiennes relèvent plus souvent de la garantie décennale (bâti récent), de la responsabilité voisine (chantiers, modifications) ou de causes structurelles (cavités, fondations anciennes)."
+      }
+    ]
+  },
+
+  "75/paris-19e": {
+    "tier": "P0-geo",
+    "accroche": "Buttes-Chaumont, La Villette, Combat : le 19e cumule un sous-sol gypseux marqué par d'importantes carrières souterraines et un parc bâti contrasté entre haussmannien, grands ensembles et opérations urbaines récentes.",
+    "intro_paragraphs": [
+      "Le 19e arrondissement est, après le 18e, l'un des plus marqués par l'héritage des anciennes carrières de gypse parisiennes. Le parc des Buttes-Chaumont a lui-même été aménagé sur d'anciennes carrières au Second Empire, et de nombreux quartiers (Combat, Pont-de-Flandre, parties de Belleville) reposent sur un sous-sol fortement modifié par l'exploitation industrielle du plâtre du XIXe siècle.",
+      "Le bâti est très contrasté : immeubles haussmanniens et Belle Époque le long des grands axes (avenue Jean-Jaurès, rue de Crimée), grands ensembles emblématiques des années 1960-1970 (Curial-Cambrai, Place des Fêtes), et opérations urbaines récentes le long du Canal de l'Ourcq et autour de la Cité des Sciences. Chaque typologie présente ses pathologies fissurations spécifiques, aggravées par les particularités du sous-sol.",
+      "Les chantiers du Grand Paris Express (notamment ligne 16 vers le nord) et la requalification continue du quartier de la Villette ajoutent une pression supplémentaire sur les bâtiments environnants. Une expertise dans le 19e requiert systématiquement une vérification IGC et une lecture spécifique du contexte hydraulique (Canal de l'Ourcq, ancien lit de la Bièvre)."
+    ],
+    "pullquote": "Le 19e a été littéralement bâti sur d'anciennes carrières de gypse — chaque expertise y commence par cartographier le sous-sol invisible.",
+    "enjeux_locaux": [
+      "Anciennes carrières de gypse : risque résiduel d'affaissements (vérification IGC obligatoire)",
+      "Sous-sol des Buttes-Chaumont : aménagement Second Empire sur cavités anciennes",
+      "Grands ensembles 1960-1970 : pathologies de copropriété sur tours et barres",
+      "Opérations récentes Canal de l'Ourcq : tassements résiduels sur friches reconverties",
+      "Chantiers Grand Paris Express ligne 16 : zone d'influence étendue"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Buttes-Chaumont",
+        "description": "Cœur résidentiel cossu, bâti haussmannien et Belle Époque. Sous-sol marqué par d'anciennes carrières aménagées. Pathologies : fissures de tassement, désordres patrimoniaux."
+      },
+      {
+        "nom": "La Villette",
+        "description": "Quartier en transformation continue. Anciennes friches industrielles, opérations récentes. Pathologies dominantes : tassements résiduels, fissures sur copropriétés récentes."
+      },
+      {
+        "nom": "Combat",
+        "description": "Zone Stalingrad-Place des Fêtes. Mix de bâti haussmannien et de grands ensembles. Pathologies : pathologies de copropriété sur tours, fissures structurelles, désordres post-réhabilitation."
+      },
+      {
+        "nom": "Pont-de-Flandre",
+        "description": "Nord-est de l'arrondissement. Bâti hétérogène. Sous-sol particulièrement marqué par les anciennes carrières. Pathologies : risque d'affaissement, désordres post-chantier GPE."
+      }
+    ],
+    "cas_locaux": [
+      "Affaissements localisés sur immeubles à proximité des anciennes carrières (vérification IGC)",
+      "Désordres en copropriété sur tours et barres des grands ensembles 1960-1970",
+      "Tassements résiduels sur copropriétés récentes du Canal de l'Ourcq",
+      "Fissures post-chantier ligne 16 GPE sur immeubles Pont-de-Flandre",
+      "Pathologies patrimoniales sur immeubles haussmanniens des Buttes-Chaumont"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-structurelle", "raison": "Vigilance cavités anciennes — diagnostic prioritaire"},
+      {"slug": "fissure-horizontale", "raison": "Forme dominante sur copropriétés"},
+      {"slug": "expert-fissure-independant", "raison": "Crucial face aux chantiers GPE et copropriétés"}
+    ],
+    "villes_voisines": ["paris-10e", "paris-18e", "paris-20e", "pantin"],
+    "faq_specific": [
+      {
+        "q": "Le parc des Buttes-Chaumont est sur d'anciennes carrières — mon immeuble voisin est-il à risque ?",
+        "r": "Possible. Une consultation préalable de l'IGC est indispensable pour vérifier l'existence d'une cavité connue sous votre adresse. Si tel est le cas, un suivi est généralement déjà mis en place. En l'absence de cavité connue mais en présence de signes visibles (affaissement, fissures multi-directionnelles), une étude géotechnique avec sondages s'impose."
+      },
+      {
+        "q": "Mon immeuble est sur le tracé GPE ligne 16 — que faire en cas de fissure ?",
+        "r": "Vérifiez l'existence d'un référé préventif réalisé par la Société du Grand Paris avant le chantier. Si oui, conservez le document : une expertise post-chantier comparée à ce constat initial vous permet d'engager une demande d'indemnisation. Sans référé, l'expertise indépendante reste la pièce centrale de votre dossier."
+      },
+      {
+        "q": "Mon grand ensemble Place des Fêtes présente des fissures, est-ce structurel ?",
+        "r": "Les grands ensembles des années 1960-1970 présentent des pathologies fissurations spécifiques : retrait du béton (souvent stabilisé), fissures structurelles liées aux travaux de réhabilitation thermique, désordres en copropriété. Une expertise distingue clairement les fissures stabilisées sans gravité des désordres actifs qui demandent intervention."
+      }
+    ]
+  },
+
+  "75/paris-20e": {
+    "tier": "P0-geo",
+    "accroche": "Belleville, Ménilmontant, Père-Lachaise : le 20e cumule un sous-sol marqué par les anciennes carrières de gypse, un héritage de villages pré-1860 intégrés à Paris, et une gentrification rapide qui multiplie les rénovations lourdes.",
+    "intro_paragraphs": [
+      "Le 20e arrondissement présente une particularité forte : la quasi-totalité de son territoire correspond à d'anciens villages (Belleville, Charonne, Ménilmontant) intégrés à Paris en 1860. De nombreux immeubles datent d'avant cette intégration — bâti pré-haussmannien, parfois antérieur — sur fondations rudimentaires héritées de l'urbanisation villageoise. Cette ancienneté du bâti, combinée à un sous-sol marqué par d'anciennes carrières de gypse, en fait l'un des arrondissements parisiens où les pathologies fissurations sont les plus diversifiées.",
+      "Le sous-sol communal est marqué, comme dans le 18e et le 19e, par d'importantes anciennes carrières de gypse, particulièrement actives au XIXe siècle pour fournir le plâtre de Paris. La cartographie de ces cavités est tenue par l'IGC, et plusieurs zones font l'objet d'un suivi régulier. Au-delà du gypse, l'arrondissement présente aussi d'anciennes mares asséchées (étang de Ménilmontant), source de sols hétérogènes.",
+      "La gentrification rapide des dix dernières années — particulièrement à Belleville et au Bas-Ménilmontant — multiplie les rénovations lourdes sur du bâti ancien et fragile. La pression de la rénovation thermique, les modifications structurelles (suppressions de murs, surélévations) et les chantiers en copropriété génèrent un volume croissant de désordres post-travaux qui nécessitent une expertise indépendante."
+    ],
+    "pullquote": "Sur le 20e, derrière les façades des anciens villages, le sous-sol garde la mémoire d'un siècle d'exploitation du gypse — chaque expertise commence par l'IGC.",
+    "enjeux_locaux": [
+      "Anciennes carrières de gypse : risque résiduel d'affaissement (vérification IGC)",
+      "Anciens villages pré-1860 (Belleville, Charonne, Ménilmontant) : fondations rudimentaires",
+      "Gentrification et rénovations lourdes : désordres post-travaux fréquents",
+      "Anciennes mares asséchées (Ménilmontant) : sols hétérogènes",
+      "Pression de la rénovation thermique sur copropriétés vétustes"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Belleville",
+        "description": "Quartier emblématique, ancien village. Bâti pré-haussmannien hétérogène, gentrification rapide. Pathologies dominantes : fissures sur fondations anciennes, désordres post-rénovation, pathologies de copropriété sur bâti vétuste."
+      },
+      {
+        "nom": "Ménilmontant",
+        "description": "Ancien village. Sous-sol marqué par d'anciennes mares asséchées et carrières de gypse. Pathologies : fissures de tassement, désordres patrimoniaux, risque d'affaissement localisé."
+      },
+      {
+        "nom": "Père-Lachaise",
+        "description": "Bordant le célèbre cimetière. Bâti haussmannien et Belle Époque dense. Pathologies : fissures de tassement sur fondations anciennes, désordres post-rénovation."
+      },
+      {
+        "nom": "Charonne",
+        "description": "Ancien village conservé en partie. Bâti hétérogène : maisons pré-haussmanniennes, immeubles 1900, opérations récentes. Pathologies : pathologies du bâti ancien, désordres en copropriété."
+      }
+    ],
+    "cas_locaux": [
+      "Affaissements localisés sur immeubles à proximité des anciennes carrières (vérification IGC)",
+      "Fissures structurelles sur bâti pré-1860 de Belleville et Ménilmontant",
+      "Désordres post-rénovation lourde sur copropriétés gentrifiées",
+      "Pathologies patrimoniales sur immeubles bourgeois 1900 de Père-Lachaise",
+      "Fissures sur extensions et surélévations mal exécutées sur bâti ancien"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-maison-ancienne", "raison": "Bâti pré-1900 dominant"},
+      {"slug": "fissure-structurelle", "raison": "Vigilance cavités gypse"},
+      {"slug": "expert-fissure-independant", "raison": "Crucial face à la pression rénovation et copropriété"}
+    ],
+    "villes_voisines": ["paris-11e", "paris-19e", "montreuil", "bagnolet"],
+    "faq_specific": [
+      {
+        "q": "J'ai acheté un appartement Belleville après rénovation, des fissures apparaissent — recours ?",
+        "r": "Si la rénovation a moins de 10 ans, la garantie décennale du constructeur ou de l'entreprise responsable des travaux s'applique. Notre rapport indépendant établit le caractère décennal des désordres et constitue la pièce centrale d'une demande d'indemnisation. La gentrification rapide du 20e a multiplié ce type de cas ces dernières années."
+      },
+      {
+        "q": "Mon immeuble Ménilmontant est ancien et se fissure de plus en plus — gypse ou bâti ?",
+        "r": "Pour le départager, deux étapes : consultation préalable de l'IGC pour vérifier l'existence d'une cavité connue, puis diagnostic visuel sur place pour caractériser les fissures (signature gypse vs signature bâti ancien). Cette double approche permet d'orienter la suite : étude géotechnique si suspicion cavité, traitement bâti ancien sinon."
+      },
+      {
+        "q": "Combien coûte une expertise fissure dans le 20e ?",
+        "r": "Pour un appartement parisien standard, comptez entre 900 € et 1 700 € HT. Pour un cas avec consultation IGC et coordination géotechnique, le tarif peut atteindre 2 500 € HT. Devis personnalisé et gratuit sous 24 h."
+      }
+    ]
   }
 }
