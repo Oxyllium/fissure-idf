@@ -1,0 +1,444 @@
+{
+  "_doc": "Contenu rédactionnel enrichi par ville (P0 et P1 pour étape 4, complété ensuite). Croisé avec idf-geo.json (quartiers, cp), seo-pages.json (title, meta, h1, gsc_insights) et dept-content.json (contexte régional).",
+
+  "92/boulogne-billancourt": {
+    "tier": "P0",
+    "accroche": "Du Trapèze réhabilité aux résidences haussmanniennes du Centre, Boulogne-Billancourt cumule des typologies de bâti très différentes — toutes traversées, à des degrés variés, par l'effet du chantier de la ligne 15 sud du Grand Paris Express.",
+    "intro_paragraphs": [
+      "Boulogne-Billancourt est la deuxième ville la plus peuplée d'Île-de-France hors Paris intra-muros. Son tissu urbain combine immeubles haussmanniens et Belle Époque autour de la mairie, ensembles modernes des années 1960-1980 sur le bas-Boulogne, et un quartier entièrement neuf — le Trapèze — construit sur les anciennes friches industrielles Renault depuis les années 2010. Cette diversité génère un échantillon complet des pathologies fissurations rencontrées en première couronne.",
+      "Le sous-sol communal est marqué par les alluvions de Seine, des couches d'argiles plastiques en sous-couche, et surtout d'importants remblais industriels accumulés sur près d'un siècle d'activité automobile. Ces remblais, dont la composition est hétérogène, ne tassent pas uniformément. Sur le Trapèze, des micro-tassements résiduels continuent d'être observés sur certaines copropriétés, malgré les fondations sur pieux profonds.",
+      "Le facteur le plus médiatisé reste l'impact du chantier de la ligne 15 sud du Grand Paris Express, dont les tunneliers traversent le territoire communal entre Pont-de-Sèvres et Issy-RER. Les vibrations et tassements résiduels ont généré un afflux de demandes d'expertise post-chantier sur les copropriétés situées dans la zone d'influence."
+    ],
+    "pullquote": "À Boulogne, une fissure peut venir d'une usine Renault disparue il y a 30 ans, d'une nappe de Seine, ou d'un tunnelier passé sous votre rue il y a six mois.",
+    "enjeux_locaux": [
+      "Quartier du Trapèze : remblais industriels et tassements résiduels sur résidences récentes (post-2010)",
+      "Bord de Seine : variations de nappe phréatique, particulièrement en cas de crue",
+      "Chantier ligne 15 sud du Grand Paris Express : référé préventif et expertises post-chantier",
+      "Bâti haussmannien et Belle Époque du Centre : pathologies de bâti ancien (fondations modestes)",
+      "Copropriétés des années 1960-1980 du Bas-Boulogne : grands ensembles collectifs vieillissants"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Trapèze",
+        "description": "Quartier entièrement reconstruit sur l'ancienne usine Renault. Bâti récent (2008-2020), souvent fondé sur pieux profonds. Pathologies dominantes : tassements résiduels des remblais sous-jacents, fissures de retrait sur enduits modernes, pathologies de copropriétés neuves (recours en garantie décennale)."
+      },
+      {
+        "nom": "Centre",
+        "description": "Cœur historique autour de la mairie. Bâti haussmannien et Belle Époque, immeubles bourgeois 1900-1930. Pathologies : fissures de tassement sur fondations anciennes peu profondes, fissures structurelles après modifications lourdes (suppression de murs porteurs, rénovations énergétiques)."
+      },
+      {
+        "nom": "Billancourt",
+        "description": "Bord de Seine, ancien cœur ouvrier. Bâti hétérogène : barres collectives années 1960, pavillonnaire intra-urbain, et Île Seguin reconvertie. Pathologies : sensibilité aux variations de nappe Seine, vibrations chantier ligne 15."
+      },
+      {
+        "nom": "Marcel-Sembat",
+        "description": "Quartier de transition vers Issy. Mixte de copropriétés modernes et de petits collectifs des années 1970. Pathologies de copropriété, fissures liées aux travaux du métro et à la densification récente."
+      }
+    ],
+    "cas_locaux": [
+      "Fissures sur copropriétés du Trapèze : tassements résiduels sur remblais industriels mal compactés",
+      "Désordres post-chantier ligne 15 sud sur immeubles du Bas-Boulogne",
+      "Fissures structurelles sur immeubles haussmanniens du Centre après rénovations lourdes",
+      "Fissures de pied de mur sur résidences du bord de Seine (variations de nappe phréatique)",
+      "Pathologies de copropriété sur grands ensembles 1960-1980 de Marcel-Sembat"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-horizontale", "raison": "Forme dominante sur copropriétés et bâti haussmannien"},
+      {"slug": "fissure-maison-ancienne", "raison": "Bâti Centre et début XXe nombreux"},
+      {"slug": "expert-fissure-independant", "raison": "Crucial pour expertise post-GPE et copropriétés"}
+    ],
+    "villes_voisines": ["issy-les-moulineaux", "neuilly-sur-seine", "levallois-perret", "courbevoie"],
+    "faq_specific": [
+      {
+        "q": "Mon immeuble du Trapèze présente des fissures, est-ce normal sur du neuf ?",
+        "r": "Le Trapèze est construit sur d'anciens remblais industriels Renault. Même avec des fondations sur pieux profonds, des micro-tassements résiduels sont observables sur certaines copropriétés livrées entre 2010 et 2018. Si les fissures dépassent 1 mm ou évoluent, la garantie décennale du promoteur s'applique pleinement — notre rapport indépendant établit le caractère décennal."
+      },
+      {
+        "q": "Mon appartement à Boulogne s'est fissuré après l'arrivée des tunneliers du GPE — quels recours ?",
+        "r": "Si votre immeuble se trouve dans la zone d'influence du chantier ligne 15 sud, la Société du Grand Paris a normalement réalisé un référé préventif (constat avant travaux). Vérifiez auprès de votre syndic. Une expertise post-chantier comparée à ce constat initial vous permet d'engager une demande d'indemnisation auprès de la Société du Grand Paris."
+      },
+      {
+        "q": "Combien coûte une expertise fissure à Boulogne-Billancourt ?",
+        "r": "Pour un appartement standard à Boulogne, comptez entre 800 € et 1 600 € HT selon la surface et la complexité. Pour une expertise post-chantier GPE ou en copropriété (parties communes), le tarif peut atteindre 2 500 € HT. Devis personnalisé et gratuit transmis sous 24 h ouvrées."
+      }
+    ]
+  },
+
+  "93/saint-denis": {
+    "tier": "P0",
+    "accroche": "Saint-Denis est la commune francilienne la plus exposée à la dissolution du gypse antéludien. À cela s'ajoutent les chantiers de Pleyel — l'un des plus importants nœuds du Grand Paris Express — et un patrimoine pavillonnaire d'avant-guerre fragile.",
+    "intro_paragraphs": [
+      "Saint-Denis cumule trois facteurs de risque rarement réunis sur un même territoire : un sous-sol marqué par d'épaisses couches de gypse antéludien sujet à dissolution, un héritage industriel lourd qui a laissé partout des remblais hétérogènes, et un parc bâti dominé par le pavillonnaire d'entre-deux-guerres construit sur fondations rudimentaires. C'est, statistiquement, la commune francilienne où la demande d'expertise fissure est la plus dense au mètre carré.",
+      "Le gypse — roche soluble dans l'eau — constitue par endroits des bancs de plusieurs mètres d'épaisseur sous le territoire dyonisien. Lentement, au fil des décennies, l'infiltration des eaux pluviales et des fuites de réseau dissout le gypse, créant des cavités souterraines qui peuvent provoquer des affaissements localisés en surface, parfois brutaux. Plusieurs sinistres marquants ont été documentés ces dernières années à Saint-Denis et dans les communes voisines.",
+      "À cette géologie complexe s'ajoute aujourd'hui l'impact du chantier exceptionnel de Pleyel — futur hub multimodal du Grand Paris Express, intersection des lignes 14, 15, 16 et 17. Les opérations de creusement, de pompage de nappe et de modification des sols autour de ce chantier ont généré une vague de demandes d'expertise sur les bâtiments environnants. L'héritage post-Jeux Olympiques 2024 a amplifié cette dynamique, notamment autour du Stade de France et du Village des athlètes."
+    ],
+    "pullquote": "À Saint-Denis, une fissure raconte presque toujours une histoire géologique : celle du gypse qui se dissout, des remblais industriels mal stabilisés, ou du tunnelier qui vient de passer.",
+    "enjeux_locaux": [
+      "Dissolution du gypse antéludien : risque de cavités et d'affaissements localisés",
+      "Anciens remblais industriels : sols hétérogènes, héritage de plus d'un siècle d'activité",
+      "Pavillonnaire d'entre-deux-guerres en briques creuses : fondations rudimentaires",
+      "Chantier de Pleyel : pôle multimodal GPE, modifications massives du sous-sol",
+      "Héritage post-JO 2024 : aménagements importants autour du Stade de France et de la basilique"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Pleyel",
+        "description": "Quartier en transformation profonde, accueillant l'un des plus gros chantiers du Grand Paris Express. Bâti hétérogène : tours récentes, anciennes friches industrielles, pavillonnaire ancien. Pathologies dominantes : désordres post-chantier liés au pompage de nappe, vibrations des tunneliers, tassements sur remblais industriels."
+      },
+      {
+        "nom": "Centre",
+        "description": "Autour de la basilique, bâti historique mêlé à des résidences plus récentes. Pathologies typiques : tassements lents sur fondations anciennes, fissures liées à la nappe phréatique élevée, désordres patrimoniaux sur immeubles XIXe et début XXe."
+      },
+      {
+        "nom": "Franc-Moisin",
+        "description": "Grand ensemble emblématique des années 1970, en cours de réhabilitation. Pathologies typiques : pathologies de copropriété, fissures structurelles sur tours et barres, désordres liés aux interventions en sous-œuvre récentes."
+      },
+      {
+        "nom": "Floréal",
+        "description": "Quartier pavillonnaire d'entre-deux-guerres, particulièrement exposé au gypse antéludien. Pathologies dominantes : affaissements localisés signalant des cavités, fissures multi-directionnelles convergentes, pathologies du pavillonnaire ancien (briques creuses, fondations sommaires)."
+      }
+    ],
+    "cas_locaux": [
+      "Affaissements localisés sur pavillons des quartiers Floréal et Allende (suspicion cavité gypse)",
+      "Fissures structurelles importantes après pompage de nappe dans la zone Pleyel",
+      "Désordres en réhabilitation sur tours du Franc-Moisin et de la Cité des Cosmonautes",
+      "Pathologies post-chantier GPE (lignes 16-17) sur résidences proximité tracés",
+      "Fissures sur pavillons d'entre-deux-guerres en briques creuses, sans chaînage"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-structurelle", "raison": "Risque d'effondrement local lié au gypse, diagnostic prioritaire"},
+      {"slug": "fissure-maison-ancienne", "raison": "Pavillonnaire d'avant 1940 dominant"},
+      {"slug": "expert-fissure-independant", "raison": "Enjeu fort face aux chantiers GPE et JO 2024"}
+    ],
+    "villes_voisines": ["aubervilliers", "pantin", "bobigny", "drancy"],
+    "faq_specific": [
+      {
+        "q": "Mon pavillon à Saint-Denis présente un affaissement, est-ce une cavité de gypse ?",
+        "r": "Possible. Les signatures visibles d'une cavité de dissolution incluent : un affaissement localisé d'un coin de la maison, des fissures multi-directionnelles convergeant vers un point, une déformation du plancher (chien qui coule). Si plusieurs de ces indices sont présents, une étude géotechnique avec sondages s'impose en complément du diagnostic visuel — nous pouvons coordonner cette étape."
+      },
+      {
+        "q": "Mon immeuble est sur le tracé GPE — quels recours en cas de fissure ?",
+        "r": "Vérifiez l'existence d'un référé préventif réalisé avant le chantier (constat d'huissier, photos cotées). Si oui, conservez précieusement le document : une expertise post-chantier comparée à ce constat initial vous permet d'engager une demande d'indemnisation auprès de la Société du Grand Paris. Si non, l'expertise indépendante reste la pièce centrale de votre dossier."
+      },
+      {
+        "q": "Mon arrêté Cat-Nat sécheresse a été refusé pour Saint-Denis — quels recours ?",
+        "r": "Saint-Denis est moins exposée au RGA classique que les communes de grande couronne, mais ses sols hétérogènes peuvent malgré tout bouger lors des sécheresses. Si Cat-Nat est refusé, la cause peut relever d'un autre mécanisme : cavité de dissolution, vibrations chantier, défaut de construction. Notre expertise identifie la vraie cause et oriente vers la procédure adaptée."
+      }
+    ]
+  },
+
+  "95/argenteuil": {
+    "tier": "P0",
+    "accroche": "Argenteuil est l'une des communes du Val-d'Oise les plus durement frappées par les sécheresses récentes. Sur les argiles vertes de la couronne sud-est, le pavillonnaire des années 1950-1980 fissure massivement.",
+    "intro_paragraphs": [
+      "Argenteuil concentre les conditions classiques du sinistre RGA en grande couronne francilienne : un sous-sol dominé par les argiles vertes et les limons lœssiques de la plaine de France, un parc immobilier essentiellement pavillonnaire construit entre 1950 et 1980, et une exposition cyclique aux sécheresses qui s'est aggravée depuis 2018. La commune figure parmi les territoires du Val-d'Oise où les arrêtés de catastrophe naturelle sécheresse ont été les plus nombreux ces dernières années.",
+      "Le bâti pavillonnaire argenteuillais, typique de la couronne sud-est du 95, a souvent été construit en parpaing creux sur semelle filante peu profonde, sans étude géotechnique préalable. Les fondations, dimensionnées selon les standards de l'époque, ne supportent pas les mouvements importants du sol argileux lors des cycles sécheresse-réhumidification. Les fissures en escalier sur les façades, les lézardes au-dessus des ouvertures et les décollements d'annexes (vérandas, garages) sont les signatures les plus fréquentes.",
+      "Au-delà du pavillonnaire, la commune compte aussi des grands ensembles importants (Val-d'Argent notamment), des résidences plus récentes en bord de Seine, et un centre ancien autour de la mairie. Chaque typologie présente ses propres pathologies fissurations, ce qui demande une lecture différenciée pour chaque cas."
+    ],
+    "pullquote": "À Argenteuil, les sécheresses des années 2020 ont sinistré plus de pavillons en cinq ans que les vingt années précédentes.",
+    "enjeux_locaux": [
+      "Argiles vertes et limons lœssiques : RGA très actif sur l'ensemble du territoire",
+      "Pavillonnaire 1950-1980 dominant : fondations superficielles non adaptées aux mouvements de sol",
+      "Multiplication des arrêtés Cat-Nat sécheresse depuis 2018",
+      "Grand ensemble Val-d'Argent : pathologies de copropriété sur tours et barres",
+      "Bord de Seine : sensibilité aux variations de nappe sur résidences récentes"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Centre",
+        "description": "Autour de la mairie et du marché. Bâti mixte : centre ancien, immeubles bourgeois XIXe, et résidences plus récentes. Pathologies typiques : fissures de tassement sur fondations anciennes, pathologies patrimoniales sur enduits chaux."
+      },
+      {
+        "nom": "Val-d'Argent",
+        "description": "Grand ensemble emblématique des années 1960-1970. Tours et barres en cours de réhabilitation progressive. Pathologies dominantes : pathologies de copropriété, fissures structurelles sur cages d'escalier, désordres post-réhabilitation."
+      },
+      {
+        "nom": "Orgemont",
+        "description": "Quartier pavillonnaire à dominante années 1950-1970, en zone d'aléa moyen à fort RGA. Fissures en escalier sur façades pavillonnaires, lézardes au-dessus des ouvertures, décollements d'annexes (vérandas, extensions)."
+      },
+      {
+        "nom": "Volembert",
+        "description": "Quartier mixte, partie pavillonnaire ancienne et partie réhabilitée. Pathologies typiques : RGA sur pavillons d'avant 1980, fissures liées au drainage périphérique défaillant."
+      }
+    ],
+    "cas_locaux": [
+      "Fissures en escalier sur façade pavillonnaire après les étés 2020 et 2022 (signature RGA classique)",
+      "Lézardes au-dessus des fenêtres et portes sur pavillons de 1960-1980",
+      "Décollements d'extensions et vérandas par tassement différentiel",
+      "Désordres en copropriété sur tours du Val-d'Argent en réhabilitation",
+      "Microfissures évolutives sur enduits ciment de pavillons d'Orgemont"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-secheresse-rga", "raison": "Argenteuil est l'une des communes 95 les plus exposées"},
+      {"slug": "fissure-parpaing", "raison": "Le pavillonnaire argenteuillais est massivement en parpaing"},
+      {"slug": "fissure-horizontale", "raison": "Forme typique sur bas de murs de pavillon affecté par RGA"}
+    ],
+    "villes_voisines": ["bezons", "sarcelles", "ermont", "franconville"],
+    "faq_specific": [
+      {
+        "q": "Argenteuil a-t-elle été reconnue Cat-Nat sécheresse récemment ?",
+        "r": "Oui, à plusieurs reprises depuis 2018. La commune figure parmi les plus exposées du Val-d'Oise. La liste précise des années reconnues est mise à jour par arrêté ministériel publié au Journal Officiel — nous la vérifions systématiquement lors de votre demande de devis."
+      },
+      {
+        "q": "Mon pavillon à Orgemont est fissuré, suis-je éligible à une indemnisation ?",
+        "r": "Si votre commune (Argenteuil) a été reconnue Cat-Nat sécheresse pour l'année concernée, et si les fissures sont compatibles avec une cause RGA, oui. Vous disposez de 30 jours après publication de l'arrêté pour déclarer le sinistre à votre assurance. Notre expertise indépendante vous fournit le diagnostic technique nécessaire et accélère le traitement de votre dossier."
+      },
+      {
+        "q": "Mon expert d'assurance a chiffré l'indemnisation très bas, que faire ?",
+        "r": "C'est très fréquent : l'expert d'assurance défend les intérêts de votre assureur. Une contre-expertise indépendante (notre rôle d'expert d'assuré) permet souvent d'augmenter sensiblement l'indemnisation finale, en argumentant techniquement chaque poste de travaux et en documentant les surcoûts spécifiques au RGA actif (drainage, écran anti-racines, reprise en sous-œuvre)."
+      }
+    ]
+  },
+
+  "91/evry-courcouronnes": {
+    "tier": "P0",
+    "accroche": "Évry-Courcouronnes, créée en 2019 par fusion, présente une diversité bâtie peu commune : grands ensembles emblématiques des Pyramides, pavillonnaire dense, cathédrale moderne et opérations urbaines récentes — toutes traversées par un sous-sol argileux particulièrement actif.",
+    "intro_paragraphs": [
+      "Évry-Courcouronnes est née le 1er janvier 2019 de la fusion entre Évry et Courcouronnes. Son territoire s'étend sur des sols dominés par les argiles du Sannoisien et du Stampien, parmi les plus sensibles d'Île-de-France au phénomène de retrait-gonflement. Le pavillonnaire individuel et les ensembles collectifs y sont massivement exposés aux désordres causés par les sécheresses successives depuis 2018.",
+      "L'urbanisation de la ville nouvelle d'Évry, à partir des années 1970, a produit un patrimoine bâti hétérogène : grands ensembles iconiques (les Pyramides), résidences modernes, équipements monumentaux (cathédrale Mario Botta), pavillonnaire individuel pour les communes anciennes intégrées. Chacune de ces typologies présente ses pathologies fissurations propres : copropriétés post-construction sur les ensembles récents, RGA sur le pavillonnaire, désordres patrimoniaux sur les éléments architecturaux.",
+      "Le facteur RGA est ici central. La commune a été reconnue Cat-Nat sécheresse à plusieurs reprises ces dernières années, et le nombre de sinistres déclarés ne cesse de croître. Les fissures en escalier sur façades pavillonnaires, particulièrement marquées dans les quartiers de Courcouronnes et du Parc-aux-Lièvres, sont les signatures les plus communes."
+    ],
+    "pullquote": "À Évry-Courcouronnes, le sol argileux et les sécheresses récentes ont rendu le diagnostic fissure une quasi-routine pour les pavillonnaires.",
+    "enjeux_locaux": [
+      "Argiles du Sannoisien et du Stampien : RGA particulièrement actif",
+      "Multiplication des arrêtés Cat-Nat sécheresse depuis 2018",
+      "Pavillonnaire individuel dense, fondations souvent insuffisantes",
+      "Grands ensembles des Pyramides : pathologies de copropriété spécifiques",
+      "Quartiers récents : tassements résiduels sur sols rapportés"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Évry-Centre",
+        "description": "Cœur urbain reconstruit dans les années 1970-1980 autour du centre commercial. Bâti récent sur sols souvent rapportés ou aménagés. Pathologies typiques : tassements résiduels, fissures sur résidences modernes, désordres en copropriété."
+      },
+      {
+        "nom": "Pyramides",
+        "description": "Grand ensemble emblématique de l'architecture des années 1970, en cours de réhabilitation progressive. Pathologies dominantes : pathologies de copropriété, fissures structurelles sur cages d'escalier et façades, désordres post-rénovation thermique."
+      },
+      {
+        "nom": "Parc-aux-Lièvres",
+        "description": "Quartier pavillonnaire majoritairement, particulièrement exposé au RGA. Signatures classiques : fissures en escalier sur façades, lézardes au-dessus des ouvertures, fissures horizontales hauteur plancher haut."
+      },
+      {
+        "nom": "Courcouronnes",
+        "description": "Ancienne commune intégrée. Mixte de pavillonnaire ancien (avant 1980), résidences récentes et zones d'activité. RGA marqué sur le pavillonnaire, désordres post-chantier sur les opérations urbaines récentes."
+      }
+    ],
+    "cas_locaux": [
+      "Fissures en escalier sur façade pavillonnaire post-sécheresses 2020 et 2022 (RGA classique)",
+      "Désordres structurels sur résidences des années 1970-1980",
+      "Pathologies de copropriété sur grands ensembles des Pyramides",
+      "Fissures sur extensions et annexes mal liaisonnées au bâti principal",
+      "Désordres sur pavillons construits sur remblais ou sols rapportés (quartiers récents)"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-secheresse-rga", "raison": "Évry-Courcouronnes figure parmi les communes 91 les plus sinistrées"},
+      {"slug": "fissure-parpaing", "raison": "Pavillonnaire dominant en parpaing creux"},
+      {"slug": "fissure-horizontale", "raison": "Forme typique sur murs pavillonnaires affectés par RGA"}
+    ],
+    "villes_voisines": ["corbeil-essonnes", "massy", "viry-chatillon", "savigny-sur-orge"],
+    "faq_specific": [
+      {
+        "q": "Évry-Courcouronnes est-elle reconnue Cat-Nat sécheresse ?",
+        "r": "Oui, à plusieurs reprises depuis 2018, comme la majorité des communes de l'Essonne. Les arrêtés sont publiés par décret au Journal Officiel — nous vérifions systématiquement la liste à jour pour votre commune lors de votre demande."
+      },
+      {
+        "q": "Mon pavillon à Courcouronnes ou Parc-aux-Lièvres se fissure, est-ce le RGA ?",
+        "r": "Très probablement, surtout si les fissures sont apparues fin d'été ou à l'automne et présentent un dessin en escalier sur les façades. Une expertise visuelle confirme l'origine RGA et permet d'enclencher la déclaration Cat-Nat. Le diagnostic chiffre également les travaux nécessaires (drainage, agrafage, reprise en sous-œuvre selon les cas)."
+      },
+      {
+        "q": "Combien coûte une expertise fissure à Évry-Courcouronnes ?",
+        "r": "Pour un pavillon individuel standard, comptez entre 900 € et 1 600 € HT selon la surface et le nombre de fissures à analyser. En cas de sinistre Cat-Nat reconnu, ce coût peut être pris en charge dans le cadre de la contre-expertise face à l'expert d'assurance. Devis personnalisé sous 24 h."
+      }
+    ]
+  },
+
+  "93/montreuil": {
+    "tier": "P0",
+    "accroche": "Du Bas-Montreuil bohème aux pavillons des Ruffins, la ville cumule un sous-sol gypseux complexe, un héritage industriel reconverti et un patrimoine pavillonnaire ancien — trois facteurs de fissuration souvent combinés.",
+    "intro_paragraphs": [
+      "Montreuil est l'une des villes les plus contrastées du 93. Le Bas-Montreuil, en frontière directe avec Paris 20e, présente un bâti dense haussmannien et industriel reconverti, en pleine gentrification depuis vingt ans. Le Centre et les quartiers Ruffins, Ramenas dominent par un pavillonnaire majoritairement d'entre-deux-guerres, construit sur fondations rudimentaires sur des sols complexes.",
+      "Le sous-sol communal est marqué, comme l'ensemble du 93, par la présence de gypse antéludien sujet à dissolution — particulièrement dans les zones où la nappe phréatique est haute. À cela s'ajoutent d'anciens remblais industriels (Montreuil a été un pôle de la chaussure, du jouet et de l'imprimerie) et d'anciennes carrières souterraines, surtout dans la partie nord de la commune.",
+      "Le pavillonnaire montreuillois — particulièrement dans les quartiers Ramenas, Bel-Air et Ruffins — date majoritairement des années 1920-1940. Construit en briques creuses ou parpaing sur fondations sommaires, sans chaînage horizontal, il vieillit mal sur des sols hétérogènes. Les sécheresses récentes ont accentué les pathologies fissurations, et la requalification en cours du Bas-Montreuil amplifie les désordres liés aux travaux dans les copropriétés voisines."
+    ],
+    "pullquote": "À Montreuil, les fissures parlent du gypse, des anciens vergers reconvertis en lotissements, et d'un siècle de modifications successives du bâti.",
+    "enjeux_locaux": [
+      "Sous-sol gypseux : risque de cavités de dissolution localisées",
+      "Anciens remblais industriels et carrières souterraines au nord",
+      "Pavillonnaire d'entre-deux-guerres : briques creuses sur fondations sommaires",
+      "Bas-Montreuil en gentrification : nombreuses copropriétés en rénovation lourde",
+      "Sensibilité aux sécheresses sur sols argileux superficiels (sud et est)"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Bas-Montreuil",
+        "description": "Quartier en frontière de Paris 20e, dense et en mutation. Mix d'immeubles haussmanniens, anciennes friches industrielles reconverties (Vitry-Mozinor, Mur-à-Pêches), et copropriétés récentes. Pathologies dominantes : désordres post-rénovation, fissures structurelles après suppression de murs porteurs, pathologies de copropriété en gentrification."
+      },
+      {
+        "nom": "Centre",
+        "description": "Cœur historique autour de la mairie. Bâti mixte : immeubles XIXe, pavillonnaire ancien, équipements publics. Pathologies typiques : fissures patrimoniales, désordres liés au sous-sol (gypse, anciens vergers reconvertis)."
+      },
+      {
+        "nom": "Ruffins",
+        "description": "Quartier majoritairement pavillonnaire, ancien et plus récent. Pathologies dominantes : RGA sur pavillonnaire ancien, fissures structurelles sur extensions mal liaisonnées, désordres liés aux modifications de drainage."
+      },
+      {
+        "nom": "Ramenas",
+        "description": "Quartier pavillonnaire d'entre-deux-guerres, en briques creuses sur fondations sommaires. Pathologies typiques : fissures en escalier sur façades, lézardes au-dessus des ouvertures, désordres patrimoniaux du bâti pré-1940."
+      }
+    ],
+    "cas_locaux": [
+      "Désordres post-rénovation sur copropriétés du Bas-Montreuil en gentrification",
+      "Affaissements localisés sur pavillons des quartiers nord (suspicion cavités gypse)",
+      "Fissures structurelles sur pavillons d'entre-deux-guerres en briques creuses",
+      "Lézardes au-dessus des ouvertures sur pavillons de Ramenas et Bel-Air",
+      "Désordres sur extensions et garages mal liaisonnés au bâti ancien"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-maison-ancienne", "raison": "Pavillonnaire d'avant 1940 dominant à Ramenas, Bel-Air, Ruffins"},
+      {"slug": "fissure-structurelle", "raison": "Risque cavités gypse au nord, pathologies post-rénovation Bas-Montreuil"},
+      {"slug": "expert-fissure-independant", "raison": "Crucial en copropriété et pour rénovations lourdes"}
+    ],
+    "villes_voisines": ["bagnolet", "fontenay-sous-bois", "vincennes", "pantin"],
+    "faq_specific": [
+      {
+        "q": "J'ai acheté un appartement Bas-Montreuil après rénovation, des fissures apparaissent — recours ?",
+        "r": "Si la rénovation a moins de 10 ans, la garantie décennale du constructeur ou de l'entreprise responsable des travaux s'applique. Notre rapport indépendant établit le caractère décennal des désordres (atteinte à la solidité ou à la destination de l'ouvrage) et constitue la pièce centrale d'une demande d'indemnisation."
+      },
+      {
+        "q": "Mon pavillon à Ramenas a 90 ans et se fissure de plus en plus — que faire ?",
+        "r": "Le pavillonnaire d'entre-deux-guerres montreuillois est particulièrement vulnérable au RGA et aux modifications hydrauliques voisines. Une expertise différencie les fissures de vie (stables, sans gravité) des fissures actives, et oriente sur les travaux les plus pertinents — souvent un drainage périphérique soigné suffit à stabiliser le bâti."
+      },
+      {
+        "q": "Je crains une cavité de gypse sous mon pavillon montreuillois, comment vérifier ?",
+        "r": "Les signatures visibles d'une cavité incluent un affaissement localisé, des fissures multi-directionnelles convergentes vers un point, et une déformation du plancher. Si plusieurs indices sont présents, une étude géotechnique avec sondages s'impose en complément du diagnostic visuel — nous coordonnons cette étape complémentaire."
+      }
+    ]
+  },
+
+  "75/paris-15e": {
+    "tier": "P0",
+    "accroche": "L'arrondissement le plus peuplé de Paris combine immeubles haussmanniens du Vaugirard, opérations modernes du Front-de-Seine et anciennes usines reconverties — sur un sous-sol où alternent calcaires, argiles vertes et remblais récents.",
+    "intro_paragraphs": [
+      "Le 15e est le plus peuplé des arrondissements parisiens — plus de 230 000 habitants — et l'un des plus contrastés. Le Vaugirard et Saint-Lambert présentent un bâti haussmannien dense, parfois antérieur, sur fondations modestes. Le Front-de-Seine et Beaugrenelle ont été reconstruits dans les années 1970 sur dalle artificielle. Javel et la Convention concentrent les opérations urbaines récentes sur les anciennes usines Citroën.",
+      "Le sous-sol parisien y est particulièrement complexe. Les couches superficielles d'argiles vertes alternent avec le calcaire grossier, et les rives de Seine — bord et plaine — sont marquées par des alluvions sensibles aux variations de nappe. Le quartier Javel-Citroën a, en plus, été construit sur d'anciens remblais industriels, ce qui complexifie la lecture des désordres post-construction.",
+      "Trois facteurs aggravants dominent sur le 15e : la pression du chantier de la ligne 15 sud du Grand Paris Express qui le traverse, la densité des modifications structurelles sur le bâti haussmannien (suppressions de murs porteurs, mises aux normes thermiques lourdes), et la sensibilité du Front-de-Seine aux mouvements lents de la dalle artificielle qui le supporte."
+    ],
+    "pullquote": "Sur le 15e, le sous-sol mêle calcaires, argiles et remblais industriels — chaque rue raconte une histoire géologique différente.",
+    "enjeux_locaux": [
+      "Bâti haussmannien dense du Vaugirard : fondations modestes, modifications structurelles fréquentes",
+      "Front-de-Seine et Beaugrenelle : dalle artificielle, mouvements lents observables",
+      "Javel-Citroën : reconversion industrielle, remblais hétérogènes",
+      "Chantier ligne 15 sud du Grand Paris Express : zone d'influence étendue",
+      "Bord de Seine : variations de nappe phréatique, ponts et quais"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Vaugirard",
+        "description": "Cœur historique de l'arrondissement. Bâti haussmannien et pré-haussmannien dense, sur calcaire grossier en sous-sol. Pathologies typiques : fissures de tassement sur fondations anciennes, désordres post-rénovation lourde, pathologies de copropriété sur immeubles XIXe."
+      },
+      {
+        "nom": "Grenelle",
+        "description": "Front-de-Seine et tours iconiques des années 1970, construits sur dalle artificielle. Pathologies dominantes : mouvements lents de la dalle support, désordres en copropriété sur tours, fissures liées aux variations de nappe Seine."
+      },
+      {
+        "nom": "Javel",
+        "description": "Quartier en reconversion massive depuis les années 1990 (anciennes usines Citroën, parc André-Citroën, opérations récentes). Pathologies typiques : tassements résiduels sur remblais industriels, fissures sur copropriétés récentes, désordres post-chantier."
+      },
+      {
+        "nom": "Saint-Lambert",
+        "description": "Sud de l'arrondissement, mixte de bâti haussmannien et d'opérations plus récentes. Pathologies typiques : fissures de tassement sur immeubles anciens, pathologies post-rénovation."
+      }
+    ],
+    "cas_locaux": [
+      "Fissures structurelles sur immeubles haussmanniens du Vaugirard après suppression de murs porteurs",
+      "Désordres sur tours du Front-de-Seine liés aux mouvements de la dalle artificielle",
+      "Tassements résiduels sur copropriétés récentes du quartier Javel-Citroën",
+      "Fissures post-chantier ligne 15 sud sur immeubles proximité tracés",
+      "Pathologies de copropriété sur immeubles bourgeois 1900-1930 de Saint-Lambert"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-horizontale", "raison": "Forme dominante sur copropriétés haussmanniennes"},
+      {"slug": "fissure-maison-ancienne", "raison": "Bâti pré-1950 majoritaire dans Vaugirard et Saint-Lambert"},
+      {"slug": "expert-fissure-independant", "raison": "Crucial en copropriété et face aux chantiers GPE"}
+    ],
+    "villes_voisines": ["paris-7e", "paris-14e", "paris-16e", "issy-les-moulineaux"],
+    "faq_specific": [
+      {
+        "q": "Mon immeuble Vaugirard se fissure après les travaux du voisin, quels recours ?",
+        "r": "Si les travaux du voisin (suppression de mur porteur, percement, dépose lourde) ont déstabilisé un mur ou une dalle commune, sa responsabilité civile est engagée. La procédure passe par le syndic et nécessite une expertise contradictoire. Notre rapport indépendant établit techniquement le lien de causalité — pièce centrale du dossier."
+      },
+      {
+        "q": "Le Front-de-Seine présente des fissures sur les tours, est-ce structurel ?",
+        "r": "Les tours du Front-de-Seine, construites dans les années 1970 sur une dalle artificielle, présentent des pathologies spécifiques liées aux mouvements lents de cette dalle support. Certaines fissures sont stabilisées et bénignes, d'autres révèlent des désordres actifs. Une expertise différencie clairement les deux et oriente les éventuels travaux."
+      },
+      {
+        "q": "Mon appartement à Javel a 10 ans et se fissure — décennale encore valide ?",
+        "r": "La garantie décennale court jusqu'aux 10 ans après livraison. Si vous êtes encore dans cette période, ne tardez pas : faites établir un rapport d'expertise indépendant qui caractérise le défaut décennal, et envoyez une mise en demeure par lettre recommandée à votre constructeur. Au-delà de la 10e année, vos recours sont fortement réduits."
+      }
+    ]
+  },
+
+  "75/paris-16e": {
+    "tier": "P0",
+    "accroche": "Auteuil-Passy concentre l'un des bâtis haussmanniens et Belle Époque les plus prestigieux de Paris, sur un sous-sol marqué par les anciennes carrières et les argiles vertes. Diagnostic d'expert pour copropriétés bourgeoises et hôtels particuliers.",
+    "intro_paragraphs": [
+      "Le 16e arrondissement présente un patrimoine architectural exceptionnel : immeubles haussmanniens et Belle Époque cossus à Auteuil et Passy, hôtels particuliers du Trocadéro et de Chaillot, résidences modernes du Bois et de Ranelagh. Cette qualité patrimoniale se conjugue avec un sous-sol complexe — argiles vertes, calcaire grossier, et anciens villages d'Auteuil et Passy intégrés à Paris au XIXe siècle dont les fondations sont parfois antérieures à 1860.",
+      "Le sous-sol communal est notamment marqué par la présence d'anciennes carrières souterraines, particulièrement dans la partie sud de l'arrondissement (Auteuil, Point-du-Jour). Bien qu'inspectées et consolidées progressivement, ces carrières peuvent encore générer des affaissements lents observables sur le bâti en surface. À cela s'ajoutent les variations saisonnières de la nappe phréatique en bord de Seine.",
+      "Les pathologies fissurations sur le 16e relèvent principalement de quatre familles : pathologies du bâti haussmannien sur fondations modestes, désordres post-rénovation lourde sur immeubles bourgeois et hôtels particuliers, pathologies de copropriété sur résidences modernes du Bois et du Trocadéro, et désordres ponctuels liés au sous-sol (carrières, nappe). La pression de la rénovation thermique (suppression de cloisons, mise aux normes énergétiques) accentue ces désordres ces dernières années."
+    ],
+    "pullquote": "Sur le 16e, derrière la sobriété des façades haussmanniennes, le sous-sol garde la mémoire des anciens villages d'Auteuil et Passy, et de leurs carrières souterraines.",
+    "enjeux_locaux": [
+      "Bâti haussmannien et Belle Époque cossu : fondations modestes, modifications structurelles fréquentes",
+      "Anciens villages d'Auteuil et Passy : fondations parfois antérieures à 1860",
+      "Anciennes carrières souterraines : risque d'affaissements lents (sud de l'arrondissement)",
+      "Pression de la rénovation thermique sur copropriétés haut de gamme",
+      "Bord de Seine et variations de nappe phréatique"
+    ],
+    "quartiers_focus": [
+      {
+        "nom": "Auteuil",
+        "description": "Ancien village intégré en 1860, bâti hétérogène : maisons de village pré-haussmanniennes, immeubles bourgeois 1900-1930, et résidences modernes. Pathologies typiques : fissures sur fondations anciennes, pathologies post-rénovation, désordres ponctuels liés aux carrières souterraines."
+      },
+      {
+        "nom": "Passy",
+        "description": "Quartier d'habitation cossu, dominé par les immeubles haussmanniens et Belle Époque. Pathologies dominantes : fissures structurelles après modifications lourdes (suppressions de murs porteurs, mises aux normes thermiques), pathologies de copropriété."
+      },
+      {
+        "nom": "Trocadéro",
+        "description": "Pôle institutionnel et patrimonial. Bâti monumental (Palais de Chaillot, Cité de l'Architecture) entouré de résidences modernes. Pathologies typiques : fissures sur immeubles anciens du Square Lamartine, désordres post-rénovation, sensibilité aux variations de nappe Seine."
+      },
+      {
+        "nom": "Chaillot",
+        "description": "Avenue Kléber, Boissière, Iéna. Bâti haussmannien dense et ambassades. Pathologies : fissures de tassement sur fondations anciennes, désordres post-rénovation lourde, pathologies de copropriété sur immeubles 1900-1930."
+      }
+    ],
+    "cas_locaux": [
+      "Fissures structurelles sur immeubles haussmanniens d'Auteuil après suppression de murs porteurs",
+      "Désordres post-rénovation thermique sur copropriétés bourgeoises de Passy",
+      "Affaissements localisés sur immeubles d'Auteuil-sud (suspicion ancienne carrière)",
+      "Fissures patrimoniales sur hôtels particuliers du Trocadéro",
+      "Pathologies de copropriété sur résidences modernes du Bois et du Ranelagh"
+    ],
+    "guides_recommandes": [
+      {"slug": "fissure-maison-ancienne", "raison": "Bâti haussmannien et pré-haussmannien dominant"},
+      {"slug": "fissure-horizontale", "raison": "Forme typique sur copropriétés haussmanniennes"},
+      {"slug": "expert-fissure-independant", "raison": "Crucial en copropriété et pour rénovations patrimoniales"}
+    ],
+    "villes_voisines": ["paris-15e", "paris-7e", "paris-17e", "boulogne-billancourt"],
+    "faq_specific": [
+      {
+        "q": "Mon immeuble haussmannien d'Auteuil se fissure après une rénovation thermique — recours ?",
+        "r": "Très fréquent : la mise aux normes thermique implique souvent la modification de cloisons, d'enduits et parfois de murs porteurs. Si la rénovation a fragilisé la structure, la responsabilité de l'entreprise est engagée (garantie décennale si moins de 10 ans, responsabilité contractuelle au-delà). Notre rapport indépendant établit techniquement le lien de causalité."
+      },
+      {
+        "q": "J'observe un affaissement localisé dans mon appartement d'Auteuil-sud, suspicion de carrière ?",
+        "r": "Possible. Le sud du 16e a connu d'importantes carrières souterraines, dont certaines ont été progressivement consolidées par l'IGC (Inspection Générale des Carrières). Une vérification auprès de l'IGC et un diagnostic visuel par un expert permettent d'identifier rapidement la cause probable. Si la suspicion de cavité est confirmée, une étude géotechnique complémentaire s'impose."
+      },
+      {
+        "q": "Combien coûte une expertise fissure dans le 16e arrondissement ?",
+        "r": "Pour un appartement haut de gamme, comptez entre 1 200 € et 2 200 € HT selon la surface et la complexité. Pour un hôtel particulier ou une copropriété (parties communes), le tarif peut atteindre 3 000 € HT. La haute qualité du bâti demande une lecture experte et un rapport particulièrement détaillé. Devis personnalisé et gratuit sous 24 h."
+      }
+    ]
+  }
+}

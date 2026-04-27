@@ -13,6 +13,7 @@ import { fileURLToPath } from "node:url";
 import { renderDept } from "./render-dept.mjs";
 import { renderGuide } from "./render-guide.mjs";
 import { renderGuideIndex } from "./render-guide-index.mjs";
+import { renderVille } from "./render-ville.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -20,11 +21,27 @@ const ROOT = join(__dirname, "..");
 const idfGeo = JSON.parse(readFileSync(join(ROOT, "data/idf-geo.json"), "utf8"));
 const deptContent = JSON.parse(readFileSync(join(ROOT, "data/dept-content.json"), "utf8"));
 const guideContent = JSON.parse(readFileSync(join(ROOT, "data/guide-content.json"), "utf8"));
+const villeContent = JSON.parse(readFileSync(join(ROOT, "data/ville-content.json"), "utf8"));
 const seoPages = JSON.parse(readFileSync(join(ROOT, "data/seo-pages.json"), "utf8"));
 
 // Index par code/slug pour lookups rapides
 const geoIndex = {
-  byCode: Object.fromEntries(idfGeo.departements.map(d => [d.code, d]))
+  byCode: Object.fromEntries(idfGeo.departements.map(d => [d.code, d])),
+  /** Trouve une ville par slug (sans code dept) ou par "code/slug". */
+  findVille(s) {
+    const parts = s.includes("/") ? s.split("/") : null;
+    if (parts && parts.length === 2) {
+      const dept = this.byCode[parts[0]];
+      const ville = dept?.villes.find(v => v.slug === parts[1]);
+      return ville ? { ville, dept } : null;
+    }
+    // Recherche dans tous les depts
+    for (const dept of idfGeo.departements) {
+      const ville = dept.villes.find(v => v.slug === s);
+      if (ville) return { ville, dept };
+    }
+    return null;
+  }
 };
 const allGuidesSeo = Object.fromEntries(
   seoPages.pages_statiques
@@ -36,7 +53,7 @@ const allGuidesSeo = Object.fromEntries(
 );
 const guideIndexSeo = seoPages.pages_statiques.find(p => p.type === "guide_index");
 
-let counts = { dept: 0, guide: 0, index: 0 };
+let counts = { dept: 0, guide: 0, index: 0, ville: 0 };
 
 // ----- 1. Piliers départementaux -------------------------------------------
 console.log("\n— Piliers départementaux —");
@@ -93,4 +110,36 @@ if (guideIndexSeo) {
   counts.index++;
 }
 
-console.log(`\n${counts.dept + counts.guide + counts.index} page(s) générée(s) — ${counts.dept} dépt, ${counts.guide} guides, ${counts.index} index.`);
+// ----- 4. Pages villes ------------------------------------------------------
+console.log("\n— Villes —");
+const allGuidesSeoForVille = allGuidesSeo;
+for (const dept of idfGeo.departements) {
+  const code = dept.code;
+  for (const ville of dept.villes) {
+    const villeKey = `${code}/${ville.slug}`;
+    const content = villeContent[villeKey]; // null si non enrichie (étapes 5-7)
+    const seo = seoPages.pages_statiques.find(p => p.slug === `/${code}/${ville.slug}/` && p.type === "ville");
+    if (!seo) continue;
+    // Étape 4 : on ne génère que les villes ayant un content enrichi (P0)
+    // Étapes 5-7 : on retirera ce filtre pour générer les 78 villes.
+    if (!content) continue;
+
+    const html = renderVille({
+      ville,
+      dept,
+      deptContent: deptContent[code],
+      content,
+      seo,
+      geoIndex,
+      allGuidesSeo: allGuidesSeoForVille
+    });
+    const outPath = join(ROOT, code, ville.slug, "index.html");
+    mkdirSync(dirname(outPath), { recursive: true });
+    writeFileSync(outPath, html, "utf8");
+    const tier = content?.tier || "—";
+    console.log(`✓ /${code}/${ville.slug}/ [${tier}] (${(html.length / 1024).toFixed(1)} KB)`);
+    counts.ville++;
+  }
+}
+
+console.log(`\n${counts.dept + counts.guide + counts.index + counts.ville} page(s) générée(s) — ${counts.dept} dépt, ${counts.guide} guides, ${counts.index} index, ${counts.ville} villes.`);
