@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Pages utilitaires non indexables
+Disallow: /mentions-legales/
+
+Sitemap: https://expert-fissure-idf.fr/sitemap.xml

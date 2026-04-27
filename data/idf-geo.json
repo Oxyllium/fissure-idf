@@ -1,0 +1,1094 @@
+{
+  "region": {
+    "code": "IDF",
+    "name": "Île-de-France",
+    "slug": "ile-de-france",
+    "population_approx": 12400000,
+    "superficie_km2": 12012,
+    "nb_departements": 8,
+    "nb_communes": 1268,
+    "chef_lieu": "Paris",
+    "climat": "Océanique dégradé, avec étés de plus en plus chauds et secs (stress hydrique sur les sols argileux)",
+    "contexte_fissures": "L'Île-de-France est l'une des régions les plus exposées au phénomène de retrait-gonflement des argiles (RGA) en France. Environ 48% du territoire régional est classé en aléa moyen à fort. Combiné à un parc immobilier ancien (beaucoup d'immeubles haussmanniens, pavillons de banlieue d'avant-guerre) et à la densité des fondations sur sols hétérogènes, ce contexte génère une forte demande d'expertise fissure.",
+    "sols_dominants": [
+      "Argiles plastiques (sensibles au RGA)",
+      "Marnes et calcaires (Lutétien, Bartonien)",
+      "Gypse (Paris, Montmartre, nord-est)",
+      "Alluvions de Seine, Marne et Oise",
+      "Sables et grès de Fontainebleau (sud)"
+    ],
+    "typologies_bati": [
+      "Immeubles haussmanniens et pré-haussmanniens (Paris intra-muros)",
+      "Pavillons de banlieue 1920-1960 (petite et grande couronne)",
+      "Grands ensembles collectifs années 1960-1980",
+      "Résidences et copropriétés modernes",
+      "Maisons individuelles récentes (ZAC, lotissements périurbains)"
+    ],
+    "causes_frequentes_idf": [
+      "Retrait-gonflement des argiles (RGA) lié aux sécheresses successives",
+      "Fondations sous-dimensionnées dans le bâti ancien",
+      "Dissolution du gypse (carrières souterraines, nord de Paris)",
+      "Vibrations chantiers (Grand Paris Express, ligne 15, 16, 17, 18)",
+      "Tassements différentiels sur remblais",
+      "Infiltrations et pression hydrostatique en zones inondables"
+    ]
+  },
+  "departements": [
+    {
+      "code": "75",
+      "name": "Paris",
+      "slug": "75",
+      "nom_long": "Paris",
+      "chef_lieu": "Paris",
+      "population_approx": 2100000,
+      "nb_communes": 1,
+      "tribunal_competent": "Tribunal judiciaire de Paris",
+      "contexte_fissures": "Sous-sol parisien hétérogène (carrières, gypse, argiles vertes). Bâti historique majoritairement haussmannien avec fondations peu profondes. Les vibrations du Grand Paris Express et des chantiers de rénovation urbaine sollicitent fortement les structures.",
+      "sols_dominants": [
+        "Calcaire grossier",
+        "Argiles vertes",
+        "Gypse (rive droite)",
+        "Remblais anciens"
+      ],
+      "bati_dominant": "Immeubles haussmanniens, hôtels particuliers, immeubles Art déco et modernes",
+      "villes": [
+        {
+          "name": "Paris 1er",
+          "slug": "paris-1er",
+          "cp": "75001",
+          "population": 16000,
+          "quartiers": [
+            "Les Halles",
+            "Palais-Royal",
+            "Louvre",
+            "Vendôme"
+          ]
+        },
+        {
+          "name": "Paris 2e",
+          "slug": "paris-2e",
+          "cp": "75002",
+          "population": 22000,
+          "quartiers": [
+            "Sentier",
+            "Bourse",
+            "Vivienne",
+            "Mail"
+          ]
+        },
+        {
+          "name": "Paris 3e",
+          "slug": "paris-3e",
+          "cp": "75003",
+          "population": 35000,
+          "quartiers": [
+            "Haut Marais",
+            "Arts-et-Métiers",
+            "Enfants-Rouges",
+            "Archives"
+          ]
+        },
+        {
+          "name": "Paris 4e",
+          "slug": "paris-4e",
+          "cp": "75004",
+          "population": 28000,
+          "quartiers": [
+            "Marais",
+            "Île Saint-Louis",
+            "Saint-Merri",
+            "Notre-Dame"
+          ]
+        },
+        {
+          "name": "Paris 5e",
+          "slug": "paris-5e",
+          "cp": "75005",
+          "population": 60000,
+          "quartiers": [
+            "Quartier Latin",
+            "Mouffetard",
+            "Jardin des Plantes",
+            "Val-de-Grâce"
+          ]
+        },
+        {
+          "name": "Paris 6e",
+          "slug": "paris-6e",
+          "cp": "75006",
+          "population": 40000,
+          "quartiers": [
+            "Saint-Germain-des-Prés",
+            "Odéon",
+            "Monnaie",
+            "Luxembourg"
+          ]
+        },
+        {
+          "name": "Paris 7e",
+          "slug": "paris-7e",
+          "cp": "75007",
+          "population": 52000,
+          "quartiers": [
+            "Invalides",
+            "Gros-Caillou",
+            "École militaire",
+            "Saint-Thomas-d'Aquin"
+          ]
+        },
+        {
+          "name": "Paris 8e",
+          "slug": "paris-8e",
+          "cp": "75008",
+          "population": 37000,
+          "quartiers": [
+            "Champs-Élysées",
+            "Madeleine",
+            "Europe",
+            "Faubourg-du-Roule"
+          ]
+        },
+        {
+          "name": "Paris 9e",
+          "slug": "paris-9e",
+          "cp": "75009",
+          "population": 60000,
+          "quartiers": [
+            "Opéra",
+            "Pigalle",
+            "Saint-Georges",
+            "Rochechouart"
+          ]
+        },
+        {
+          "name": "Paris 10e",
+          "slug": "paris-10e",
+          "cp": "75010",
+          "population": 90000,
+          "quartiers": [
+            "Gare du Nord",
+            "Gare de l'Est",
+            "Canal Saint-Martin",
+            "Porte Saint-Denis"
+          ]
+        },
+        {
+          "name": "Paris 11e",
+          "slug": "paris-11e",
+          "cp": "75011",
+          "population": 145000,
+          "quartiers": [
+            "Bastille",
+            "République",
+            "Roquette",
+            "Folie-Méricourt"
+          ]
+        },
+        {
+          "name": "Paris 12e",
+          "slug": "paris-12e",
+          "cp": "75012",
+          "population": 140000,
+          "quartiers": [
+            "Bercy",
+            "Bel-Air",
+            "Picpus",
+            "Nation"
+          ]
+        },
+        {
+          "name": "Paris 13e",
+          "slug": "paris-13e",
+          "cp": "75013",
+          "population": 180000,
+          "quartiers": [
+            "Place d'Italie",
+            "Butte-aux-Cailles",
+            "Gare",
+            "Maison Blanche"
+          ]
+        },
+        {
+          "name": "Paris 14e",
+          "slug": "paris-14e",
+          "cp": "75014",
+          "population": 135000,
+          "quartiers": [
+            "Montparnasse",
+            "Alésia",
+            "Plaisance",
+            "Parc-Montsouris"
+          ]
+        },
+        {
+          "name": "Paris 15e",
+          "slug": "paris-15e",
+          "cp": "75015",
+          "population": 230000,
+          "quartiers": [
+            "Vaugirard",
+            "Grenelle",
+            "Javel",
+            "Saint-Lambert"
+          ]
+        },
+        {
+          "name": "Paris 16e",
+          "slug": "paris-16e",
+          "cp": "75016",
+          "population": 165000,
+          "quartiers": [
+            "Auteuil",
+            "Passy",
+            "Trocadéro",
+            "Chaillot"
+          ]
+        },
+        {
+          "name": "Paris 17e",
+          "slug": "paris-17e",
+          "cp": "75017",
+          "population": 170000,
+          "quartiers": [
+            "Batignolles",
+            "Ternes",
+            "Monceau",
+            "Épinettes"
+          ]
+        },
+        {
+          "name": "Paris 18e",
+          "slug": "paris-18e",
+          "cp": "75018",
+          "population": 195000,
+          "quartiers": [
+            "Montmartre",
+            "Barbès",
+            "Clignancourt",
+            "Goutte d'Or"
+          ]
+        },
+        {
+          "name": "Paris 19e",
+          "slug": "paris-19e",
+          "cp": "75019",
+          "population": 185000,
+          "quartiers": [
+            "Buttes-Chaumont",
+            "La Villette",
+            "Combat",
+            "Pont-de-Flandre"
+          ]
+        },
+        {
+          "name": "Paris 20e",
+          "slug": "paris-20e",
+          "cp": "75020",
+          "population": 195000,
+          "quartiers": [
+            "Belleville",
+            "Ménilmontant",
+            "Père-Lachaise",
+            "Charonne"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "77",
+      "name": "Seine-et-Marne",
+      "slug": "77",
+      "nom_long": "Seine-et-Marne",
+      "chef_lieu": "Melun",
+      "population_approx": 1440000,
+      "nb_communes": 507,
+      "tribunal_competent": "Tribunal judiciaire de Melun",
+      "contexte_fissures": "Département le plus étendu d'IDF, majoritairement rural, avec un sous-sol très exposé au RGA (argiles vertes, marnes). Zone fortement sinistrée lors des arrêtés catastrophe naturelle sécheresse de 2018-2023. Bâti pavillonnaire dominant.",
+      "sols_dominants": [
+        "Argiles vertes",
+        "Marnes supra-gypseuses",
+        "Limons des plateaux",
+        "Sables de Fontainebleau (sud)"
+      ],
+      "bati_dominant": "Pavillonnaire années 1960-2000, centres-bourgs anciens, ZAC récentes",
+      "villes": [
+        {
+          "name": "Meaux",
+          "slug": "meaux",
+          "cp": "77100",
+          "population": 56000,
+          "quartiers": [
+            "Centre",
+            "Beauval",
+            "Pierre-Collinet",
+            "Dunant"
+          ]
+        },
+        {
+          "name": "Melun",
+          "slug": "melun",
+          "cp": "77000",
+          "population": 41000,
+          "quartiers": [
+            "Centre",
+            "Plateau de Corbeil",
+            "Almont",
+            "Montaigu"
+          ]
+        },
+        {
+          "name": "Chelles",
+          "slug": "chelles",
+          "cp": "77500",
+          "population": 55000,
+          "quartiers": [
+            "Centre",
+            "Mont-Chalats",
+            "Coudreaux",
+            "Foch"
+          ]
+        },
+        {
+          "name": "Pontault-Combault",
+          "slug": "pontault-combault",
+          "cp": "77340",
+          "population": 39000,
+          "quartiers": [
+            "Centre",
+            "Les Berchères",
+            "La Robinière"
+          ]
+        },
+        {
+          "name": "Savigny-le-Temple",
+          "slug": "savigny-le-temple",
+          "cp": "77176",
+          "population": 31000,
+          "quartiers": [
+            "Centre",
+            "Plessis-le-Roi",
+            "Droits-de-l'Homme"
+          ]
+        },
+        {
+          "name": "Torcy",
+          "slug": "torcy",
+          "cp": "77200",
+          "population": 23000,
+          "quartiers": [
+            "Centre",
+            "Arche-Guédon",
+            "Les Totems"
+          ]
+        },
+        {
+          "name": "Lagny-sur-Marne",
+          "slug": "lagny-sur-marne",
+          "cp": "77400",
+          "population": 22000,
+          "quartiers": [
+            "Centre",
+            "Orme-Bossu",
+            "Saint-Jean"
+          ]
+        },
+        {
+          "name": "Fontainebleau",
+          "slug": "fontainebleau",
+          "cp": "77300",
+          "population": 15000,
+          "quartiers": [
+            "Centre historique",
+            "Avon",
+            "Les Basses-Loges"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "78",
+      "name": "Yvelines",
+      "slug": "78",
+      "nom_long": "Yvelines",
+      "chef_lieu": "Versailles",
+      "population_approx": 1455000,
+      "nb_communes": 259,
+      "tribunal_competent": "Tribunal judiciaire de Versailles",
+      "contexte_fissures": "Département contrasté : zones urbaines denses à l'est (Versailles, Saint-Germain), zones rurales à l'ouest. RGA très présent en vallée de Seine et dans le Mantois. Sols de craie et calcaires en profondeur, argiles et limons en surface.",
+      "sols_dominants": [
+        "Argile à meulières",
+        "Calcaire de Saint-Ouen",
+        "Craie",
+        "Alluvions de Seine"
+      ],
+      "bati_dominant": "Pavillonnaire cossu (ouest parisien), bâti historique (Versailles, Saint-Germain), grands ensembles (Trappes, Mantes)",
+      "villes": [
+        {
+          "name": "Versailles",
+          "slug": "versailles",
+          "cp": "78000",
+          "population": 85000,
+          "quartiers": [
+            "Notre-Dame",
+            "Saint-Louis",
+            "Clagny-Glatigny",
+            "Montreuil"
+          ]
+        },
+        {
+          "name": "Saint-Germain-en-Laye",
+          "slug": "saint-germain-en-laye",
+          "cp": "78100",
+          "population": 45000,
+          "quartiers": [
+            "Centre",
+            "Bel-Air",
+            "Pereire",
+            "Hôpital"
+          ]
+        },
+        {
+          "name": "Poissy",
+          "slug": "poissy",
+          "cp": "78300",
+          "population": 38000,
+          "quartiers": [
+            "Centre",
+            "Beauregard",
+            "Saint-Exupéry"
+          ]
+        },
+        {
+          "name": "Sartrouville",
+          "slug": "sartrouville",
+          "cp": "78500",
+          "population": 52000,
+          "quartiers": [
+            "Centre",
+            "Vieux Pays",
+            "Plateau"
+          ]
+        },
+        {
+          "name": "Mantes-la-Jolie",
+          "slug": "mantes-la-jolie",
+          "cp": "78200",
+          "population": 45000,
+          "quartiers": [
+            "Centre",
+            "Val-Fourré",
+            "Gassicourt"
+          ]
+        },
+        {
+          "name": "Trappes",
+          "slug": "trappes",
+          "cp": "78190",
+          "population": 33000,
+          "quartiers": [
+            "Plaine de Neauphle",
+            "Merisiers",
+            "Aérostat"
+          ]
+        },
+        {
+          "name": "Guyancourt",
+          "slug": "guyancourt",
+          "cp": "78280",
+          "population": 30000,
+          "quartiers": [
+            "Villaroy",
+            "Parc",
+            "Europe"
+          ]
+        },
+        {
+          "name": "Rambouillet",
+          "slug": "rambouillet",
+          "cp": "78120",
+          "population": 26000,
+          "quartiers": [
+            "Centre",
+            "Clairefontaine",
+            "Groussay"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "91",
+      "name": "Essonne",
+      "slug": "91",
+      "nom_long": "Essonne",
+      "chef_lieu": "Évry-Courcouronnes",
+      "population_approx": 1320000,
+      "nb_communes": 194,
+      "tribunal_competent": "Tribunal judiciaire d'Évry",
+      "contexte_fissures": "Département avec un fort taux de sinistres sécheresse (argiles du Stampien, Sannoisien). Bâti pavillonnaire très développé en grande couronne, particulièrement exposé au RGA.",
+      "sols_dominants": [
+        "Argiles du Sannoisien et du Stampien",
+        "Sables de Fontainebleau",
+        "Marnes vertes",
+        "Limons"
+      ],
+      "bati_dominant": "Pavillonnaire individuel, centres anciens, grands ensembles 1960-70",
+      "villes": [
+        {
+          "name": "Évry-Courcouronnes",
+          "slug": "evry-courcouronnes",
+          "cp": "91000",
+          "population": 70000,
+          "quartiers": [
+            "Évry-Centre",
+            "Pyramides",
+            "Parc-aux-Lièvres",
+            "Courcouronnes"
+          ]
+        },
+        {
+          "name": "Corbeil-Essonnes",
+          "slug": "corbeil-essonnes",
+          "cp": "91100",
+          "population": 51000,
+          "quartiers": [
+            "Centre",
+            "Tarterêts",
+            "Montconseil"
+          ]
+        },
+        {
+          "name": "Massy",
+          "slug": "massy",
+          "cp": "91300",
+          "population": 51000,
+          "quartiers": [
+            "Atlantis",
+            "Opéra",
+            "Villaine"
+          ]
+        },
+        {
+          "name": "Palaiseau",
+          "slug": "palaiseau",
+          "cp": "91120",
+          "population": 36000,
+          "quartiers": [
+            "Centre",
+            "Lozère",
+            "Plateau"
+          ]
+        },
+        {
+          "name": "Savigny-sur-Orge",
+          "slug": "savigny-sur-orge",
+          "cp": "91600",
+          "population": 38000,
+          "quartiers": [
+            "Centre",
+            "Grand-Vaux",
+            "Prés-Saint-Martin"
+          ]
+        },
+        {
+          "name": "Viry-Châtillon",
+          "slug": "viry-chatillon",
+          "cp": "91170",
+          "population": 32000,
+          "quartiers": [
+            "Centre",
+            "Aviation",
+            "Grigny"
+          ]
+        },
+        {
+          "name": "Athis-Mons",
+          "slug": "athis-mons",
+          "cp": "91200",
+          "population": 35000,
+          "quartiers": [
+            "Centre",
+            "Noyer-Renard",
+            "Val"
+          ]
+        },
+        {
+          "name": "Longjumeau",
+          "slug": "longjumeau",
+          "cp": "91160",
+          "population": 22000,
+          "quartiers": [
+            "Centre",
+            "Bel-Air",
+            "Sud"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "92",
+      "name": "Hauts-de-Seine",
+      "slug": "92",
+      "nom_long": "Hauts-de-Seine",
+      "chef_lieu": "Nanterre",
+      "population_approx": 1620000,
+      "nb_communes": 36,
+      "tribunal_competent": "Tribunal judiciaire de Nanterre",
+      "contexte_fissures": "Département dense, mélange d'immeubles haussmanniens, résidences années 1960-80 et tours récentes. Zones de remblais importants (anciennes carrières, berges de Seine). Chantiers Grand Paris Express (ligne 15) très impactants.",
+      "sols_dominants": [
+        "Argiles plastiques",
+        "Calcaire grossier",
+        "Alluvions de Seine",
+        "Remblais urbains"
+      ],
+      "bati_dominant": "Immeubles collectifs XIXe et XXe, pavillonnaire intra-urbain, tours La Défense",
+      "villes": [
+        {
+          "name": "Boulogne-Billancourt",
+          "slug": "boulogne-billancourt",
+          "cp": "92100",
+          "population": 120000,
+          "quartiers": [
+            "Centre",
+            "Trapèze",
+            "Billancourt",
+            "Marcel-Sembat"
+          ]
+        },
+        {
+          "name": "Neuilly-sur-Seine",
+          "slug": "neuilly-sur-seine",
+          "cp": "92200",
+          "population": 60000,
+          "quartiers": [
+            "Centre",
+            "Sablons",
+            "Bois"
+          ]
+        },
+        {
+          "name": "Levallois-Perret",
+          "slug": "levallois-perret",
+          "cp": "92300",
+          "population": 66000,
+          "quartiers": [
+            "Centre",
+            "Front-de-Seine",
+            "Mairie"
+          ]
+        },
+        {
+          "name": "Issy-les-Moulineaux",
+          "slug": "issy-les-moulineaux",
+          "cp": "92130",
+          "population": 70000,
+          "quartiers": [
+            "Centre",
+            "Val-de-Seine",
+            "Bords-de-Seine"
+          ]
+        },
+        {
+          "name": "Courbevoie",
+          "slug": "courbevoie",
+          "cp": "92400",
+          "population": 82000,
+          "quartiers": [
+            "Centre",
+            "Bécon",
+            "Faubourg-de-l'Arche"
+          ]
+        },
+        {
+          "name": "Nanterre",
+          "slug": "nanterre",
+          "cp": "92000",
+          "population": 95000,
+          "quartiers": [
+            "Centre",
+            "Parc-Sud",
+            "Préfecture",
+            "Université"
+          ]
+        },
+        {
+          "name": "Antony",
+          "slug": "antony",
+          "cp": "92160",
+          "population": 63000,
+          "quartiers": [
+            "Centre",
+            "Pajeaud",
+            "Chênaie"
+          ]
+        },
+        {
+          "name": "Clamart",
+          "slug": "clamart",
+          "cp": "92140",
+          "population": 54000,
+          "quartiers": [
+            "Centre",
+            "Jardin-Parisien",
+            "Trivaux"
+          ]
+        },
+        {
+          "name": "Rueil-Malmaison",
+          "slug": "rueil-malmaison",
+          "cp": "92500",
+          "population": 79000,
+          "quartiers": [
+            "Centre",
+            "Plaine",
+            "Mont-Valérien"
+          ]
+        },
+        {
+          "name": "Asnières-sur-Seine",
+          "slug": "asnieres-sur-seine",
+          "cp": "92600",
+          "population": 87000,
+          "quartiers": [
+            "Centre",
+            "Voltaire",
+            "Les Agnettes"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "93",
+      "name": "Seine-Saint-Denis",
+      "slug": "93",
+      "nom_long": "Seine-Saint-Denis",
+      "chef_lieu": "Bobigny",
+      "population_approx": 1660000,
+      "nb_communes": 40,
+      "tribunal_competent": "Tribunal judiciaire de Bobigny",
+      "contexte_fissures": "Département le plus exposé au gypse antéludien (dissolution, effondrements). Ancien bassin industriel avec nombreux remblais. Pavillonnaire dense des années 1920-1940 avec fondations souvent sommaires. Chantiers lignes 15-16-17 du GPE.",
+      "sols_dominants": [
+        "Gypse antéludien (risque dissolution)",
+        "Argiles et marnes",
+        "Alluvions",
+        "Remblais industriels"
+      ],
+      "bati_dominant": "Pavillonnaire d'entre-deux-guerres, grands ensembles collectifs, réhabilitations récentes",
+      "villes": [
+        {
+          "name": "Saint-Denis",
+          "slug": "saint-denis",
+          "cp": "93200",
+          "population": 113000,
+          "quartiers": [
+            "Centre",
+            "Pleyel",
+            "Franc-Moisin",
+            "Floréal"
+          ]
+        },
+        {
+          "name": "Montreuil",
+          "slug": "montreuil",
+          "cp": "93100",
+          "population": 111000,
+          "quartiers": [
+            "Bas-Montreuil",
+            "Centre",
+            "Ruffins",
+            "Ramenas"
+          ]
+        },
+        {
+          "name": "Aubervilliers",
+          "slug": "aubervilliers",
+          "cp": "93300",
+          "population": 87000,
+          "quartiers": [
+            "Centre",
+            "Vallès-La Frette",
+            "Quatre-Chemins"
+          ]
+        },
+        {
+          "name": "Aulnay-sous-Bois",
+          "slug": "aulnay-sous-bois",
+          "cp": "93600",
+          "population": 86000,
+          "quartiers": [
+            "Centre",
+            "Rose-des-Vents",
+            "Chanteloup",
+            "Gros-Saule"
+          ]
+        },
+        {
+          "name": "Pantin",
+          "slug": "pantin",
+          "cp": "93500",
+          "population": 60000,
+          "quartiers": [
+            "Centre",
+            "Quatre-Chemins",
+            "Hoche",
+            "Courtillières"
+          ]
+        },
+        {
+          "name": "Bobigny",
+          "slug": "bobigny",
+          "cp": "93000",
+          "population": 53000,
+          "quartiers": [
+            "Centre",
+            "Abreuvoir",
+            "Karl-Marx",
+            "Paul-Éluard"
+          ]
+        },
+        {
+          "name": "Drancy",
+          "slug": "drancy",
+          "cp": "93700",
+          "population": 72000,
+          "quartiers": [
+            "Centre",
+            "Cité de la Muette",
+            "Avenir-Parisien"
+          ]
+        },
+        {
+          "name": "Le Blanc-Mesnil",
+          "slug": "le-blanc-mesnil",
+          "cp": "93150",
+          "population": 57000,
+          "quartiers": [
+            "Centre",
+            "Tilleuls",
+            "Aviation"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "94",
+      "name": "Val-de-Marne",
+      "slug": "94",
+      "nom_long": "Val-de-Marne",
+      "chef_lieu": "Créteil",
+      "population_approx": 1410000,
+      "nb_communes": 47,
+      "tribunal_competent": "Tribunal judiciaire de Créteil",
+      "contexte_fissures": "Département avec forte proportion de pavillonnaire exposé au RGA. Bassins de remblaiement anciens (Ivry, Vitry). Sous-sol alluvial en bords de Seine et Marne. Forte activité de chantiers Grand Paris Express sur la ligne 15 sud.",
+      "sols_dominants": [
+        "Argiles plastiques de Provins",
+        "Marnes ludiennes",
+        "Alluvions récentes (vallées)",
+        "Calcaire de Champigny"
+      ],
+      "bati_dominant": "Pavillonnaire dense, collectif 1960-80, opérations récentes (écoquartiers)",
+      "villes": [
+        {
+          "name": "Créteil",
+          "slug": "creteil",
+          "cp": "94000",
+          "population": 92000,
+          "quartiers": [
+            "Centre",
+            "Mont-Mesly",
+            "Palais",
+            "Échat"
+          ]
+        },
+        {
+          "name": "Vitry-sur-Seine",
+          "slug": "vitry-sur-seine",
+          "cp": "94400",
+          "population": 95000,
+          "quartiers": [
+            "Centre",
+            "Plateau",
+            "Ardoines",
+            "8-Mai-1945"
+          ]
+        },
+        {
+          "name": "Saint-Maur-des-Fossés",
+          "slug": "saint-maur-des-fosses",
+          "cp": "94100",
+          "population": 76000,
+          "quartiers": [
+            "Vieux-Saint-Maur",
+            "Parc-Saint-Maur",
+            "La Varenne",
+            "Adamville"
+          ]
+        },
+        {
+          "name": "Ivry-sur-Seine",
+          "slug": "ivry-sur-seine",
+          "cp": "94200",
+          "population": 63000,
+          "quartiers": [
+            "Centre",
+            "Ivry-Port",
+            "Monmousseau"
+          ]
+        },
+        {
+          "name": "Vincennes",
+          "slug": "vincennes",
+          "cp": "94300",
+          "population": 50000,
+          "quartiers": [
+            "Centre",
+            "Domaine-du-Bois",
+            "Diderot"
+          ]
+        },
+        {
+          "name": "Fontenay-sous-Bois",
+          "slug": "fontenay-sous-bois",
+          "cp": "94120",
+          "population": 54000,
+          "quartiers": [
+            "Centre",
+            "Val-de-Fontenay",
+            "Larris"
+          ]
+        },
+        {
+          "name": "Champigny-sur-Marne",
+          "slug": "champigny-sur-marne",
+          "cp": "94500",
+          "population": 78000,
+          "quartiers": [
+            "Centre",
+            "Bois-l'Abbé",
+            "Les Mordacs"
+          ]
+        },
+        {
+          "name": "Maisons-Alfort",
+          "slug": "maisons-alfort",
+          "cp": "94700",
+          "population": 55000,
+          "quartiers": [
+            "Centre",
+            "Liberté",
+            "Charentonneau"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "95",
+      "name": "Val-d'Oise",
+      "slug": "95",
+      "nom_long": "Val-d'Oise",
+      "chef_lieu": "Cergy",
+      "population_approx": 1250000,
+      "nb_communes": 184,
+      "tribunal_competent": "Tribunal judiciaire de Pontoise",
+      "contexte_fissures": "Département avec secteurs très exposés au RGA (plaine de France, Vexin), bâti ancien en pierre dans le Vexin, pavillonnaire pour les communes de la petite couronne (Argenteuil, Sarcelles). Sols calcaires et marneux.",
+      "sols_dominants": [
+        "Calcaire grossier",
+        "Marnes et caillasses",
+        "Argiles vertes",
+        "Limons lœssiques (plaine de France)"
+      ],
+      "bati_dominant": "Pavillonnaire, bâti rural en pierre (Vexin), grands ensembles (Sarcelles, Cergy)",
+      "villes": [
+        {
+          "name": "Cergy",
+          "slug": "cergy",
+          "cp": "95000",
+          "population": 66000,
+          "quartiers": [
+            "Grand-Centre",
+            "Hauts-de-Cergy",
+            "Axe-Majeur-Horloge"
+          ]
+        },
+        {
+          "name": "Argenteuil",
+          "slug": "argenteuil",
+          "cp": "95100",
+          "population": 110000,
+          "quartiers": [
+            "Centre",
+            "Val-d'Argent",
+            "Orgemont",
+            "Volembert"
+          ]
+        },
+        {
+          "name": "Sarcelles",
+          "slug": "sarcelles",
+          "cp": "95200",
+          "population": 60000,
+          "quartiers": [
+            "Centre",
+            "Lochères",
+            "Rosiers",
+            "Village"
+          ]
+        },
+        {
+          "name": "Pontoise",
+          "slug": "pontoise",
+          "cp": "95000",
+          "population": 31000,
+          "quartiers": [
+            "Centre historique",
+            "Marcouville",
+            "Les Louvrais"
+          ]
+        },
+        {
+          "name": "Franconville",
+          "slug": "franconville",
+          "cp": "95130",
+          "population": 36000,
+          "quartiers": [
+            "Centre",
+            "Épine-Guyon",
+            "Mare-des-Noues"
+          ]
+        },
+        {
+          "name": "Ermont",
+          "slug": "ermont",
+          "cp": "95120",
+          "population": 28000,
+          "quartiers": [
+            "Centre",
+            "Eaubonne-Matisse",
+            "Balzac"
+          ]
+        },
+        {
+          "name": "Goussainville",
+          "slug": "goussainville",
+          "cp": "95190",
+          "population": 31000,
+          "quartiers": [
+            "Centre",
+            "Vieux-Pays",
+            "Grandes-Bornes"
+          ]
+        },
+        {
+          "name": "Bezons",
+          "slug": "bezons",
+          "cp": "95870",
+          "population": 30000,
+          "quartiers": [
+            "Centre",
+            "Bords-de-Seine",
+            "Val-Notre-Dame"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "identite": {
+    "nom": "Global Expertises",
+    "siret_partiel": "FR03911366698",
+    "siege_social": "59 Allée Jean Jaurès, 31000 Toulouse",
+    "gerant": "Pierre Compas",
+    "site_principal": "https://global-expertises.fr"
+  },
+  "positionnement": {
+    "tagline": "Le 1er cabinet d'expertise en bâtiment de France",
+    "proposition_valeur": "Expertise indépendante et impartiale pour particuliers confrontés à des désordres de construction",
+    "specialisation_site": "Expert fissure en Île-de-France (pathologies des structures, RGA, sinistres sécheresse)"
+  },
+  "chiffres_cles": [
+    {
+      "label": "Position marché",
+      "valeur": "1er cabinet d'expertise bâtiment en France (par CA)"
+    },
+    {
+      "label": "Dossiers traités par mois",
+      "valeur": "300 à 400"
+    },
+    {
+      "label": "Part de clients particuliers",
+      "valeur": "90%"
+    },
+    {
+      "label": "Zone d'intervention fissures",
+      "valeur": "Toute l'Île-de-France (8 départements)"
+    },
+    {
+      "label": "Délai de prise de contact",
+      "valeur": "Réponse sous 24 heures ouvrées"
+    }
+  ],
+  "arguments_cles": [
+    {
+      "titre": "Expert fissure indépendant",
+      "description": "Aucun lien avec les compagnies d'assurance ni avec les entreprises de réparation. Notre rapport est neutre, opposable et reconnu par les assurances et les tribunaux.",
+      "icone_suggestion": "shield-check",
+      "_priorite": "TOP — argument validé par 1 371 impressions Search Console sur 'expert fissures indépendant'"
+    },
+    {
+      "titre": "Réactivité IDF",
+      "description": "Intervention sur site dans toute l'Île-de-France sous 7 à 15 jours après prise de rendez-vous.",
+      "icone_suggestion": "clock"
+    },
+    {
+      "titre": "Rapport détaillé et opposable",
+      "description": "Rapport d'expertise complet : origines des désordres, évaluation de gravité, préconisations de réparation, estimation financière.",
+      "icone_suggestion": "file-text"
+    },
+    {
+      "titre": "Accompagnement sinistre",
+      "description": "Nous vous accompagnons dans vos démarches auprès de votre assurance (déclaration CatNat, contre-expertise, négociation d'indemnisation).",
+      "icone_suggestion": "handshake"
+    },
+    {
+      "titre": "Expertise technique reconnue",
+      "description": "Ingénieurs et experts diplômés, formés aux pathologies du bâtiment : RGA, tassements différentiels, fissures structurelles.",
+      "icone_suggestion": "award"
+    },
+    {
+      "titre": "Présence nationale, connaissance locale",
+      "description": "Cabinet implanté nationalement avec une parfaite maîtrise des spécificités géologiques et réglementaires de l'Île-de-France.",
+      "icone_suggestion": "map-pin"
+    }
+  ],
+  "processus_expertise": [
+    {
+      "etape": 1,
+      "nom": "Prise de contact",
+      "delai": "Sous 24h ouvrées",
+      "description": "Vous nous contactez par formulaire ou téléphone. Un expert vous rappelle, analyse votre situation et planifie l'intervention."
+    },
+    {
+      "etape": 2,
+      "nom": "Visite sur site",
+      "delai": "Sous 7 à 15 jours",
+      "description": "L'expert se déplace à votre domicile. Relevés, mesures, photos, analyse du bâti et du sol, entretien avec vous."
+    },
+    {
+      "etape": 3,
+      "nom": "Rapport d'expertise",
+      "delai": "Sous 10 à 15 jours après visite",
+      "description": "Rapport technique détaillé : diagnostic des désordres, causes, gravité, préconisations de travaux, chiffrage indicatif."
+    },
+    {
+      "etape": 4,
+      "nom": "Accompagnement",
+      "delai": "Selon besoin",
+      "description": "Assistance dans les démarches post-expertise : déclaration d'assurance, relation avec les entreprises de réparation, contre-expertise si nécessaire."
+    }
+  ],
+  "cas_traites": [
+    "Fissures sur mur porteur (intérieur et extérieur)",
+    "Fissures au plafond (structurelles ou superficielles)",
+    "Fissures en escalier / obliques (signal de tassement)",
+    "Fissures horizontales et verticales",
+    "Fissures traversantes (passage d'air, lumière)",
+    "Microfissures évolutives",
+    "Fissures suite à sécheresse (RGA) ou catastrophe naturelle",
+    "Fissures de retrait sur enduit / crépi",
+    "Fissures sur dalle béton",
+    "Fissures sur fondations (sous-sol, vide sanitaire)",
+    "Fissures liées à des vibrations de chantier (Grand Paris Express, travaux voisins)",
+    "Pathologies du bâti ancien (haussmannien, pavillonnaire d'avant-guerre)"
+  ],
+  "reassurance": {
+    "certifications_suggestion": [
+      "Experts membres de la CNEAF (Chambre Nationale des Experts en Activité Foncière)",
+      "Adhérents à la CEBC (Compagnie des Experts du Bâtiment et de la Construction)",
+      "Experts reconnus auprès des compagnies d'assurance",
+      "(à compléter avec certifications réelles de Global Expertises)"
+    ],
+    "garanties": [
+      "Rapport opposable à l'assurance et devant les tribunaux",
+      "Responsabilité civile professionnelle",
+      "Engagement de confidentialité",
+      "Déontologie d'expert indépendant"
+    ]
+  },
+  "faq_types": [
+    {
+      "question": "Combien coûte une expertise fissure ?",
+      "reponse": "Le tarif dépend de la surface, de la complexité et de la localisation. Un devis gratuit vous est transmis sous 24h après votre demande."
+    },
+    {
+      "question": "L'expertise est-elle prise en charge par l'assurance ?",
+      "reponse": "Dans le cadre d'une déclaration catastrophe naturelle (sécheresse notamment), l'expertise peut être prise en charge. Nous vous accompagnons dans les démarches."
+    },
+    {
+      "question": "En combien de temps puis-je recevoir un expert ?",
+      "reponse": "L'intervention est programmée sous 7 à 15 jours après votre appel dans toute l'Île-de-France."
+    },
+    {
+      "question": "Le rapport d'expertise est-il opposable ?",
+      "reponse": "Oui. Notre rapport est reconnu par les assurances et peut être produit devant un tribunal en cas de litige."
+    },
+    {
+      "question": "Intervenez-vous partout en Île-de-France ?",
+      "reponse": "Oui, nous intervenons dans les 8 départements d'Île-de-France : Paris (75), Seine-et-Marne (77), Yvelines (78), Essonne (91), Hauts-de-Seine (92), Seine-Saint-Denis (93), Val-de-Marne (94) et Val-d'Oise (95)."
+    }
+  ]
+}

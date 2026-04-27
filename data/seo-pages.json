@@ -1,0 +1,2200 @@
+{
+  "meta": {
+    "domain": "https://expert-fissure-idf.fr",
+    "brand": "Global Expertises",
+    "conventions": {
+      "title": "Mot-clé principal à gauche, pas de séparateur (pas de | ni -), sentence case (1ère lettre majuscule + noms propres), 55-65 caractères",
+      "meta_description": "145-160 caractères, inclure le mot-clé principal dans la 1ère moitié, chiffre/bénéfice + CTA implicite",
+      "slug": "kebab-case, sans accent, tout en minuscules",
+      "canonical": "URL absolue avec trailing slash"
+    },
+    "notes": [
+      "Remplacer DOMAIN par le nom de domaine définitif une fois le NDD acheté.",
+      "Le title et la meta description doivent rester uniques sur chaque page (la rotation des 4 templates ville y participe).",
+      "Pour les pages Phase 2 (ville × prestation), générer les titles à partir des templates Guide en intercalant la ville."
+    ]
+  },
+  "gsc_insights": {
+    "source": "Search Console Global Expertises, 16 mois (avril 2025 → avril 2026)",
+    "validated_winning_angle": {
+      "topic": "fissure horizontale",
+      "performance_ge": "174 clicks, 3 634 impressions, position 6,7, CTR 4,79% sur 'fissure horizontale maison'",
+      "implication": "Formule de contenu prouvée chez GE. À répliquer sur toutes les autres pages Guide du site Fissure IDF."
+    },
+    "priority_cities_gsc": [
+      {
+        "ville": "Boulogne-Billancourt",
+        "dept": "92",
+        "url_cible": "/92/boulogne-billancourt/",
+        "raison": "672 impr sur 'expertise fissure boulogne billancourt' (pos 2,3 chez GE) + 14 861 impr sur 'expert immobilier boulogne'. Demande locale forte mesurée.",
+        "priorite": "P0"
+      },
+      {
+        "ville": "Saint-Denis",
+        "dept": "93",
+        "url_cible": "/93/saint-denis/",
+        "raison": "1 282 impr cumulées sur 'expert/expertise fissure seine saint denis' (pos 9,9 chez GE).",
+        "priorite": "P0"
+      },
+      {
+        "ville": "Argenteuil",
+        "dept": "95",
+        "url_cible": "/95/argenteuil/",
+        "raison": "609 impr sur 'expertise fissure argenteuil' (pos 9,1 chez GE) + 753 impr sur 'expert immobilier argenteuil'.",
+        "priorite": "P0"
+      },
+      {
+        "ville": "Paris (pilier dept)",
+        "dept": "75",
+        "url_cible": "/75/",
+        "raison": "682 impr cumulées sur 'expert/expertise fissure paris' (pos 40+ chez GE), territoire vierge.",
+        "priorite": "P0"
+      },
+      {
+        "ville": "Hauts-de-Seine (pilier dept)",
+        "dept": "92",
+        "url_cible": "/92/",
+        "raison": "250 impr sur 'expert fissure hauts de seine' (pos 31 chez GE).",
+        "priorite": "P0"
+      },
+      {
+        "ville": "Évry-Courcouronnes",
+        "dept": "91",
+        "url_cible": "/91/evry-courcouronnes/",
+        "raison": "249 impr sur 'expertise fissure évry courcouronnes' (pos 30 chez GE).",
+        "priorite": "P1"
+      },
+      {
+        "ville": "Montreuil",
+        "dept": "93",
+        "url_cible": "/93/montreuil/",
+        "raison": "5 039 impressions / 35 clicks sur la page actuelle GE /expert-batiment/ile-de-france/montreuil (pos 18,6).",
+        "priorite": "P1"
+      }
+    ],
+    "validated_keywords_to_target": [
+      {
+        "kw": "expert fissure maison",
+        "impr_16m": 8631,
+        "pos_ge": 9.9,
+        "priority": "P0",
+        "page_cible": "pilier régional + pages villes"
+      },
+      {
+        "kw": "fissure horizontale maison",
+        "impr_16m": 3634,
+        "pos_ge": 6.7,
+        "priority": "P0",
+        "page_cible": "/guide/fissure-horizontale/"
+      },
+      {
+        "kw": "expertise fissure",
+        "impr_16m": 4449,
+        "pos_ge": 14.8,
+        "priority": "P0",
+        "page_cible": "pilier régional"
+      },
+      {
+        "kw": "expert fissure",
+        "impr_16m": 3755,
+        "pos_ge": 12.7,
+        "priority": "P0",
+        "page_cible": "pilier régional"
+      },
+      {
+        "kw": "diagnostic fissure maison",
+        "impr_16m": 2209,
+        "pos_ge": 12.1,
+        "priority": "P0",
+        "page_cible": "/guide/diagnostic-fissure-maison/ (à créer)"
+      },
+      {
+        "kw": "expertise fissure maison",
+        "impr_16m": 2164,
+        "pos_ge": 10.9,
+        "priority": "P0",
+        "page_cible": "pilier régional"
+      },
+      {
+        "kw": "expert fissures indépendant",
+        "impr_16m": 1371,
+        "pos_ge": 8.4,
+        "priority": "P1",
+        "page_cible": "Argument H2 sur toutes les pages"
+      },
+      {
+        "kw": "fissure mur intérieur danger",
+        "impr_16m": 850,
+        "pos_ge": 9.9,
+        "priority": "P1",
+        "page_cible": "/guide/fissure-mur-interieur/"
+      }
+    ],
+    "differentiating_arguments": [
+      "Expert fissure indépendant (1 371 impr, requête à intention forte sous-exploitée par GE)",
+      "300 à 400 dossiers traités par mois (volumétrie qui rassure)",
+      "Couverture nationale, équipe dédiée IDF (NE PAS mentionner Toulouse sur le site IDF)",
+      "Méthodologie éprouvée sur le diagnostic fissure horizontale (le contenu le plus performant de GE)"
+    ],
+    "blog_priority_angles": [
+      "Diagnostic / typologie de fissures (cf. succès 'fissure horizontale' chez GE — 323 clicks cumulés)",
+      "Cas pratiques anonymisés en IDF (capitaliser sur la volumétrie 300-400 dossiers/mois)",
+      "Assurance & catastrophe naturelle (87 kw, 56 602 impressions GE, seulement 53 clicks = vide à combler)",
+      "Malfaçon & litige (31 kw, 14 924 impressions GE, 1 click = territoire vierge)"
+    ],
+    "page_a_creer_a_rajouter_au_silo_guide": {
+      "url": "/guide/diagnostic-fissure-maison/",
+      "raison": "2 209 impressions chez GE en pos. 12,1 — gisement majeur non couvert par les 15 guides initiaux du plan",
+      "h1": "Diagnostic fissure maison : méthode complète d'expert",
+      "title": "Diagnostic fissure maison méthode complète par un expert",
+      "meta_description": "Comment diagnostiquer une fissure dans une maison ? Méthode d'expert pas à pas pour identifier la cause, évaluer la gravité et choisir la bonne réparation.",
+      "keyword_primary": "diagnostic fissure maison"
+    }
+  },
+  "statistics": {
+    "total_pages": 112,
+    "pilier_regional": 1,
+    "piliers_departementaux": 8,
+    "pages_villes": 78,
+    "guides": 18,
+    "blog_categories": 6,
+    "blog_index": 1
+  },
+  "pages_statiques": [
+    {
+      "type": "pilier_regional",
+      "priority": 1.0,
+      "parent_slug": null,
+      "slug": "/",
+      "canonical": "https://expert-fissure-idf.fr/",
+      "h1": "Expert fissure en Île-de-France",
+      "title": "Expert fissure Île-de-France diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre maison ou immeuble en IDF ? Diagnostic par le 1er cabinet d'expertise de France. 300 dossiers/mois, rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure île-de-france",
+      "keywords_secondary": [
+        "expertise fissure idf",
+        "expert fissure paris région",
+        "diagnostic fissure île-de-france"
+      ],
+      "internal_links": [
+        "Tous les piliers départementaux",
+        "Principales pages Guide (plafond, façade, sécheresse, maison ancienne)"
+      ]
+    },
+    {
+      "type": "pilier_departemental",
+      "priority": 0.9,
+      "parent_slug": "/",
+      "slug": "/75/",
+      "canonical": "https://expert-fissure-idf.fr/75/",
+      "h1": "Expert fissure à Paris (75)",
+      "title": "Expert fissure Paris diagnostic par un ingénieur à domicile",
+      "meta_description": "Fissures dans votre bien parisien ? Expertise par des ingénieurs spécialisés du 1er au 20e. Rapport opposable sous 15 jours, 1er cabinet de France.",
+      "keyword_primary": "expert fissure paris",
+      "keywords_secondary": [
+        "expertise fissure 75",
+        "expert fissure paris 75",
+        "diagnostic fissure paris"
+      ],
+      "dept_code": "75",
+      "internal_links_target": "Toutes les villes du dept 75, pilier régional, 2-3 guides thématiques pertinents"
+    },
+    {
+      "type": "pilier_departemental",
+      "priority": 0.9,
+      "parent_slug": "/",
+      "slug": "/77/",
+      "canonical": "https://expert-fissure-idf.fr/77/",
+      "h1": "Expert fissure en Seine-et-Marne (77)",
+      "title": "Expert fissure Seine-et-Marne diagnostic par un ingénieur",
+      "meta_description": "Fissures dans votre maison en Seine-et-Marne (77) ? Diagnostic par le 1er cabinet de France, intervention sous 15 jours, rapport opposable.",
+      "keyword_primary": "expert fissure 77",
+      "keywords_secondary": [
+        "expertise fissure 77",
+        "expert fissure seine-et-marne",
+        "expert batiment 77"
+      ],
+      "dept_code": "77",
+      "internal_links_target": "Toutes les villes du dept 77, pilier régional, 2-3 guides thématiques pertinents"
+    },
+    {
+      "type": "pilier_departemental",
+      "priority": 0.9,
+      "parent_slug": "/",
+      "slug": "/78/",
+      "canonical": "https://expert-fissure-idf.fr/78/",
+      "h1": "Expert fissure en Yvelines (78)",
+      "title": "Expert fissure Yvelines (78) diagnostic et rapport opposable",
+      "meta_description": "Fissures dans votre maison en Yvelines (78) ? Diagnostic par le 1er cabinet de France, intervention sous 15 jours, rapport opposable.",
+      "keyword_primary": "expert fissure 78",
+      "keywords_secondary": [
+        "expertise fissure 78",
+        "expert fissure yvelines",
+        "expert batiment 78"
+      ],
+      "dept_code": "78",
+      "internal_links_target": "Toutes les villes du dept 78, pilier régional, 2-3 guides thématiques pertinents"
+    },
+    {
+      "type": "pilier_departemental",
+      "priority": 0.9,
+      "parent_slug": "/",
+      "slug": "/91/",
+      "canonical": "https://expert-fissure-idf.fr/91/",
+      "h1": "Expert fissure en Essonne (91)",
+      "title": "Expert fissure Essonne (91) diagnostic et rapport opposable",
+      "meta_description": "Fissures dans votre maison en Essonne (91) ? Diagnostic par le 1er cabinet de France, intervention sous 15 jours, rapport opposable.",
+      "keyword_primary": "expert fissure 91",
+      "keywords_secondary": [
+        "expertise fissure 91",
+        "expert fissure essonne",
+        "expert batiment 91"
+      ],
+      "dept_code": "91",
+      "internal_links_target": "Toutes les villes du dept 91, pilier régional, 2-3 guides thématiques pertinents"
+    },
+    {
+      "type": "pilier_departemental",
+      "priority": 0.9,
+      "parent_slug": "/",
+      "slug": "/92/",
+      "canonical": "https://expert-fissure-idf.fr/92/",
+      "h1": "Expert fissure en Hauts-de-Seine (92)",
+      "title": "Expert fissure Hauts-de-Seine diagnostic par un ingénieur",
+      "meta_description": "Fissures dans votre maison en Hauts-de-Seine (92) ? Diagnostic par le 1er cabinet de France, intervention sous 15 jours, rapport opposable.",
+      "keyword_primary": "expert fissure 92",
+      "keywords_secondary": [
+        "expertise fissure 92",
+        "expert fissure hauts-de-seine",
+        "expert batiment 92"
+      ],
+      "dept_code": "92",
+      "internal_links_target": "Toutes les villes du dept 92, pilier régional, 2-3 guides thématiques pertinents"
+    },
+    {
+      "type": "pilier_departemental",
+      "priority": 0.9,
+      "parent_slug": "/",
+      "slug": "/93/",
+      "canonical": "https://expert-fissure-idf.fr/93/",
+      "h1": "Expert fissure en Seine-Saint-Denis (93)",
+      "title": "Expert fissure Seine-Saint-Denis diagnostic par un ingénieur",
+      "meta_description": "Fissures dans votre maison en Seine-Saint-Denis (93) ? Diagnostic par le 1er cabinet de France, intervention sous 15 jours, rapport opposable.",
+      "keyword_primary": "expert fissure 93",
+      "keywords_secondary": [
+        "expertise fissure 93",
+        "expert fissure seine-saint-denis",
+        "expert batiment 93"
+      ],
+      "dept_code": "93",
+      "internal_links_target": "Toutes les villes du dept 93, pilier régional, 2-3 guides thématiques pertinents"
+    },
+    {
+      "type": "pilier_departemental",
+      "priority": 0.9,
+      "parent_slug": "/",
+      "slug": "/94/",
+      "canonical": "https://expert-fissure-idf.fr/94/",
+      "h1": "Expert fissure en Val-de-Marne (94)",
+      "title": "Expert fissure Val-de-Marne (94) diagnostic et rapport opposable",
+      "meta_description": "Fissures dans votre maison en Val-de-Marne (94) ? Diagnostic par le 1er cabinet de France, intervention sous 15 jours, rapport opposable.",
+      "keyword_primary": "expert fissure 94",
+      "keywords_secondary": [
+        "expertise fissure 94",
+        "expert fissure val-de-marne",
+        "expert batiment 94"
+      ],
+      "dept_code": "94",
+      "internal_links_target": "Toutes les villes du dept 94, pilier régional, 2-3 guides thématiques pertinents"
+    },
+    {
+      "type": "pilier_departemental",
+      "priority": 0.9,
+      "parent_slug": "/",
+      "slug": "/95/",
+      "canonical": "https://expert-fissure-idf.fr/95/",
+      "h1": "Expert fissure en Val-d'Oise (95)",
+      "title": "Expert fissure Val-d'Oise (95) diagnostic et rapport opposable",
+      "meta_description": "Fissures dans votre maison en Val-d'Oise (95) ? Diagnostic par le 1er cabinet de France, intervention sous 15 jours, rapport opposable.",
+      "keyword_primary": "expert fissure 95",
+      "keywords_secondary": [
+        "expertise fissure 95",
+        "expert fissure val-d-oise",
+        "expert batiment 95"
+      ],
+      "dept_code": "95",
+      "internal_links_target": "Toutes les villes du dept 95, pilier régional, 2-3 guides thématiques pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-1er/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-1er/",
+      "h1": "Expert fissure à Paris 1er (75001)",
+      "title": "Expert fissure Paris 1er diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Paris 1er ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure paris-1er",
+      "keywords_secondary": [
+        "expertise fissure paris-1er",
+        "diagnostic fissure paris-1er"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 1er",
+      "cp": "75001",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-2e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-2e/",
+      "h1": "Expert fissure à Paris 2e (75002)",
+      "title": "Expert fissure Paris 2e (75) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Paris 2e ? Global Expertises intervient sous 15 jours dans tout le 75. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure paris-2e",
+      "keywords_secondary": [
+        "expertise fissure paris-2e",
+        "diagnostic fissure paris-2e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 2e",
+      "cp": "75002",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-3e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-3e/",
+      "h1": "Expert fissure à Paris 3e (75003)",
+      "title": "Expert fissure Paris 3e diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Paris 3e ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure paris-3e",
+      "keywords_secondary": [
+        "expertise fissure paris-3e",
+        "diagnostic fissure paris-3e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 3e",
+      "cp": "75003",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-4e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-4e/",
+      "h1": "Expert fissure à Paris 4e (75004)",
+      "title": "Expert fissure Paris 4e rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Paris 4e est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure paris-4e",
+      "keywords_secondary": [
+        "expertise fissure paris-4e",
+        "diagnostic fissure paris-4e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 4e",
+      "cp": "75004",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-5e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-5e/",
+      "h1": "Expert fissure à Paris 5e (75005)",
+      "title": "Expertise fissure Paris 5e diagnostic complet par un ingénieur",
+      "meta_description": "Fissures à Paris 5e : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure paris-5e",
+      "keywords_secondary": [
+        "expertise fissure paris-5e",
+        "diagnostic fissure paris-5e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 5e",
+      "cp": "75005",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-6e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-6e/",
+      "h1": "Expert fissure à Paris 6e (75006)",
+      "title": "Expert fissure Paris 6e (75) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Paris 6e ? Global Expertises intervient sous 15 jours dans tout le 75. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure paris-6e",
+      "keywords_secondary": [
+        "expertise fissure paris-6e",
+        "diagnostic fissure paris-6e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 6e",
+      "cp": "75006",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-7e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-7e/",
+      "h1": "Expert fissure à Paris 7e (75007)",
+      "title": "Expert fissure Paris 7e diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Paris 7e ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure paris-7e",
+      "keywords_secondary": [
+        "expertise fissure paris-7e",
+        "diagnostic fissure paris-7e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 7e",
+      "cp": "75007",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-8e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-8e/",
+      "h1": "Expert fissure à Paris 8e (75008)",
+      "title": "Expert fissure Paris 8e rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Paris 8e est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure paris-8e",
+      "keywords_secondary": [
+        "expertise fissure paris-8e",
+        "diagnostic fissure paris-8e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 8e",
+      "cp": "75008",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-9e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-9e/",
+      "h1": "Expert fissure à Paris 9e (75009)",
+      "title": "Expertise fissure Paris 9e diagnostic complet par un ingénieur",
+      "meta_description": "Fissures à Paris 9e : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure paris-9e",
+      "keywords_secondary": [
+        "expertise fissure paris-9e",
+        "diagnostic fissure paris-9e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 9e",
+      "cp": "75009",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-10e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-10e/",
+      "h1": "Expert fissure à Paris 10e (75010)",
+      "title": "Expertise fissure Paris 10e diagnostic complet par un ingénieur",
+      "meta_description": "Fissures à Paris 10e : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure paris-10e",
+      "keywords_secondary": [
+        "expertise fissure paris-10e",
+        "diagnostic fissure paris-10e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 10e",
+      "cp": "75010",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-11e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-11e/",
+      "h1": "Expert fissure à Paris 11e (75011)",
+      "title": "Expert fissure Paris 11e (75) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Paris 11e ? Global Expertises intervient sous 15 jours dans tout le 75. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure paris-11e",
+      "keywords_secondary": [
+        "expertise fissure paris-11e",
+        "diagnostic fissure paris-11e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 11e",
+      "cp": "75011",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-12e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-12e/",
+      "h1": "Expert fissure à Paris 12e (75012)",
+      "title": "Expert fissure Paris 12e diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Paris 12e ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure paris-12e",
+      "keywords_secondary": [
+        "expertise fissure paris-12e",
+        "diagnostic fissure paris-12e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 12e",
+      "cp": "75012",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-13e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-13e/",
+      "h1": "Expert fissure à Paris 13e (75013)",
+      "title": "Expert fissure Paris 13e rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Paris 13e est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure paris-13e",
+      "keywords_secondary": [
+        "expertise fissure paris-13e",
+        "diagnostic fissure paris-13e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 13e",
+      "cp": "75013",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-14e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-14e/",
+      "h1": "Expert fissure à Paris 14e (75014)",
+      "title": "Expertise fissure Paris 14e diagnostic complet par un ingénieur",
+      "meta_description": "Fissures à Paris 14e : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure paris-14e",
+      "keywords_secondary": [
+        "expertise fissure paris-14e",
+        "diagnostic fissure paris-14e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 14e",
+      "cp": "75014",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-15e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-15e/",
+      "h1": "Expert fissure à Paris 15e (75015)",
+      "title": "Expert fissure Paris 15e (75) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Paris 15e ? Global Expertises intervient sous 15 jours dans tout le 75. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure paris-15e",
+      "keywords_secondary": [
+        "expertise fissure paris-15e",
+        "diagnostic fissure paris-15e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 15e",
+      "cp": "75015",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-16e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-16e/",
+      "h1": "Expert fissure à Paris 16e (75016)",
+      "title": "Expert fissure Paris 16e diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Paris 16e ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure paris-16e",
+      "keywords_secondary": [
+        "expertise fissure paris-16e",
+        "diagnostic fissure paris-16e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 16e",
+      "cp": "75016",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-17e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-17e/",
+      "h1": "Expert fissure à Paris 17e (75017)",
+      "title": "Expert fissure Paris 17e rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Paris 17e est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure paris-17e",
+      "keywords_secondary": [
+        "expertise fissure paris-17e",
+        "diagnostic fissure paris-17e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 17e",
+      "cp": "75017",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-18e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-18e/",
+      "h1": "Expert fissure à Paris 18e (75018)",
+      "title": "Expertise fissure Paris 18e diagnostic complet par un ingénieur",
+      "meta_description": "Fissures à Paris 18e : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure paris-18e",
+      "keywords_secondary": [
+        "expertise fissure paris-18e",
+        "diagnostic fissure paris-18e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 18e",
+      "cp": "75018",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-19e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-19e/",
+      "h1": "Expert fissure à Paris 19e (75019)",
+      "title": "Expert fissure Paris 19e (75) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Paris 19e ? Global Expertises intervient sous 15 jours dans tout le 75. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure paris-19e",
+      "keywords_secondary": [
+        "expertise fissure paris-19e",
+        "diagnostic fissure paris-19e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 19e",
+      "cp": "75019",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/75/",
+      "slug": "/75/paris-20e/",
+      "canonical": "https://expert-fissure-idf.fr/75/paris-20e/",
+      "h1": "Expert fissure à Paris 20e (75020)",
+      "title": "Expert fissure Paris 20e (75) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Paris 20e ? Global Expertises intervient sous 15 jours dans tout le 75. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure paris-20e",
+      "keywords_secondary": [
+        "expertise fissure paris-20e",
+        "diagnostic fissure paris-20e"
+      ],
+      "dept_code": "75",
+      "ville_name": "Paris 20e",
+      "cp": "75020",
+      "internal_links_target": "Pilier dept /75/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/77/",
+      "slug": "/77/meaux/",
+      "canonical": "https://expert-fissure-idf.fr/77/meaux/",
+      "h1": "Expert fissure à Meaux (77100)",
+      "title": "Expert fissure Meaux diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Meaux ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure meaux",
+      "keywords_secondary": [
+        "expertise fissure meaux",
+        "diagnostic fissure meaux"
+      ],
+      "dept_code": "77",
+      "ville_name": "Meaux",
+      "cp": "77100",
+      "internal_links_target": "Pilier dept /77/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/77/",
+      "slug": "/77/melun/",
+      "canonical": "https://expert-fissure-idf.fr/77/melun/",
+      "h1": "Expert fissure à Melun (77000)",
+      "title": "Expert fissure Melun rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Melun est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure melun",
+      "keywords_secondary": [
+        "expertise fissure melun",
+        "diagnostic fissure melun"
+      ],
+      "dept_code": "77",
+      "ville_name": "Melun",
+      "cp": "77000",
+      "internal_links_target": "Pilier dept /77/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/77/",
+      "slug": "/77/chelles/",
+      "canonical": "https://expert-fissure-idf.fr/77/chelles/",
+      "h1": "Expert fissure à Chelles (77500)",
+      "title": "Expert fissure Chelles diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Chelles ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure chelles",
+      "keywords_secondary": [
+        "expertise fissure chelles",
+        "diagnostic fissure chelles"
+      ],
+      "dept_code": "77",
+      "ville_name": "Chelles",
+      "cp": "77500",
+      "internal_links_target": "Pilier dept /77/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/77/",
+      "slug": "/77/pontault-combault/",
+      "canonical": "https://expert-fissure-idf.fr/77/pontault-combault/",
+      "h1": "Expert fissure à Pontault-Combault (77340)",
+      "title": "Expert fissure Pontault-Combault intervention rapide",
+      "meta_description": "Désordres et fissures à Pontault-Combault ? Global Expertises intervient sous 15 jours dans tout le 77. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure pontault-combault",
+      "keywords_secondary": [
+        "expertise fissure pontault-combault",
+        "diagnostic fissure pontault-combault"
+      ],
+      "dept_code": "77",
+      "ville_name": "Pontault-Combault",
+      "cp": "77340",
+      "internal_links_target": "Pilier dept /77/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/77/",
+      "slug": "/77/savigny-le-temple/",
+      "canonical": "https://expert-fissure-idf.fr/77/savigny-le-temple/",
+      "h1": "Expert fissure à Savigny-le-Temple (77176)",
+      "title": "Expert fissure Savigny-le-Temple intervention rapide",
+      "meta_description": "Désordres et fissures à Savigny-le-Temple ? Global Expertises intervient sous 15 jours dans tout le 77. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure savigny-le-temple",
+      "keywords_secondary": [
+        "expertise fissure savigny-le-temple",
+        "diagnostic fissure savigny-le-temple"
+      ],
+      "dept_code": "77",
+      "ville_name": "Savigny-le-Temple",
+      "cp": "77176",
+      "internal_links_target": "Pilier dept /77/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/77/",
+      "slug": "/77/torcy/",
+      "canonical": "https://expert-fissure-idf.fr/77/torcy/",
+      "h1": "Expert fissure à Torcy (77200)",
+      "title": "Expert fissure Torcy rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Torcy est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure torcy",
+      "keywords_secondary": [
+        "expertise fissure torcy",
+        "diagnostic fissure torcy"
+      ],
+      "dept_code": "77",
+      "ville_name": "Torcy",
+      "cp": "77200",
+      "internal_links_target": "Pilier dept /77/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/77/",
+      "slug": "/77/lagny-sur-marne/",
+      "canonical": "https://expert-fissure-idf.fr/77/lagny-sur-marne/",
+      "h1": "Expert fissure à Lagny-sur-Marne (77400)",
+      "title": "Expertise fissure Lagny-sur-Marne par Global Expertises",
+      "meta_description": "Fissures à Lagny-sur-Marne : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure lagny-sur-marne",
+      "keywords_secondary": [
+        "expertise fissure lagny-sur-marne",
+        "diagnostic fissure lagny-sur-marne"
+      ],
+      "dept_code": "77",
+      "ville_name": "Lagny-sur-Marne",
+      "cp": "77400",
+      "internal_links_target": "Pilier dept /77/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/77/",
+      "slug": "/77/fontainebleau/",
+      "canonical": "https://expert-fissure-idf.fr/77/fontainebleau/",
+      "h1": "Expert fissure à Fontainebleau (77300)",
+      "title": "Expert fissure Fontainebleau rapport opposable",
+      "meta_description": "Votre maison à Fontainebleau est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure fontainebleau",
+      "keywords_secondary": [
+        "expertise fissure fontainebleau",
+        "diagnostic fissure fontainebleau"
+      ],
+      "dept_code": "77",
+      "ville_name": "Fontainebleau",
+      "cp": "77300",
+      "internal_links_target": "Pilier dept /77/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/78/",
+      "slug": "/78/versailles/",
+      "canonical": "https://expert-fissure-idf.fr/78/versailles/",
+      "h1": "Expert fissure à Versailles (78000)",
+      "title": "Expertise fissure Versailles diagnostic complet par un ingénieur",
+      "meta_description": "Fissures à Versailles : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure versailles",
+      "keywords_secondary": [
+        "expertise fissure versailles",
+        "diagnostic fissure versailles"
+      ],
+      "dept_code": "78",
+      "ville_name": "Versailles",
+      "cp": "78000",
+      "internal_links_target": "Pilier dept /78/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/78/",
+      "slug": "/78/saint-germain-en-laye/",
+      "canonical": "https://expert-fissure-idf.fr/78/saint-germain-en-laye/",
+      "h1": "Expert fissure à Saint-Germain-en-Laye (78100)",
+      "title": "Expert fissure Saint-Germain-en-Laye intervention rapide",
+      "meta_description": "Désordres et fissures à Saint-Germain-en-Laye ? Global Expertises intervient sous 15 jours dans tout le 78. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure saint-germain-en-laye",
+      "keywords_secondary": [
+        "expertise fissure saint-germain-en-laye",
+        "diagnostic fissure saint-germain-en-laye"
+      ],
+      "dept_code": "78",
+      "ville_name": "Saint-Germain-en-Laye",
+      "cp": "78100",
+      "internal_links_target": "Pilier dept /78/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/78/",
+      "slug": "/78/poissy/",
+      "canonical": "https://expert-fissure-idf.fr/78/poissy/",
+      "h1": "Expert fissure à Poissy (78300)",
+      "title": "Expert fissure Poissy (78) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Poissy ? Global Expertises intervient sous 15 jours dans tout le 78. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure poissy",
+      "keywords_secondary": [
+        "expertise fissure poissy",
+        "diagnostic fissure poissy"
+      ],
+      "dept_code": "78",
+      "ville_name": "Poissy",
+      "cp": "78300",
+      "internal_links_target": "Pilier dept /78/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/78/",
+      "slug": "/78/sartrouville/",
+      "canonical": "https://expert-fissure-idf.fr/78/sartrouville/",
+      "h1": "Expert fissure à Sartrouville (78500)",
+      "title": "Expert fissure Sartrouville diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Sartrouville ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure sartrouville",
+      "keywords_secondary": [
+        "expertise fissure sartrouville",
+        "diagnostic fissure sartrouville"
+      ],
+      "dept_code": "78",
+      "ville_name": "Sartrouville",
+      "cp": "78500",
+      "internal_links_target": "Pilier dept /78/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/78/",
+      "slug": "/78/mantes-la-jolie/",
+      "canonical": "https://expert-fissure-idf.fr/78/mantes-la-jolie/",
+      "h1": "Expert fissure à Mantes-la-Jolie (78200)",
+      "title": "Expertise fissure Mantes-la-Jolie par Global Expertises",
+      "meta_description": "Fissures à Mantes-la-Jolie : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure mantes-la-jolie",
+      "keywords_secondary": [
+        "expertise fissure mantes-la-jolie",
+        "diagnostic fissure mantes-la-jolie"
+      ],
+      "dept_code": "78",
+      "ville_name": "Mantes-la-Jolie",
+      "cp": "78200",
+      "internal_links_target": "Pilier dept /78/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/78/",
+      "slug": "/78/trappes/",
+      "canonical": "https://expert-fissure-idf.fr/78/trappes/",
+      "h1": "Expert fissure à Trappes (78190)",
+      "title": "Expert fissure Trappes (78) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Trappes ? Global Expertises intervient sous 15 jours dans tout le 78. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure trappes",
+      "keywords_secondary": [
+        "expertise fissure trappes",
+        "diagnostic fissure trappes"
+      ],
+      "dept_code": "78",
+      "ville_name": "Trappes",
+      "cp": "78190",
+      "internal_links_target": "Pilier dept /78/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/78/",
+      "slug": "/78/guyancourt/",
+      "canonical": "https://expert-fissure-idf.fr/78/guyancourt/",
+      "h1": "Expert fissure à Guyancourt (78280)",
+      "title": "Expert fissure Guyancourt rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Guyancourt est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure guyancourt",
+      "keywords_secondary": [
+        "expertise fissure guyancourt",
+        "diagnostic fissure guyancourt"
+      ],
+      "dept_code": "78",
+      "ville_name": "Guyancourt",
+      "cp": "78280",
+      "internal_links_target": "Pilier dept /78/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/78/",
+      "slug": "/78/rambouillet/",
+      "canonical": "https://expert-fissure-idf.fr/78/rambouillet/",
+      "h1": "Expert fissure à Rambouillet (78120)",
+      "title": "Expert fissure Rambouillet diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Rambouillet ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure rambouillet",
+      "keywords_secondary": [
+        "expertise fissure rambouillet",
+        "diagnostic fissure rambouillet"
+      ],
+      "dept_code": "78",
+      "ville_name": "Rambouillet",
+      "cp": "78120",
+      "internal_links_target": "Pilier dept /78/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/91/",
+      "slug": "/91/evry-courcouronnes/",
+      "canonical": "https://expert-fissure-idf.fr/91/evry-courcouronnes/",
+      "h1": "Expert fissure à Évry-Courcouronnes (91000)",
+      "title": "Expert fissure Évry-Courcouronnes diagnostic rapide",
+      "meta_description": "Fissures dans votre bien à Évry-Courcouronnes ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure evry-courcouronnes",
+      "keywords_secondary": [
+        "expertise fissure evry-courcouronnes",
+        "diagnostic fissure evry-courcouronnes"
+      ],
+      "dept_code": "91",
+      "ville_name": "Évry-Courcouronnes",
+      "cp": "91000",
+      "internal_links_target": "Pilier dept /91/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/91/",
+      "slug": "/91/corbeil-essonnes/",
+      "canonical": "https://expert-fissure-idf.fr/91/corbeil-essonnes/",
+      "h1": "Expert fissure à Corbeil-Essonnes (91100)",
+      "title": "Expert fissure Corbeil-Essonnes intervention rapide",
+      "meta_description": "Désordres et fissures à Corbeil-Essonnes ? Global Expertises intervient sous 15 jours dans tout le 91. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure corbeil-essonnes",
+      "keywords_secondary": [
+        "expertise fissure corbeil-essonnes",
+        "diagnostic fissure corbeil-essonnes"
+      ],
+      "dept_code": "91",
+      "ville_name": "Corbeil-Essonnes",
+      "cp": "91100",
+      "internal_links_target": "Pilier dept /91/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/91/",
+      "slug": "/91/massy/",
+      "canonical": "https://expert-fissure-idf.fr/91/massy/",
+      "h1": "Expert fissure à Massy (91300)",
+      "title": "Expert fissure Massy rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Massy est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure massy",
+      "keywords_secondary": [
+        "expertise fissure massy",
+        "diagnostic fissure massy"
+      ],
+      "dept_code": "91",
+      "ville_name": "Massy",
+      "cp": "91300",
+      "internal_links_target": "Pilier dept /91/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/91/",
+      "slug": "/91/palaiseau/",
+      "canonical": "https://expert-fissure-idf.fr/91/palaiseau/",
+      "h1": "Expert fissure à Palaiseau (91120)",
+      "title": "Expert fissure Palaiseau rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Palaiseau est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure palaiseau",
+      "keywords_secondary": [
+        "expertise fissure palaiseau",
+        "diagnostic fissure palaiseau"
+      ],
+      "dept_code": "91",
+      "ville_name": "Palaiseau",
+      "cp": "91120",
+      "internal_links_target": "Pilier dept /91/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/91/",
+      "slug": "/91/savigny-sur-orge/",
+      "canonical": "https://expert-fissure-idf.fr/91/savigny-sur-orge/",
+      "h1": "Expert fissure à Savigny-sur-Orge (91600)",
+      "title": "Expertise fissure Savigny-sur-Orge par Global Expertises",
+      "meta_description": "Fissures à Savigny-sur-Orge : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure savigny-sur-orge",
+      "keywords_secondary": [
+        "expertise fissure savigny-sur-orge",
+        "diagnostic fissure savigny-sur-orge"
+      ],
+      "dept_code": "91",
+      "ville_name": "Savigny-sur-Orge",
+      "cp": "91600",
+      "internal_links_target": "Pilier dept /91/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/91/",
+      "slug": "/91/viry-chatillon/",
+      "canonical": "https://expert-fissure-idf.fr/91/viry-chatillon/",
+      "h1": "Expert fissure à Viry-Châtillon (91170)",
+      "title": "Expert fissure Viry-Châtillon rapport opposable",
+      "meta_description": "Votre maison à Viry-Châtillon est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure viry-chatillon",
+      "keywords_secondary": [
+        "expertise fissure viry-chatillon",
+        "diagnostic fissure viry-chatillon"
+      ],
+      "dept_code": "91",
+      "ville_name": "Viry-Châtillon",
+      "cp": "91170",
+      "internal_links_target": "Pilier dept /91/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/91/",
+      "slug": "/91/athis-mons/",
+      "canonical": "https://expert-fissure-idf.fr/91/athis-mons/",
+      "h1": "Expert fissure à Athis-Mons (91200)",
+      "title": "Expert fissure Athis-Mons (91) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Athis-Mons ? Global Expertises intervient sous 15 jours dans tout le 91. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure athis-mons",
+      "keywords_secondary": [
+        "expertise fissure athis-mons",
+        "diagnostic fissure athis-mons"
+      ],
+      "dept_code": "91",
+      "ville_name": "Athis-Mons",
+      "cp": "91200",
+      "internal_links_target": "Pilier dept /91/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/91/",
+      "slug": "/91/longjumeau/",
+      "canonical": "https://expert-fissure-idf.fr/91/longjumeau/",
+      "h1": "Expert fissure à Longjumeau (91160)",
+      "title": "Expert fissure Longjumeau (91) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Longjumeau ? Global Expertises intervient sous 15 jours dans tout le 91. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure longjumeau",
+      "keywords_secondary": [
+        "expertise fissure longjumeau",
+        "diagnostic fissure longjumeau"
+      ],
+      "dept_code": "91",
+      "ville_name": "Longjumeau",
+      "cp": "91160",
+      "internal_links_target": "Pilier dept /91/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/92/",
+      "slug": "/92/boulogne-billancourt/",
+      "canonical": "https://expert-fissure-idf.fr/92/boulogne-billancourt/",
+      "h1": "Expert fissure à Boulogne-Billancourt (92100)",
+      "title": "Expert fissure Boulogne-Billancourt intervention rapide",
+      "meta_description": "Désordres et fissures à Boulogne-Billancourt ? Global Expertises intervient sous 15 jours dans tout le 92. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure boulogne-billancourt",
+      "keywords_secondary": [
+        "expertise fissure boulogne-billancourt",
+        "diagnostic fissure boulogne-billancourt"
+      ],
+      "dept_code": "92",
+      "ville_name": "Boulogne-Billancourt",
+      "cp": "92100",
+      "internal_links_target": "Pilier dept /92/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/92/",
+      "slug": "/92/neuilly-sur-seine/",
+      "canonical": "https://expert-fissure-idf.fr/92/neuilly-sur-seine/",
+      "h1": "Expert fissure à Neuilly-sur-Seine (92200)",
+      "title": "Expertise fissure Neuilly-sur-Seine par Global Expertises",
+      "meta_description": "Fissures à Neuilly-sur-Seine : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure neuilly-sur-seine",
+      "keywords_secondary": [
+        "expertise fissure neuilly-sur-seine",
+        "diagnostic fissure neuilly-sur-seine"
+      ],
+      "dept_code": "92",
+      "ville_name": "Neuilly-sur-Seine",
+      "cp": "92200",
+      "internal_links_target": "Pilier dept /92/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/92/",
+      "slug": "/92/levallois-perret/",
+      "canonical": "https://expert-fissure-idf.fr/92/levallois-perret/",
+      "h1": "Expert fissure à Levallois-Perret (92300)",
+      "title": "Expertise fissure Levallois-Perret par Global Expertises",
+      "meta_description": "Fissures à Levallois-Perret : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure levallois-perret",
+      "keywords_secondary": [
+        "expertise fissure levallois-perret",
+        "diagnostic fissure levallois-perret"
+      ],
+      "dept_code": "92",
+      "ville_name": "Levallois-Perret",
+      "cp": "92300",
+      "internal_links_target": "Pilier dept /92/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/92/",
+      "slug": "/92/issy-les-moulineaux/",
+      "canonical": "https://expert-fissure-idf.fr/92/issy-les-moulineaux/",
+      "h1": "Expert fissure à Issy-les-Moulineaux (92130)",
+      "title": "Expert fissure Issy-les-Moulineaux rapport opposable",
+      "meta_description": "Votre maison à Issy-les-Moulineaux est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure issy-les-moulineaux",
+      "keywords_secondary": [
+        "expertise fissure issy-les-moulineaux",
+        "diagnostic fissure issy-les-moulineaux"
+      ],
+      "dept_code": "92",
+      "ville_name": "Issy-les-Moulineaux",
+      "cp": "92130",
+      "internal_links_target": "Pilier dept /92/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/92/",
+      "slug": "/92/courbevoie/",
+      "canonical": "https://expert-fissure-idf.fr/92/courbevoie/",
+      "h1": "Expert fissure à Courbevoie (92400)",
+      "title": "Expert fissure Courbevoie (92) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Courbevoie ? Global Expertises intervient sous 15 jours dans tout le 92. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure courbevoie",
+      "keywords_secondary": [
+        "expertise fissure courbevoie",
+        "diagnostic fissure courbevoie"
+      ],
+      "dept_code": "92",
+      "ville_name": "Courbevoie",
+      "cp": "92400",
+      "internal_links_target": "Pilier dept /92/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/92/",
+      "slug": "/92/nanterre/",
+      "canonical": "https://expert-fissure-idf.fr/92/nanterre/",
+      "h1": "Expert fissure à Nanterre (92000)",
+      "title": "Expert fissure Nanterre (92) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Nanterre ? Global Expertises intervient sous 15 jours dans tout le 92. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure nanterre",
+      "keywords_secondary": [
+        "expertise fissure nanterre",
+        "diagnostic fissure nanterre"
+      ],
+      "dept_code": "92",
+      "ville_name": "Nanterre",
+      "cp": "92000",
+      "internal_links_target": "Pilier dept /92/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/92/",
+      "slug": "/92/antony/",
+      "canonical": "https://expert-fissure-idf.fr/92/antony/",
+      "h1": "Expert fissure à Antony (92160)",
+      "title": "Expert fissure Antony rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Antony est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure antony",
+      "keywords_secondary": [
+        "expertise fissure antony",
+        "diagnostic fissure antony"
+      ],
+      "dept_code": "92",
+      "ville_name": "Antony",
+      "cp": "92160",
+      "internal_links_target": "Pilier dept /92/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/92/",
+      "slug": "/92/clamart/",
+      "canonical": "https://expert-fissure-idf.fr/92/clamart/",
+      "h1": "Expert fissure à Clamart (92140)",
+      "title": "Expert fissure Clamart diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Clamart ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure clamart",
+      "keywords_secondary": [
+        "expertise fissure clamart",
+        "diagnostic fissure clamart"
+      ],
+      "dept_code": "92",
+      "ville_name": "Clamart",
+      "cp": "92140",
+      "internal_links_target": "Pilier dept /92/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/92/",
+      "slug": "/92/rueil-malmaison/",
+      "canonical": "https://expert-fissure-idf.fr/92/rueil-malmaison/",
+      "h1": "Expert fissure à Rueil-Malmaison (92500)",
+      "title": "Expert fissure Rueil-Malmaison intervention rapide",
+      "meta_description": "Désordres et fissures à Rueil-Malmaison ? Global Expertises intervient sous 15 jours dans tout le 92. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure rueil-malmaison",
+      "keywords_secondary": [
+        "expertise fissure rueil-malmaison",
+        "diagnostic fissure rueil-malmaison"
+      ],
+      "dept_code": "92",
+      "ville_name": "Rueil-Malmaison",
+      "cp": "92500",
+      "internal_links_target": "Pilier dept /92/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/92/",
+      "slug": "/92/asnieres-sur-seine/",
+      "canonical": "https://expert-fissure-idf.fr/92/asnieres-sur-seine/",
+      "h1": "Expert fissure à Asnières-sur-Seine (92600)",
+      "title": "Expertise fissure Asnières-sur-Seine par Global Expertises",
+      "meta_description": "Fissures à Asnières-sur-Seine : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure asnieres-sur-seine",
+      "keywords_secondary": [
+        "expertise fissure asnieres-sur-seine",
+        "diagnostic fissure asnieres-sur-seine"
+      ],
+      "dept_code": "92",
+      "ville_name": "Asnières-sur-Seine",
+      "cp": "92600",
+      "internal_links_target": "Pilier dept /92/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/93/",
+      "slug": "/93/saint-denis/",
+      "canonical": "https://expert-fissure-idf.fr/93/saint-denis/",
+      "h1": "Expert fissure à Saint-Denis (93200)",
+      "title": "Expert fissure Saint-Denis (93) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Saint-Denis ? Global Expertises intervient sous 15 jours dans tout le 93. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure saint-denis",
+      "keywords_secondary": [
+        "expertise fissure saint-denis",
+        "diagnostic fissure saint-denis"
+      ],
+      "dept_code": "93",
+      "ville_name": "Saint-Denis",
+      "cp": "93200",
+      "internal_links_target": "Pilier dept /93/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/93/",
+      "slug": "/93/montreuil/",
+      "canonical": "https://expert-fissure-idf.fr/93/montreuil/",
+      "h1": "Expert fissure à Montreuil (93100)",
+      "title": "Expert fissure Montreuil (93) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Montreuil ? Global Expertises intervient sous 15 jours dans tout le 93. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure montreuil",
+      "keywords_secondary": [
+        "expertise fissure montreuil",
+        "diagnostic fissure montreuil"
+      ],
+      "dept_code": "93",
+      "ville_name": "Montreuil",
+      "cp": "93100",
+      "internal_links_target": "Pilier dept /93/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/93/",
+      "slug": "/93/aubervilliers/",
+      "canonical": "https://expert-fissure-idf.fr/93/aubervilliers/",
+      "h1": "Expert fissure à Aubervilliers (93300)",
+      "title": "Expert fissure Aubervilliers rapport opposable",
+      "meta_description": "Votre maison à Aubervilliers est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure aubervilliers",
+      "keywords_secondary": [
+        "expertise fissure aubervilliers",
+        "diagnostic fissure aubervilliers"
+      ],
+      "dept_code": "93",
+      "ville_name": "Aubervilliers",
+      "cp": "93300",
+      "internal_links_target": "Pilier dept /93/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/93/",
+      "slug": "/93/aulnay-sous-bois/",
+      "canonical": "https://expert-fissure-idf.fr/93/aulnay-sous-bois/",
+      "h1": "Expert fissure à Aulnay-sous-Bois (93600)",
+      "title": "Expert fissure Aulnay-sous-Bois intervention rapide",
+      "meta_description": "Désordres et fissures à Aulnay-sous-Bois ? Global Expertises intervient sous 15 jours dans tout le 93. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure aulnay-sous-bois",
+      "keywords_secondary": [
+        "expertise fissure aulnay-sous-bois",
+        "diagnostic fissure aulnay-sous-bois"
+      ],
+      "dept_code": "93",
+      "ville_name": "Aulnay-sous-Bois",
+      "cp": "93600",
+      "internal_links_target": "Pilier dept /93/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/93/",
+      "slug": "/93/pantin/",
+      "canonical": "https://expert-fissure-idf.fr/93/pantin/",
+      "h1": "Expert fissure à Pantin (93500)",
+      "title": "Expertise fissure Pantin diagnostic complet par un ingénieur",
+      "meta_description": "Fissures à Pantin : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure pantin",
+      "keywords_secondary": [
+        "expertise fissure pantin",
+        "diagnostic fissure pantin"
+      ],
+      "dept_code": "93",
+      "ville_name": "Pantin",
+      "cp": "93500",
+      "internal_links_target": "Pilier dept /93/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/93/",
+      "slug": "/93/bobigny/",
+      "canonical": "https://expert-fissure-idf.fr/93/bobigny/",
+      "h1": "Expert fissure à Bobigny (93000)",
+      "title": "Expertise fissure Bobigny diagnostic complet par un ingénieur",
+      "meta_description": "Fissures à Bobigny : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure bobigny",
+      "keywords_secondary": [
+        "expertise fissure bobigny",
+        "diagnostic fissure bobigny"
+      ],
+      "dept_code": "93",
+      "ville_name": "Bobigny",
+      "cp": "93000",
+      "internal_links_target": "Pilier dept /93/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/93/",
+      "slug": "/93/drancy/",
+      "canonical": "https://expert-fissure-idf.fr/93/drancy/",
+      "h1": "Expert fissure à Drancy (93700)",
+      "title": "Expert fissure Drancy rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Drancy est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure drancy",
+      "keywords_secondary": [
+        "expertise fissure drancy",
+        "diagnostic fissure drancy"
+      ],
+      "dept_code": "93",
+      "ville_name": "Drancy",
+      "cp": "93700",
+      "internal_links_target": "Pilier dept /93/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/93/",
+      "slug": "/93/le-blanc-mesnil/",
+      "canonical": "https://expert-fissure-idf.fr/93/le-blanc-mesnil/",
+      "h1": "Expert fissure à Le Blanc-Mesnil (93150)",
+      "title": "Expert fissure Le Blanc-Mesnil intervention rapide",
+      "meta_description": "Désordres et fissures à Le Blanc-Mesnil ? Global Expertises intervient sous 15 jours dans tout le 93. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure le-blanc-mesnil",
+      "keywords_secondary": [
+        "expertise fissure le-blanc-mesnil",
+        "diagnostic fissure le-blanc-mesnil"
+      ],
+      "dept_code": "93",
+      "ville_name": "Le Blanc-Mesnil",
+      "cp": "93150",
+      "internal_links_target": "Pilier dept /93/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/94/",
+      "slug": "/94/creteil/",
+      "canonical": "https://expert-fissure-idf.fr/94/creteil/",
+      "h1": "Expert fissure à Créteil (94000)",
+      "title": "Expert fissure Créteil diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Créteil ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure creteil",
+      "keywords_secondary": [
+        "expertise fissure creteil",
+        "diagnostic fissure creteil"
+      ],
+      "dept_code": "94",
+      "ville_name": "Créteil",
+      "cp": "94000",
+      "internal_links_target": "Pilier dept /94/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/94/",
+      "slug": "/94/vitry-sur-seine/",
+      "canonical": "https://expert-fissure-idf.fr/94/vitry-sur-seine/",
+      "h1": "Expert fissure à Vitry-sur-Seine (94400)",
+      "title": "Expertise fissure Vitry-sur-Seine par Global Expertises",
+      "meta_description": "Fissures à Vitry-sur-Seine : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure vitry-sur-seine",
+      "keywords_secondary": [
+        "expertise fissure vitry-sur-seine",
+        "diagnostic fissure vitry-sur-seine"
+      ],
+      "dept_code": "94",
+      "ville_name": "Vitry-sur-Seine",
+      "cp": "94400",
+      "internal_links_target": "Pilier dept /94/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/94/",
+      "slug": "/94/saint-maur-des-fosses/",
+      "canonical": "https://expert-fissure-idf.fr/94/saint-maur-des-fosses/",
+      "h1": "Expert fissure à Saint-Maur-des-Fossés (94100)",
+      "title": "Expertise fissure Saint-Maur-des-Fossés par Global Expertises",
+      "meta_description": "Fissures à Saint-Maur-des-Fossés : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure saint-maur-des-fosses",
+      "keywords_secondary": [
+        "expertise fissure saint-maur-des-fosses",
+        "diagnostic fissure saint-maur-des-fosses"
+      ],
+      "dept_code": "94",
+      "ville_name": "Saint-Maur-des-Fossés",
+      "cp": "94100",
+      "internal_links_target": "Pilier dept /94/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/94/",
+      "slug": "/94/ivry-sur-seine/",
+      "canonical": "https://expert-fissure-idf.fr/94/ivry-sur-seine/",
+      "h1": "Expert fissure à Ivry-sur-Seine (94200)",
+      "title": "Expertise fissure Ivry-sur-Seine par Global Expertises",
+      "meta_description": "Fissures à Ivry-sur-Seine : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure ivry-sur-seine",
+      "keywords_secondary": [
+        "expertise fissure ivry-sur-seine",
+        "diagnostic fissure ivry-sur-seine"
+      ],
+      "dept_code": "94",
+      "ville_name": "Ivry-sur-Seine",
+      "cp": "94200",
+      "internal_links_target": "Pilier dept /94/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/94/",
+      "slug": "/94/vincennes/",
+      "canonical": "https://expert-fissure-idf.fr/94/vincennes/",
+      "h1": "Expert fissure à Vincennes (94300)",
+      "title": "Expert fissure Vincennes rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Vincennes est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure vincennes",
+      "keywords_secondary": [
+        "expertise fissure vincennes",
+        "diagnostic fissure vincennes"
+      ],
+      "dept_code": "94",
+      "ville_name": "Vincennes",
+      "cp": "94300",
+      "internal_links_target": "Pilier dept /94/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/94/",
+      "slug": "/94/fontenay-sous-bois/",
+      "canonical": "https://expert-fissure-idf.fr/94/fontenay-sous-bois/",
+      "h1": "Expert fissure à Fontenay-sous-Bois (94120)",
+      "title": "Expert fissure Fontenay-sous-Bois rapport opposable",
+      "meta_description": "Votre maison à Fontenay-sous-Bois est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure fontenay-sous-bois",
+      "keywords_secondary": [
+        "expertise fissure fontenay-sous-bois",
+        "diagnostic fissure fontenay-sous-bois"
+      ],
+      "dept_code": "94",
+      "ville_name": "Fontenay-sous-Bois",
+      "cp": "94120",
+      "internal_links_target": "Pilier dept /94/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/94/",
+      "slug": "/94/champigny-sur-marne/",
+      "canonical": "https://expert-fissure-idf.fr/94/champigny-sur-marne/",
+      "h1": "Expert fissure à Champigny-sur-Marne (94500)",
+      "title": "Expert fissure Champigny-sur-Marne intervention rapide",
+      "meta_description": "Désordres et fissures à Champigny-sur-Marne ? Global Expertises intervient sous 15 jours dans tout le 94. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure champigny-sur-marne",
+      "keywords_secondary": [
+        "expertise fissure champigny-sur-marne",
+        "diagnostic fissure champigny-sur-marne"
+      ],
+      "dept_code": "94",
+      "ville_name": "Champigny-sur-Marne",
+      "cp": "94500",
+      "internal_links_target": "Pilier dept /94/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/94/",
+      "slug": "/94/maisons-alfort/",
+      "canonical": "https://expert-fissure-idf.fr/94/maisons-alfort/",
+      "h1": "Expert fissure à Maisons-Alfort (94700)",
+      "title": "Expert fissure Maisons-Alfort intervention rapide",
+      "meta_description": "Désordres et fissures à Maisons-Alfort ? Global Expertises intervient sous 15 jours dans tout le 94. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure maisons-alfort",
+      "keywords_secondary": [
+        "expertise fissure maisons-alfort",
+        "diagnostic fissure maisons-alfort"
+      ],
+      "dept_code": "94",
+      "ville_name": "Maisons-Alfort",
+      "cp": "94700",
+      "internal_links_target": "Pilier dept /94/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/95/",
+      "slug": "/95/cergy/",
+      "canonical": "https://expert-fissure-idf.fr/95/cergy/",
+      "h1": "Expert fissure à Cergy (95000)",
+      "title": "Expertise fissure Cergy diagnostic complet par un ingénieur",
+      "meta_description": "Fissures à Cergy : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure cergy",
+      "keywords_secondary": [
+        "expertise fissure cergy",
+        "diagnostic fissure cergy"
+      ],
+      "dept_code": "95",
+      "ville_name": "Cergy",
+      "cp": "95000",
+      "internal_links_target": "Pilier dept /95/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/95/",
+      "slug": "/95/argenteuil/",
+      "canonical": "https://expert-fissure-idf.fr/95/argenteuil/",
+      "h1": "Expert fissure à Argenteuil (95100)",
+      "title": "Expert fissure Argenteuil diagnostic sur site sous 15 jours",
+      "meta_description": "Fissures dans votre bien à Argenteuil ? Diagnostic par Global Expertises, 1er cabinet d'expertise de France. Rapport opposable sous 15 jours.",
+      "keyword_primary": "expert fissure argenteuil",
+      "keywords_secondary": [
+        "expertise fissure argenteuil",
+        "diagnostic fissure argenteuil"
+      ],
+      "dept_code": "95",
+      "ville_name": "Argenteuil",
+      "cp": "95100",
+      "internal_links_target": "Pilier dept /95/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/95/",
+      "slug": "/95/sarcelles/",
+      "canonical": "https://expert-fissure-idf.fr/95/sarcelles/",
+      "h1": "Expert fissure à Sarcelles (95200)",
+      "title": "Expertise fissure Sarcelles diagnostic complet par un ingénieur",
+      "meta_description": "Fissures à Sarcelles : diagnostic par des experts indépendants du 1er cabinet de France. 300 dossiers/mois, rapport opposable, accompagnement RGA.",
+      "keyword_primary": "expert fissure sarcelles",
+      "keywords_secondary": [
+        "expertise fissure sarcelles",
+        "diagnostic fissure sarcelles"
+      ],
+      "dept_code": "95",
+      "ville_name": "Sarcelles",
+      "cp": "95200",
+      "internal_links_target": "Pilier dept /95/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/95/",
+      "slug": "/95/pontoise/",
+      "canonical": "https://expert-fissure-idf.fr/95/pontoise/",
+      "h1": "Expert fissure à Pontoise (95000)",
+      "title": "Expert fissure Pontoise rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Pontoise est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure pontoise",
+      "keywords_secondary": [
+        "expertise fissure pontoise",
+        "diagnostic fissure pontoise"
+      ],
+      "dept_code": "95",
+      "ville_name": "Pontoise",
+      "cp": "95000",
+      "internal_links_target": "Pilier dept /95/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/95/",
+      "slug": "/95/franconville/",
+      "canonical": "https://expert-fissure-idf.fr/95/franconville/",
+      "h1": "Expert fissure à Franconville (95130)",
+      "title": "Expert fissure Franconville (95) intervention sur rendez-vous",
+      "meta_description": "Désordres et fissures à Franconville ? Global Expertises intervient sous 15 jours dans tout le 95. Expertise structurelle, RGA, bâti ancien. Devis sous 24h.",
+      "keyword_primary": "expert fissure franconville",
+      "keywords_secondary": [
+        "expertise fissure franconville",
+        "diagnostic fissure franconville"
+      ],
+      "dept_code": "95",
+      "ville_name": "Franconville",
+      "cp": "95130",
+      "internal_links_target": "Pilier dept /95/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/95/",
+      "slug": "/95/ermont/",
+      "canonical": "https://expert-fissure-idf.fr/95/ermont/",
+      "h1": "Expert fissure à Ermont (95120)",
+      "title": "Expert fissure Ermont rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Ermont est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure ermont",
+      "keywords_secondary": [
+        "expertise fissure ermont",
+        "diagnostic fissure ermont"
+      ],
+      "dept_code": "95",
+      "ville_name": "Ermont",
+      "cp": "95120",
+      "internal_links_target": "Pilier dept /95/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/95/",
+      "slug": "/95/goussainville/",
+      "canonical": "https://expert-fissure-idf.fr/95/goussainville/",
+      "h1": "Expert fissure à Goussainville (95190)",
+      "title": "Expert fissure Goussainville rapport opposable",
+      "meta_description": "Votre maison à Goussainville est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure goussainville",
+      "keywords_secondary": [
+        "expertise fissure goussainville",
+        "diagnostic fissure goussainville"
+      ],
+      "dept_code": "95",
+      "ville_name": "Goussainville",
+      "cp": "95190",
+      "internal_links_target": "Pilier dept /95/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "ville",
+      "priority": 0.7,
+      "parent_slug": "/95/",
+      "slug": "/95/bezons/",
+      "canonical": "https://expert-fissure-idf.fr/95/bezons/",
+      "h1": "Expert fissure à Bezons (95870)",
+      "title": "Expert fissure Bezons rapport opposable par un ingénieur",
+      "meta_description": "Votre maison à Bezons est fissurée ? Ingénieur expert sur place, diagnostic complet, préconisations chiffrées. Rapport opposable, réponse sous 24h.",
+      "keyword_primary": "expert fissure bezons",
+      "keywords_secondary": [
+        "expertise fissure bezons",
+        "diagnostic fissure bezons"
+      ],
+      "dept_code": "95",
+      "ville_name": "Bezons",
+      "cp": "95870",
+      "internal_links_target": "Pilier dept /95/, 3-4 villes voisines du même dept, 2 guides pertinents"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-plafond/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-plafond/",
+      "h1": "Fissure au plafond : causes, dangers et solutions",
+      "title": "Fissure plafond causes dangers et quand s'inquiéter",
+      "meta_description": "Fissures au plafond : types, causes, niveaux de gravité et solutions. Quand faire appel à un expert ? Guide complet rédigé par des ingénieurs spécialisés.",
+      "keyword_primary": "fissure plafond",
+      "keywords_secondary": [
+        "fissure au plafond",
+        "fissures au plafond",
+        "plafond fissuré",
+        "fissure plafond danger"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-mur-interieur/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-mur-interieur/",
+      "h1": "Fissure sur un mur intérieur : diagnostic et réparation",
+      "title": "Fissure mur intérieur causes diagnostic et dangers réels",
+      "meta_description": "Mur intérieur fissuré : comment reconnaître une fissure dangereuse, les causes les plus fréquentes et quand faire appel à un expert fissure indépendant.",
+      "keyword_primary": "fissure mur intérieur",
+      "keywords_secondary": [
+        "fissure mur interieur",
+        "fissures mur interieur",
+        "fissure mur intérieur danger"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-mur-exterieur-facade/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-mur-exterieur-facade/",
+      "h1": "Fissure de façade et mur extérieur : diagnostic complet",
+      "title": "Fissure façade et mur extérieur quand s'inquiéter vraiment",
+      "meta_description": "Fissures sur façade ou mur extérieur : structurelle ou superficielle ? Guide de diagnostic visuel et critères d'urgence par un cabinet d'expertise indépendant.",
+      "keyword_primary": "fissure façade",
+      "keywords_secondary": [
+        "fissure mur extérieur",
+        "fissure mur exterieur",
+        "fissure facade quand s'inquiéter"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-dalle-beton/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-dalle-beton/",
+      "h1": "Fissure sur une dalle béton : analyse et réparation",
+      "title": "Fissure dalle béton causes types et méthodes de réparation",
+      "meta_description": "Dalle béton fissurée : fissures de retrait, structurelles ou superficielles ? Diagnostic, niveaux de gravité et solutions de réparation durables expliqués.",
+      "keyword_primary": "fissure dalle béton",
+      "keywords_secondary": [
+        "fissure dalle beton",
+        "fissure béton",
+        "fissure dalle"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-horizontale/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-horizontale/",
+      "h1": "Fissure horizontale : un signal à ne pas ignorer",
+      "title": "Fissure horizontale maison signification et niveau d'urgence",
+      "meta_description": "Fissure horizontale sur un mur ou à hauteur du plancher : origine, niveau de danger et préconisations d'expert. Quand demander une expertise ?",
+      "keyword_primary": "fissure horizontale maison",
+      "keywords_secondary": [
+        "fissure horizontale",
+        "fissures horizontales",
+        "fissure horizontale hauteur plancher"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-maison-ancienne/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-maison-ancienne/",
+      "h1": "Fissures dans une maison ancienne : que faire ?",
+      "title": "Fissure maison ancienne que faire et comment agir vite",
+      "meta_description": "Maison ancienne fissurée ? Les causes typiques (fondations peu profondes, tassement, RGA), la gravité réelle et les bonnes étapes à suivre expliquées.",
+      "keyword_primary": "fissure maison ancienne",
+      "keywords_secondary": [
+        "fissure mur maison ancienne",
+        "fissure maison ancienne que faire",
+        "fissure mur extérieur maison ancienne"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/microfissure/",
+      "canonical": "https://expert-fissure-idf.fr/guide/microfissure/",
+      "h1": "Microfissures : dangereuses ou bénignes ?",
+      "title": "Microfissure mur plafond façade faut-il s'inquiéter vraiment",
+      "meta_description": "Microfissures sur mur, plafond ou façade : esthétiques ou signe d'un problème structurel ? Guide d'interprétation visuelle et critères d'intervention.",
+      "keyword_primary": "microfissure",
+      "keywords_secondary": [
+        "microfissure mur",
+        "microfissure plafond",
+        "microfissure façade"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-secheresse-rga/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-secheresse-rga/",
+      "h1": "Fissures de sécheresse et retrait-gonflement des argiles (RGA)",
+      "title": "Fissure sécheresse causes et indemnisation catastrophe naturelle",
+      "meta_description": "Fissures dues à la sécheresse et au retrait-gonflement des argiles en Île-de-France : diagnostic, reconnaissance catastrophe naturelle, indemnisation assurance.",
+      "keyword_primary": "fissure sécheresse",
+      "keywords_secondary": [
+        "fissures maison sol argileux",
+        "retrait gonflement argile",
+        "rga",
+        "fissure maison secheresse"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-verticale/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-verticale/",
+      "h1": "Fissure verticale : origines et gravité",
+      "title": "Fissure verticale maison ou mur quand intervenir vraiment",
+      "meta_description": "Fissure verticale sur un mur ou une façade : causes possibles, niveau de gravité selon la largeur et l'emplacement, quand faire un diagnostic expert.",
+      "keyword_primary": "fissure verticale",
+      "keywords_secondary": [
+        "fissure verticale maison",
+        "fissure verticale mur"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-enduit-crepi/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-enduit-crepi/",
+      "h1": "Fissure sur enduit ou crépi : esthétique ou structurelle ?",
+      "title": "Fissure enduit crépi causes solutions et garantie décennale",
+      "meta_description": "Fissure sur l'enduit ou le crépi extérieur : superficielle, de retrait ou structurelle ? Solutions de réparation et recours en garantie décennale.",
+      "keyword_primary": "fissure enduit",
+      "keywords_secondary": [
+        "fissure crépi",
+        "garantie décennale fissure enduit",
+        "fissure crepi"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-parpaing/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-parpaing/",
+      "h1": "Fissure sur un mur en parpaing : diagnostic et réparation",
+      "title": "Fissure mur parpaing causes gravité et méthodes de réparation",
+      "meta_description": "Mur en parpaing fissuré : origines fréquentes, niveau de gravité, techniques de réparation (agrafage, injection résine). Guide technique par un expert.",
+      "keyword_primary": "fissure mur parpaing",
+      "keywords_secondary": [
+        "réparation fissure mur parpaing",
+        "agrafe mur fissuré parpaing",
+        "reparer fissure mur parpaing"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-structurelle/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-structurelle/",
+      "h1": "Fissure structurelle : reconnaître les signes d'urgence",
+      "title": "Fissure structurelle comment l'identifier et agir rapidement",
+      "meta_description": "Fissure structurelle : quels signes visuels, quel niveau de risque pour la stabilité du bâtiment et quelles actions immédiates entreprendre ?",
+      "keyword_primary": "fissure structurelle",
+      "keywords_secondary": [
+        "fissures structurelles",
+        "fissure structurale"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-traversante/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-traversante/",
+      "h1": "Fissure traversante : un défaut à traiter en priorité",
+      "title": "Fissure traversante mur porteur dangers et solutions d'expert",
+      "meta_description": "Fissure qui traverse un mur de part en part : gravité, conséquences sur l'isolation et la structure, solutions de réparation fiables expliquées.",
+      "keyword_primary": "fissure traversante",
+      "keywords_secondary": [
+        "fissure traversante mur porteur",
+        "réparer fissure traversante"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/fissure-maison-neuve/",
+      "canonical": "https://expert-fissure-idf.fr/guide/fissure-maison-neuve/",
+      "h1": "Fissures dans une maison neuve : vos recours",
+      "title": "Fissure maison neuve garantie décennale et recours constructeur",
+      "meta_description": "Fissures dans une construction récente : normales ou anormales ? Guide des recours (garantie de parfait achèvement, décennale) et étapes à suivre.",
+      "keyword_primary": "fissure maison neuve",
+      "keywords_secondary": [
+        "fissures maison neuve",
+        "fissure construction récente"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/tarif-expertise-fissure/",
+      "canonical": "https://expert-fissure-idf.fr/guide/tarif-expertise-fissure/",
+      "h1": "Combien coûte une expertise fissure ?",
+      "title": "Tarif expertise fissure maison prix et modalités 2026",
+      "meta_description": "Prix d'une expertise fissure : fourchette tarifaire, critères de variation (surface, complexité, localisation), prise en charge assurance. Devis sous 24h.",
+      "keyword_primary": "tarif expertise fissure maison",
+      "keywords_secondary": [
+        "prix expertise fissure",
+        "coût expertise fissure",
+        "prix expert fissure maison"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/diagnostic-fissure-maison/",
+      "canonical": "https://expert-fissure-idf.fr/guide/diagnostic-fissure-maison/",
+      "h1": "Diagnostic fissure maison : la méthode complète d'expert",
+      "title": "Diagnostic fissure maison méthode complète par un expert",
+      "meta_description": "Comment diagnostiquer une fissure de maison ? Méthode d'expert pas à pas pour identifier la cause, évaluer la gravité et choisir la bonne réparation.",
+      "keyword_primary": "diagnostic fissure maison",
+      "keywords_secondary": [
+        "diagnostic fissure",
+        "comment diagnostiquer fissure",
+        "analyse fissure maison"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide",
+      "priority": 0.6,
+      "parent_slug": "/guide/",
+      "slug": "/guide/expert-fissure-independant/",
+      "canonical": "https://expert-fissure-idf.fr/guide/expert-fissure-independant/",
+      "h1": "Expert fissure indépendant : pourquoi c'est important",
+      "title": "Expert fissure indépendant garantie d'une expertise impartiale",
+      "meta_description": "Pourquoi choisir un expert fissure indépendant plutôt qu'un expert d'assurance ? Garanties d'impartialité, opposabilité du rapport et accompagnement neutre.",
+      "keyword_primary": "expert fissure indépendant",
+      "keywords_secondary": [
+        "expert fissures indépendant",
+        "expert indépendant fissure maison",
+        "expertise fissure indépendante"
+      ],
+      "internal_links_target": "Pilier régional, 4-6 pages ville les plus pertinentes, 2-3 autres guides connexes"
+    },
+    {
+      "type": "guide_index",
+      "priority": 0.7,
+      "parent_slug": "/",
+      "slug": "/guide/",
+      "canonical": "https://expert-fissure-idf.fr/guide/",
+      "h1": "Guide complet des fissures : tout comprendre et bien agir",
+      "title": "Guide fissure maison types causes et solutions par nos experts",
+      "meta_description": "Tous nos guides d'expert sur les fissures : types, causes, niveaux de gravité, solutions de réparation, recours assurance. Contenus rédigés par des ingénieurs.",
+      "keyword_primary": "guide fissure maison",
+      "keywords_secondary": [
+        "tout savoir sur les fissures",
+        "types de fissures",
+        "causes des fissures"
+      ],
+      "internal_links_target": "Toutes les pages Guide, pilier régional"
+    }
+  ],
+  "blog": {
+    "index": {
+      "type": "blog_index",
+      "priority": 0.5,
+      "slug": "/blog/",
+      "canonical": "https://expert-fissure-idf.fr/blog/",
+      "h1": "Actualités et conseils d'experts fissures",
+      "title": "Blog fissure bâtiment actualités et conseils d'experts en IDF",
+      "meta_description": "Actualités, cas pratiques et conseils d'experts sur les fissures du bâtiment en Île-de-France. Arrêtés sécheresse, nouvelles méthodes, retours d'expérience.",
+      "keyword_primary": "blog fissure bâtiment",
+      "keywords_secondary": [
+        "actualités fissures idf",
+        "conseils expert fissure"
+      ],
+      "description_role": "Hub éditorial qui capte des requêtes de longue traîne et entretient la fraîcheur SEO du site"
+    },
+    "categories_suggerees": [
+      {
+        "slug": "diagnostic-expertise",
+        "h1": "Articles sur le diagnostic et l'expertise fissure",
+        "description": "Processus d'expertise, méthodes de diagnostic, critères d'évaluation",
+        "keyword_primary": "diagnostic fissure"
+      },
+      {
+        "slug": "types-de-fissures",
+        "h1": "Articles par typologie de fissures",
+        "description": "Analyses détaillées par type (escalier, traversante, lézarde, etc.)",
+        "keyword_primary": "types fissure"
+      },
+      {
+        "slug": "reparation-solutions",
+        "h1": "Méthodes de réparation des fissures",
+        "description": "Agrafage, injection résine, reprise en sous-œuvre, micropieux",
+        "keyword_primary": "réparer fissure"
+      },
+      {
+        "slug": "cas-pratiques",
+        "h1": "Cas pratiques et retours d'expérience",
+        "description": "Études de cas concrètes anonymisées (pavillon IDF, immeuble haussmannien, etc.)",
+        "keyword_primary": "cas fissure maison"
+      },
+      {
+        "slug": "assurance-reglementation",
+        "h1": "Assurance, catastrophe naturelle et réglementation",
+        "description": "Arrêtés CatNat, démarches d'indemnisation, garantie décennale, procédures",
+        "keyword_primary": "assurance fissure"
+      },
+      {
+        "slug": "actualites-idf",
+        "h1": "Actualités fissures en Île-de-France",
+        "description": "Arrêtés sécheresse IDF, chantiers Grand Paris, retours du terrain",
+        "keyword_primary": "fissure île-de-france actualité"
+      }
+    ],
+    "article_template": {
+      "slug_pattern": "/blog/{slug-article}/",
+      "canonical_pattern": "https://expert-fissure-idf.fr/blog/{slug-article}/",
+      "title_rules": [
+        "Mot-clé principal à gauche, pas de séparateur",
+        "Sentence case (majuscule initiale + noms propres uniquement)",
+        "55-65 caractères max",
+        "Inclure un bénéfice ou une promesse quand possible"
+      ],
+      "meta_description_rules": [
+        "145-160 caractères",
+        "Inclure le mot-clé principal dans la 1ère moitié",
+        "Inclure un chiffre, une date ou un bénéfice concret",
+        "Terminer par un CTA implicite ou une promesse"
+      ],
+      "exemple_title": "Arrêté sécheresse 2024 en Seine-et-Marne communes reconnues et délais",
+      "exemple_meta": "Votre commune de Seine-et-Marne est-elle reconnue CatNat sécheresse 2024 ? Liste actualisée, délais pour déclarer votre sinistre fissure à l'assurance."
+    },
+    "idees_articles_prioritaires": [
+      "Arrêté catastrophe naturelle sécheresse 2024 en IDF : liste des communes reconnues",
+      "Grand Paris Express : les fissures liées aux chantiers, vos recours",
+      "Fissure après gros travaux chez le voisin : responsabilités et preuves",
+      "Expertise fissure amiable vs judiciaire : comment choisir ?",
+      "RGA en IDF : les départements les plus exposés et pourquoi",
+      "Déclarer une fissure à son assurance : le guide étape par étape",
+      "Agrafage, injection, reprise en sous-œuvre : quelle technique pour quelle fissure ?",
+      "5 signes qui distinguent une fissure dangereuse d'une fissure bénigne",
+      "Acheter une maison avec fissures : les vérifications avant la signature",
+      "Fissures sur copropriété parisienne : qui paye quoi ?"
+    ]
+  }
+}

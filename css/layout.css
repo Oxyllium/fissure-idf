@@ -1,0 +1,118 @@
+/* ==========================================================================
+   LAYOUT — Grilles, héros, structures asymétriques
+   ========================================================================== */
+
+/* Hero asymétrique : colonne large à gauche, marge respiratoire à droite */
+.hero {
+  padding: var(--s-9) 0 var(--s-10);
+  border-bottom: var(--bd);
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--s-7);
+}
+
+@media (min-width: 900px) {
+  .hero__grid {
+    grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
+    align-items: end;
+    gap: var(--s-8);
+  }
+}
+
+.hero__title {
+  max-width: 18ch;
+}
+
+.hero__meta {
+  font-size: var(--fs-small);
+  color: var(--graphite);
+  letter-spacing: var(--tracking-wide);
+}
+
+.hero__meta dt { text-transform: uppercase; font-size: var(--fs-micro); letter-spacing: var(--tracking-cap); color: var(--ocre); margin-bottom: var(--s-1); }
+.hero__meta dd { margin-bottom: var(--s-4); font-family: var(--font-serif); font-size: 1.125rem; color: var(--ink); }
+
+/* Grille 2 colonnes (texte + média ou texte + texte) */
+.split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--s-7);
+}
+
+@media (min-width: 900px) {
+  .split { grid-template-columns: 1fr 1fr; gap: var(--s-8); align-items: start; }
+  .split--7-5 { grid-template-columns: 7fr 5fr; }
+  .split--5-7 { grid-template-columns: 5fr 7fr; }
+}
+
+.split__media { background: var(--mist); padding: var(--s-6); }
+
+/* Bloc en colonne décalée (asymétrie) */
+.offset-block {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--s-5);
+}
+@media (min-width: 1024px) {
+  .offset-block {
+    grid-template-columns: minmax(140px, 200px) minmax(0, 720px) 1fr;
+    column-gap: var(--s-7);
+  }
+}
+.offset-block__label {
+  font-size: var(--fs-micro);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-cap);
+  color: var(--ocre);
+  font-weight: 500;
+  padding-top: var(--s-2);
+}
+
+/* Grille de chiffres clés (5 chiffres) */
+.figures {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--mist-line);
+  border: var(--bd);
+}
+@media (min-width: 768px) {
+  .figures { grid-template-columns: repeat(5, 1fr); }
+}
+.figure {
+  background: var(--paper);
+  padding: var(--s-5) var(--s-4);
+}
+.figure__value {
+  font-family: var(--font-serif);
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  line-height: 1.1;
+  letter-spacing: var(--tracking-tight);
+  font-weight: 500;
+  color: var(--ink);
+  display: block;
+  margin-bottom: var(--s-2);
+}
+.figure__value em { font-style: italic; color: var(--ocre); }
+.figure__label {
+  font-size: var(--fs-small);
+  color: var(--graphite);
+  line-height: 1.4;
+}
+
+/* Section avec fond ink (pour blocs CTA milieu de page) */
+.surface-ink {
+  background: var(--ink);
+  color: var(--paper);
+}
+.surface-ink h2, .surface-ink h3, .surface-ink p { color: var(--paper); }
+.surface-ink .lead { color: var(--paper); opacity: 0.85; }
+.surface-ink .eyebrow { color: var(--ocre-soft); }
+
+/* Section avec fond paper-deep (différenciation visuelle douce) */
+.surface-deep {
+  background: var(--paper-deep);
+}
