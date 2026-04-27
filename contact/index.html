@@ -132,7 +132,9 @@
             </ul>
           </div>
 
-          <form class="contact-form" data-contact-form action="/api/contact" method="POST" novalidate>
+          <form class="contact-form" data-contact-form name="contact" method="POST" action="/merci/" data-netlify="true" data-netlify-honeypot="bot-field" novalidate>
+            <input type="hidden" name="form-name" value="contact">
+            <p hidden><label>Ne pas remplir si vous êtes humain : <input name="bot-field"></label></p>
             <div class="field--row">
               <div class="field">
                 <label for="f-nom">Nom et prénom <span class="req">*</span></label>

@@ -100,17 +100,28 @@ Modifier `site.config.js` pour propager les coordonnées :
 
 ## Déploiement
 
-Site 100 % statique. Compatible :
-- GitHub Pages
-- Netlify (drag-and-drop ou git connect)
-- Cloudflare Pages
-- OVH / Infomaniak hébergement statique
+Site 100 % statique. Compatible Netlify, Cloudflare Pages, GitHub Pages, OVH / Infomaniak hébergement statique.
 
-Builder Node ES modules en place dès l'étape 2. Pour régénérer toutes les pages dépt :
+### Build local
 ```bash
 node build/build.mjs
 ```
-Aucune dépendance externe (Node 18+ requis pour ESM natif).
+Régénère les 8 dépt + 17 guides + 1 index guide + 78 villes + 1 index blog + 6 catégories + 1 article. Zéro dépendance npm (Node 18+).
+
+### Netlify (production)
+Le fichier `netlify.toml` configure tout :
+- **Build** : `node build/build.mjs` exécuté automatiquement à chaque push.
+- **Pretty URLs** : trailing slash natif Netlify.
+- **Redirects** : `/index.html` → `/`, `/guide` → `/guide/`, `/blog` → `/blog/`, tolérance variantes orthographiques.
+- **Headers sécurité** : HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy.
+- **Cache** : 1 an immutable pour `/css/*`, `/js/*`, `/assets/*` ; 10 min pour HTML.
+- **404 custom** : `404.html` à la racine.
+
+### Formulaire (Netlify Forms)
+- Activé automatiquement sur les ~115 pages où le formulaire est présent (attributs `data-netlify`, `name="contact"`, champ caché `form-name`).
+- Honeypot anti-spam (`bot-field`).
+- Redirection après envoi : `/merci/`.
+- Étape manuelle après premier déploiement : **Netlify dashboard → Site settings → Forms → Form notifications** → ajouter notification email vers `quentinwebredac@gmail.com`.
 
 ## Crédits
 

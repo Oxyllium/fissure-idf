@@ -34,9 +34,11 @@
   }
 
   // ---------- Formulaire de contact ----------------------------------------
+  // Netlify Forms : on valide côté client, puis on laisse le submit natif
+  // partir vers /merci/. Netlify intercepte automatiquement la requête POST
+  // (grâce à l'attribut data-netlify="true" et au champ form-name caché).
   const form = document.querySelector('[data-contact-form]');
   if (form) {
-    const feedback = form.querySelector('.form-feedback');
     const submitBtn = form.querySelector('[type="submit"]');
 
     const setError = (field, msg) => {
@@ -57,16 +59,17 @@
       field.addEventListener('change', () => clearError(field));
     });
 
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      feedback.className = 'form-feedback';
-      feedback.textContent = '';
-
+    form.addEventListener('submit', (e) => {
       // Validation maison (en + de la validation native)
       let valid = true;
       const required = form.querySelectorAll('[required]');
       required.forEach((field) => {
-        if (!field.value.trim()) {
+        if (field.type === 'checkbox') {
+          if (!field.checked) {
+            setError(field, 'Champ requis.');
+            valid = false;
+          }
+        } else if (!field.value.trim()) {
           setError(field, 'Champ requis.');
           valid = false;
         }
@@ -76,45 +79,18 @@
         setError(emailField, 'Email invalide.');
         valid = false;
       }
-      const consent = form.querySelector('[name="consent"]');
-      if (consent && !consent.checked) {
-        setError(consent, 'Vous devez accepter pour continuer.');
-        valid = false;
-      }
 
       if (!valid) {
+        e.preventDefault();
         const firstInvalid = form.querySelector('.is-invalid input, .is-invalid select, .is-invalid textarea');
         if (firstInvalid) firstInvalid.focus();
         return;
       }
 
-      // Soumission au backend (endpoint à configurer ultérieurement)
-      const endpoint = form.getAttribute('action');
-      const data = new FormData(form);
+      // OK : on laisse le submit natif partir (Netlify Forms l'intercepte
+      // et redirige vers /merci/ une fois la soumission enregistrée).
       submitBtn.disabled = true;
       submitBtn.textContent = 'Envoi en cours…';
-
-      try {
-        const res = await fetch(endpoint, {
-          method: 'POST',
-          body: data,
-          headers: { 'Accept': 'application/json' }
-        });
-        if (res.ok) {
-          feedback.classList.add('is-success');
-          feedback.textContent = 'Demande envoyée. Un expert vous recontacte sous 24 h ouvrées.';
-          form.reset();
-        } else {
-          throw new Error('Erreur serveur');
-        }
-      } catch (err) {
-        feedback.classList.add('is-error');
-        feedback.innerHTML =
-          'L\'envoi a échoué. Écrivez-nous directement à <a href="mailto:quentinwebredac@gmail.com">quentinwebredac@gmail.com</a>.';
-      } finally {
-        submitBtn.disabled = false;
-        submitBtn.textContent = submitBtn.dataset.label || 'Envoyer ma demande';
-      }
     });
   }
 

@@ -1,0 +1,103 @@
+# =============================================================================
+# Netlify configuration — Expert Fissure IDF
+# =============================================================================
+
+[build]
+  publish = "."
+  # Le builder Node régénère les pages dérivées des JSONs avant publication.
+  command = "node build/build.mjs"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# -----------------------------------------------------------------------------
+# Pretty URLs : Netlify ajoute automatiquement le trailing slash sur les
+# dossiers contenant un index.html. Aucun redirect manuel nécessaire.
+# -----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+# Redirections explicites
+# -----------------------------------------------------------------------------
+
+# Redirection des anciens chemins potentiels (variantes connues sans trailing /)
+# vers les versions canoniques avec trailing /. Netlify gère 90 % des cas
+# automatiquement avec Pretty URLs ; ces règles couvrent les cas restants.
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guide"
+  to = "/guide/"
+  status = 301
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog/"
+  status = 301
+
+# Tolérance : variantes orthographiques courantes sur l'argument SEO différenciant.
+[[redirects]]
+  from = "/guide/expert-fissures-independant/"
+  to = "/guide/expert-fissure-independant/"
+  status = 301
+
+[[redirects]]
+  from = "/guide/diagnostic-fissure/"
+  to = "/guide/diagnostic-fissure-maison/"
+  status = 301
+
+# -----------------------------------------------------------------------------
+# Headers
+# -----------------------------------------------------------------------------
+
+# Sécurité globale
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+
+# Cache long pour les assets immutables (CSS/JS/SVG/fonts).
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache court pour les HTML (10 minutes — le contenu peut être mis à jour).
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=600, must-revalidate"
+
+# Sitemap et robots.txt : cache court.
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "application/xml; charset=utf-8"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+# -----------------------------------------------------------------------------
+# 404 — Netlify utilise automatiquement /404.html à la racine si présent.
+# -----------------------------------------------------------------------------
