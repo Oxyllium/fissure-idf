@@ -20,7 +20,7 @@ Site local SEO pour **Global Expertises**, dédié à l'expertise des fissures e
 | 3 | 17 guides + index `/guide/` (chef-d'œuvre `/guide/fissure-horizontale/`) | ✅ |
 | 4 | 7 villes prioritaires P0 (Search Console) | ✅ |
 | 5 | 20 pages villes Paris (arrondissements) | ✅ |
-| 6 | ~28 pages villes petite couronne (92, 93, 94) | ⏳ |
+| 6 | ~28 pages villes petite couronne (92, 93, 94) | ✅ |
 | 7 | ~30 pages villes grande couronne (77, 78, 91, 95) | ⏳ |
 
 Total cible : **112 pages**.

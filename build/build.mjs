@@ -120,9 +120,10 @@ for (const dept of idfGeo.departements) {
     const content = villeContent[villeKey]; // null si non enrichie (étapes 5-7)
     const seo = seoPages.pages_statiques.find(p => p.slug === `/${code}/${ville.slug}/` && p.type === "ville");
     if (!seo) continue;
-    // Étape 5 : génération des 20 arrondissements Paris (75) en complément des P0.
-    // Pour les villes hors-75 sans content : skip (étapes 6-7 retireront ce filtre).
-    if (!content && code !== "75") continue;
+    // Étape 6 : génération étendue à la petite couronne (92, 93, 94).
+    // Étapes 1-5 ont couvert : 75 (tout) + P0 hors-75.
+    // Étape 7 ajoutera : 77, 78, 91, 95.
+    if (!content && !["75", "92", "93", "94"].includes(code)) continue;
 
     const html = renderVille({
       ville,
