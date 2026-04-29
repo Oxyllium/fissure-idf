@@ -2,9 +2,9 @@
   "_doc": "Contenu rédactionnel enrichi par département. Croisé avec idf-geo.json (sols, bâti, tribunal) et seo-pages.json (title, meta, h1) au moment du build.",
 
   "75": {
-    "accroche": "Sous le pavé parisien, un sous-sol hétérogène — gypse rive droite, argiles vertes, anciennes carrières — sollicite des fondations souvent peu profondes. Diagnostic d'expert sur tout le 1er au 20e arrondissement.",
+    "accroche": "Sous le pavé parisien, un sous-sol hétérogène - gypse rive droite, argiles vertes, anciennes carrières - sollicite des fondations souvent peu profondes. Diagnostic d'expert sur tout le 1er au 20e arrondissement.",
     "intro_paragraphs": [
-      "Le bâti parisien intra-muros est dominé par les immeubles haussmanniens, pré-haussmanniens et Art déco. Construits sur calcaire grossier, argiles vertes ou remblais anciens, ils reposent fréquemment sur des fondations rudimentaires au regard des standards modernes. La moindre modification du sol — pompage de nappe, vibration de chantier voisin, fuite de réseau enterré — peut générer des fissures structurelles.",
+      "Le bâti parisien intra-muros est dominé par les immeubles haussmanniens, pré-haussmanniens et Art déco. Construits sur calcaire grossier, argiles vertes ou remblais anciens, ils reposent fréquemment sur des fondations rudimentaires au regard des standards modernes. La moindre modification du sol - pompage de nappe, vibration de chantier voisin, fuite de réseau enterré - peut générer des fissures structurelles.",
       "À cela s'ajoute un sous-sol marqué par d'anciennes carrières de gypse, particulièrement actives au nord-est de la capitale (Buttes-Chaumont, Belleville, Montmartre). La dissolution naturelle du gypse au contact de l'eau provoque des affaissements lents qui se traduisent en fissures à l'intérieur comme à l'extérieur des immeubles.",
       "Les chantiers du Grand Paris Express (lignes 15, 16, 17, 18) et la rénovation continue du parc immobilier exercent une pression supplémentaire sur des structures déjà éprouvées par plus d'un siècle d'usage."
     ],
@@ -24,7 +24,7 @@
       "Microfissures évolutives suite aux vibrations des tunneliers du Grand Paris Express"
     ],
     "guides_recommandes": [
-      {"slug": "fissure-horizontale", "raison": "Forme la plus mal interprétée — fréquente en bas de murs porteurs haussmanniens"},
+      {"slug": "fissure-horizontale", "raison": "Forme la plus mal interprétée - fréquente en bas de murs porteurs haussmanniens"},
       {"slug": "fissure-maison-ancienne", "raison": "Logique des pathologies du bâti pré-1950, dominant dans Paris intra-muros"},
       {"slug": "expert-fissure-independant", "raison": "Enjeu fort en copropriété : éviter les expertises commandées par l'assurance de l'immeuble"}
     ],
@@ -50,7 +50,7 @@
     "intro_paragraphs": [
       "La Seine-et-Marne concentre les conditions du sinistre fissure type : un sous-sol dominé par les argiles vertes et les marnes supra-gypseuses, particulièrement sensibles au phénomène de retrait-gonflement, et un parc bâti à 70 % composé de pavillons individuels construits entre 1960 et 2000, souvent sur fondations superficielles.",
       "Les arrêtés de catastrophe naturelle pour sécheresse y sont devenus quasi annuels depuis 2018. Plusieurs centaines de communes ont été reconnues sur les épisodes 2018, 2020, 2022 et 2023, avec des indemnisations qui se chiffrent en millions d'euros pour le département. Les zones les plus touchées s'étendent du nord (Meaux, Lagny, Chelles) au plateau briard et au sud (Melun, Fontainebleau).",
-      "Le bâti pavillonnaire des années 1960-1980 est particulièrement vulnérable : il a souvent été construit en parpaing creux sur semelle filante peu profonde, sans étude géotechnique préalable. Les premiers signes d'alerte — fissures en escalier sur la façade, lézarde au-dessus d'une porte, microfissures sur l'enduit — méritent un diagnostic rapide."
+      "Le bâti pavillonnaire des années 1960-1980 est particulièrement vulnérable : il a souvent été construit en parpaing creux sur semelle filante peu profonde, sans étude géotechnique préalable. Les premiers signes d'alerte - fissures en escalier sur la façade, lézarde au-dessus d'une porte, microfissures sur l'enduit - méritent un diagnostic rapide."
     ],
     "pullquote": "En Seine-et-Marne, les argiles vertes du plateau briard ont déjà fissuré plus de pavillons qu'aucun autre sol d'Île-de-France.",
     "enjeux": [
@@ -63,12 +63,12 @@
     "cas_locaux": [
       "Fissures en escalier sur façade pavillonnaire après l'été (signature RGA)",
       "Lézardes au-dessus des ouvertures (portes, fenêtres) sur pavillon des années 1970",
-      "Fissures sur dalle de garage ou terrasse — décollement par tassement de sol",
+      "Fissures sur dalle de garage ou terrasse - décollement par tassement de sol",
       "Microfissures évolutives en saison sèche sur enduit ciment de pavillon",
       "Fissures en cave ou vide sanitaire sur maisons anciennes du bâti briard"
     ],
     "guides_recommandes": [
-      {"slug": "fissure-secheresse-rga", "raison": "Le 77 est le département le plus exposé d'IDF — guide central pour comprendre les démarches Cat-Nat"},
+      {"slug": "fissure-secheresse-rga", "raison": "Le 77 est le département le plus exposé d'IDF - guide central pour comprendre les démarches Cat-Nat"},
       {"slug": "fissure-horizontale", "raison": "Forme typique sur bas de murs de pavillon affecté par RGA"},
       {"slug": "fissure-parpaing", "raison": "Le pavillonnaire en parpaing creux est dominant dans le département"}
     ],
@@ -83,7 +83,7 @@
       },
       {
         "q": "Mon expertise sera-t-elle prise en charge par l'assurance ?",
-        "r": "Si votre commune est reconnue Cat-Nat sécheresse et que votre maison est concernée, votre assurance désigne un expert d'assurance — qui défend les intérêts de l'assureur. Une contre-expertise indépendante (notre rôle) est alors fortement recommandée pour rééquilibrer le débat. Son coût peut être négocié avec l'assureur dans le cadre du sinistre."
+        "r": "Si votre commune est reconnue Cat-Nat sécheresse et que votre maison est concernée, votre assurance désigne un expert d'assurance - qui défend les intérêts de l'assureur. Une contre-expertise indépendante (notre rôle) est alors fortement recommandée pour rééquilibrer le débat. Son coût peut être négocié avec l'assureur dans le cadre du sinistre."
       }
     ],
     "villes_phares": ["meaux", "melun", "chelles", "fontainebleau"]
@@ -92,15 +92,15 @@
   "78": {
     "accroche": "Des hôtels particuliers de Versailles aux pavillons du Mantois, les Yvelines présentent un échantillon complet des pathologies fissuration franciliennes. Notre cabinet intervient dans tout le département, du bâti d'exception aux résidences récentes.",
     "intro_paragraphs": [
-      "Les Yvelines sont un département de contrastes. À l'est, l'urbanisation dense de Versailles, Saint-Germain-en-Laye et Sartrouville s'appuie sur un bâti historique cossu — hôtels particuliers, immeubles bourgeois, maisons de maître — souvent construit sur argile à meulières et calcaire de Saint-Ouen. À l'ouest, le Mantois et la vallée de Seine concentrent un pavillonnaire plus modeste, exposé au retrait-gonflement des argiles.",
+      "Les Yvelines sont un département de contrastes. À l'est, l'urbanisation dense de Versailles, Saint-Germain-en-Laye et Sartrouville s'appuie sur un bâti historique cossu - hôtels particuliers, immeubles bourgeois, maisons de maître - souvent construit sur argile à meulières et calcaire de Saint-Ouen. À l'ouest, le Mantois et la vallée de Seine concentrent un pavillonnaire plus modeste, exposé au retrait-gonflement des argiles.",
       "La géologie locale combine en surface des argiles plastiques sensibles au RGA et, en profondeur, des couches calcaires et crayeuses. Cette superposition génère des comportements différentiels marqués lors des épisodes de sécheresse : les fondations légères des pavillons d'avant 1980 sont particulièrement vulnérables.",
       "Le bâti versaillais, lui, pose des problématiques de pathologie de bâti ancien : tassements lents, fissures de retrait sur enduits patrimoniaux, désordres liés à la rénovation lourde (suppression de murs porteurs, mise aux normes thermiques) qui peut déstabiliser des structures centenaires."
     ],
-    "pullquote": "Versailles ou Mantes-la-Jolie : deux Yvelines, deux bâtis, deux logiques de fissures — mais une seule méthode d'expertise.",
+    "pullquote": "Versailles ou Mantes-la-Jolie : deux Yvelines, deux bâtis, deux logiques de fissures - mais une seule méthode d'expertise.",
     "enjeux": [
       "RGA marqué dans le Mantois et la vallée de Seine",
       "Bâti d'exception versaillais : risques liés à la rénovation lourde",
-      "Pavillonnaire 1960-1990 sur argiles à meulières — fondations souvent insuffisantes",
+      "Pavillonnaire 1960-1990 sur argiles à meulières - fondations souvent insuffisantes",
       "Grands ensembles de Trappes, Mantes, Plaisir : pathologies de copropriété",
       "Vibrations EOLE / RER E (prolongement vers Mantes-la-Jolie)"
     ],
@@ -118,15 +118,15 @@
     ],
     "faq_specific": [
       {
-        "q": "Je viens d'acheter un bien à Versailles, des fissures apparaissent — quels recours ?",
+        "q": "Je viens d'acheter un bien à Versailles, des fissures apparaissent - quels recours ?",
         "r": "Si vous êtes dans les 10 ans après construction (achat sur plan ou neuf), la garantie décennale du constructeur peut être actionnée. Si le bien est plus ancien et que les fissures n'ont pas été déclarées par le vendeur, vous pouvez invoquer le vice caché. Dans les deux cas, un rapport d'expertise indépendant est la pièce maîtresse de votre dossier."
       },
       {
-        "q": "Mon pavillon dans le Mantois s'est fissuré après l'été — c'est la sécheresse ?",
+        "q": "Mon pavillon dans le Mantois s'est fissuré après l'été - c'est la sécheresse ?",
         "r": "Très probablement. Les fissures qui apparaissent en fin d'été ou à l'automne, avec un dessin en escalier sur la façade, sont la signature classique du retrait-gonflement des argiles. Un diagnostic de gravité et la confirmation du lien avec la sécheresse permettent d'enclencher une déclaration Cat-Nat si votre commune est reconnue."
       },
       {
-        "q": "Une rénovation a fragilisé mon mur porteur — que faire ?",
+        "q": "Une rénovation a fragilisé mon mur porteur - que faire ?",
         "r": "Il faut avant tout sécuriser la structure : faire poser des étais si la fissure est large (> 2 mm) ou évolutive, et stopper tous travaux. Une expertise d'urgence détermine si le mur a été affaibli par la dépose et préconise les travaux de reprise (linteau, agrafage, reprise en sous-œuvre)."
       }
     ],
@@ -136,7 +136,7 @@
   "91": {
     "accroche": "L'Essonne cumule deux facteurs critiques : un sous-sol argileux particulièrement sensible et un parc pavillonnaire massif. Résultat : un département parmi les plus sinistrés d'IDF en arrêtés sécheresse.",
     "intro_paragraphs": [
-      "L'Essonne est un département emblématique du sinistre RGA en grande couronne francilienne. Les argiles du Sannoisien et du Stampien, omniprésentes du nord au sud du département, gonflent et se rétractent au gré des cycles d'humidité — entraînant des mouvements différentiels du sol qui se transmettent directement aux fondations des maisons.",
+      "L'Essonne est un département emblématique du sinistre RGA en grande couronne francilienne. Les argiles du Sannoisien et du Stampien, omniprésentes du nord au sud du département, gonflent et se rétractent au gré des cycles d'humidité - entraînant des mouvements différentiels du sol qui se transmettent directement aux fondations des maisons.",
       "Le pavillonnaire individuel, qui domine largement l'habitat du département (Évry-Courcouronnes, Corbeil-Essonnes, Massy, Palaiseau, Savigny-sur-Orge), a été construit pour l'essentiel entre 1960 et 1990, avant que la cartographie de l'aléa RGA ne soit largement diffusée. Beaucoup de ces maisons ne disposent ni de fondations adaptées (pas de longrines, semelles peu profondes), ni d'un drainage périphérique suffisant.",
       "Au sud, la présence des sables de Fontainebleau crée des zones de transition géologique parfois brutales : une maison construite à cheval sur deux types de sol peut subir un tassement différentiel marqué, indépendamment de la sécheresse."
     ],
@@ -170,8 +170,8 @@
         "r": "Pour un pavillon individuel en Essonne, comptez une fourchette comprise entre 800 € et 1 800 € HT selon la surface, le nombre de fissures à analyser et la complexité du rapport. En cas de sinistre Cat-Nat, ce coût peut être pris en charge par votre assurance dans le cadre de la contre-expertise."
       },
       {
-        "q": "Mon assurance refuse l'indemnisation après l'expertise — que faire ?",
-        "r": "Trois options : demander une contre-expertise amiable (à laquelle nous participons activement comme expert d'assuré), saisir le médiateur de l'assurance, ou engager une procédure judiciaire — auquel cas notre rapport indépendant constitue une pièce centrale du dossier."
+        "q": "Mon assurance refuse l'indemnisation après l'expertise - que faire ?",
+        "r": "Trois options : demander une contre-expertise amiable (à laquelle nous participons activement comme expert d'assuré), saisir le médiateur de l'assurance, ou engager une procédure judiciaire - auquel cas notre rapport indépendant constitue une pièce centrale du dossier."
       }
     ],
     "villes_phares": ["evry-courcouronnes", "corbeil-essonnes", "massy", "palaiseau"]
@@ -206,15 +206,15 @@
     ],
     "faq_specific": [
       {
-        "q": "Mon appartement à Boulogne-Billancourt s'est fissuré après l'arrivée des tunneliers GPE — quels recours ?",
+        "q": "Mon appartement à Boulogne-Billancourt s'est fissuré après l'arrivée des tunneliers GPE - quels recours ?",
         "r": "Si votre immeuble se trouve dans la zone d'influence d'un chantier du Grand Paris Express, la Société du Grand Paris a normalement réalisé un référé préventif (constat d'huissier de l'état initial). Si vous n'en avez pas connaissance, contactez votre syndic. Une expertise indépendante post-chantier permet de comparer l'état actuel à cet état initial et d'engager une demande d'indemnisation."
       },
       {
-        "q": "Mon bien est sur les berges de Seine à Issy ou Sèvres — risque-t-il davantage ?",
+        "q": "Mon bien est sur les berges de Seine à Issy ou Sèvres - risque-t-il davantage ?",
         "r": "Oui. Les variations saisonnières de la nappe phréatique de la Seine, accentuées par les pompages liés aux chantiers, peuvent provoquer des tassements lents. Les fondations sur pieux ou micropieux résistent généralement mieux. Une expertise détermine la sensibilité spécifique de votre bien."
       },
       {
-        "q": "L'immeuble est récent (moins de 10 ans), mais déjà fissuré — quel recours ?",
+        "q": "L'immeuble est récent (moins de 10 ans), mais déjà fissuré - quel recours ?",
         "r": "La garantie décennale du promoteur s'applique. Vous devez faire constater les désordres et les déclarer par lettre recommandée. Un rapport d'expertise indépendant établit le caractère décennal des désordres (atteinte à la solidité ou à la destination de l'ouvrage) et solidifie votre demande d'indemnisation."
       }
     ],
@@ -224,7 +224,7 @@
   "93": {
     "accroche": "La Seine-Saint-Denis cumule tous les facteurs de risque : gypse antéludien sujet à dissolution, anciens remblais industriels, pavillonnaire d'avant-guerre, et impact direct des lignes 15-16-17 du Grand Paris Express.",
     "intro_paragraphs": [
-      "Le 93 est, sur le plan géologique, le département francilien le plus complexe pour le bâti. Le gypse antéludien, omniprésent en sous-sol, est sujet à un phénomène de dissolution lente au contact de l'eau — créant des cavités souterraines qui peuvent provoquer des affaissements localisés, parfois brutaux. Saint-Denis, Aubervilliers, Pantin et toute la zone nord du département sont particulièrement concernés.",
+      "Le 93 est, sur le plan géologique, le département francilien le plus complexe pour le bâti. Le gypse antéludien, omniprésent en sous-sol, est sujet à un phénomène de dissolution lente au contact de l'eau - créant des cavités souterraines qui peuvent provoquer des affaissements localisés, parfois brutaux. Saint-Denis, Aubervilliers, Pantin et toute la zone nord du département sont particulièrement concernés.",
       "Cet héritage géologique se combine à un héritage industriel : tout le département est constellé d'anciens sites industriels reconvertis ou requalifiés, dont les sols ont été remblayés, parfois avec des matériaux hétérogènes. Le pavillonnaire d'entre-deux-guerres, construit en briques creuses ou parpaing sur fondations rudimentaires, vieillit mal sur ces sols instables.",
       "Enfin, les chantiers des lignes 15, 16 et 17 du Grand Paris Express sont particulièrement actifs dans le 93 (Saint-Denis Pleyel, La Courneuve, Aulnay, Le Bourget). Les tunneliers traversent des couches géologiques sensibles, multipliant les risques de tassements différentiels en surface."
     ],
@@ -244,21 +244,21 @@
       "Pathologies post-réhabilitation sur grands ensembles des années 1960-1970"
     ],
     "guides_recommandes": [
-      {"slug": "fissure-structurelle", "raison": "Risque d'effondrement local lié au gypse — diagnostic structurel prioritaire"},
+      {"slug": "fissure-structurelle", "raison": "Risque d'effondrement local lié au gypse - diagnostic structurel prioritaire"},
       {"slug": "fissure-maison-ancienne", "raison": "Pavillonnaire d'avant 1940 dominant à Montreuil, Bagnolet, Pré-Saint-Gervais"},
       {"slug": "expert-fissure-independant", "raison": "Enjeu fort face aux chantiers du Grand Paris (référé préventif, indemnisation)"}
     ],
     "faq_specific": [
       {
-        "q": "Mon pavillon à Saint-Denis est fissuré et je crains une cavité de gypse — comment vérifier ?",
-        "r": "Le diagnostic visuel par un expert permet de distinguer les signatures visibles d'une cavité (affaissement localisé, fissures multi-directionnelles convergeant vers un point, déformation de planchers) d'une fissure d'origine RGA ou structurelle. Si la suspicion de cavité est confirmée, une étude géotechnique avec sondages devient indispensable — nous pouvons coordonner cette étape complémentaire."
+        "q": "Mon pavillon à Saint-Denis est fissuré et je crains une cavité de gypse - comment vérifier ?",
+        "r": "Le diagnostic visuel par un expert permet de distinguer les signatures visibles d'une cavité (affaissement localisé, fissures multi-directionnelles convergeant vers un point, déformation de planchers) d'une fissure d'origine RGA ou structurelle. Si la suspicion de cavité est confirmée, une étude géotechnique avec sondages devient indispensable - nous pouvons coordonner cette étape complémentaire."
       },
       {
-        "q": "Mon immeuble est sur le tracé de la ligne 16 du Grand Paris — que dois-je faire ?",
+        "q": "Mon immeuble est sur le tracé de la ligne 16 du Grand Paris - que dois-je faire ?",
         "r": "Vérifiez auprès de votre syndic ou directement auprès de la Société du Grand Paris si un référé préventif a été réalisé. Si oui, conservez précieusement le document. Si des fissures apparaissent pendant ou après les travaux, une expertise post-chantier comparée au constat initial vous permet de demander une indemnisation."
       },
       {
-        "q": "Mon arrêté de catastrophe naturelle sécheresse a été refusé — quels recours ?",
+        "q": "Mon arrêté de catastrophe naturelle sécheresse a été refusé - quels recours ?",
         "r": "Un refus de Cat-Nat ne signifie pas que vos fissures ne sont pas indemnisables. Elles peuvent relever de la garantie décennale (si bâtiment de moins de 10 ans), de la responsabilité d'un constructeur voisin (chantier voisin), ou d'un défaut de construction. Une expertise indépendante identifie la cause réelle et oriente vers la procédure d'indemnisation appropriée."
       }
     ],
@@ -268,8 +268,8 @@
   "94": {
     "accroche": "Pavillonnaire dense, sols argileux et bassins de remblaiement le long de la Seine et de la Marne : le Val-de-Marne combine les pathologies de la grande couronne et celles de la première couronne dense.",
     "intro_paragraphs": [
-      "Le Val-de-Marne couvre un territoire géologiquement contrasté. Au nord, le long de la Seine et de la Marne (Ivry-sur-Seine, Vitry-sur-Seine, Charenton, Saint-Maur-des-Fossés), les sols sont essentiellement constitués d'alluvions récentes et de remblais — particulièrement sensibles aux variations de la nappe et aux mouvements liés aux chantiers d'aménagement.",
-      "Au sud (Créteil, Champigny-sur-Marne, Bonneuil), les argiles plastiques de Provins et les marnes ludiennes dominent. Ce sont des sols à fort potentiel de retrait-gonflement, qui exposent le pavillonnaire — très présent dans le département — au risque sécheresse. Les arrêtés Cat-Nat se sont multipliés sur ces communes depuis 2018.",
+      "Le Val-de-Marne couvre un territoire géologiquement contrasté. Au nord, le long de la Seine et de la Marne (Ivry-sur-Seine, Vitry-sur-Seine, Charenton, Saint-Maur-des-Fossés), les sols sont essentiellement constitués d'alluvions récentes et de remblais - particulièrement sensibles aux variations de la nappe et aux mouvements liés aux chantiers d'aménagement.",
+      "Au sud (Créteil, Champigny-sur-Marne, Bonneuil), les argiles plastiques de Provins et les marnes ludiennes dominent. Ce sont des sols à fort potentiel de retrait-gonflement, qui exposent le pavillonnaire - très présent dans le département - au risque sécheresse. Les arrêtés Cat-Nat se sont multipliés sur ces communes depuis 2018.",
       "Le Val-de-Marne est également au cœur des chantiers de la ligne 15 sud du Grand Paris Express (Champigny Centre, Saint-Maur-Créteil, Créteil L'Échat, Maisons-Alfort). Les passages de tunneliers dans des zones densément urbanisées génèrent un volume croissant de demandes d'expertise post-chantier."
     ],
     "pullquote": "Dans le 94, le pavillonnaire du sud subit la sécheresse, le bâti des berges subit la nappe, et les immeubles longent les tunneliers du Grand Paris.",
@@ -288,21 +288,21 @@
       "Désordres en copropriété sur résidences des années 1970"
     ],
     "guides_recommandes": [
-      {"slug": "fissure-secheresse-rga", "raison": "Sud du département très exposé — Créteil, Champigny, Sucy"},
+      {"slug": "fissure-secheresse-rga", "raison": "Sud du département très exposé - Créteil, Champigny, Sucy"},
       {"slug": "fissure-horizontale", "raison": "Fréquente sur pavillons et immeubles intermédiaires"},
       {"slug": "fissure-maison-ancienne", "raison": "Bâti d'avant-guerre dense à Vincennes, Saint-Maur, Charenton"}
     ],
     "faq_specific": [
       {
         "q": "Mon pavillon à Créteil ou Champigny s'est fissuré, est-ce dû à la sécheresse ?",
-        "r": "C'est probable si les fissures sont apparues fin d'été ou à l'automne, sont en escalier sur les façades, et que votre commune a été reconnue Cat-Nat sécheresse. Le diagnostic d'expert confirme ou infirme l'origine RGA et chiffre le préjudice — pièce indispensable pour votre déclaration d'assurance."
+        "r": "C'est probable si les fissures sont apparues fin d'été ou à l'automne, sont en escalier sur les façades, et que votre commune a été reconnue Cat-Nat sécheresse. Le diagnostic d'expert confirme ou infirme l'origine RGA et chiffre le préjudice - pièce indispensable pour votre déclaration d'assurance."
       },
       {
-        "q": "Mon immeuble se trouve à proximité du chantier ligne 15 sud — quels risques ?",
+        "q": "Mon immeuble se trouve à proximité du chantier ligne 15 sud - quels risques ?",
         "r": "Les bâtiments situés dans la zone d'influence des tunneliers sont en principe couverts par un référé préventif (constat avant travaux). Si vous constatez des fissures pendant ou après le chantier, faites réaliser une expertise post-chantier. La comparaison avec l'état initial permet d'engager une demande d'indemnisation auprès de la Société du Grand Paris."
       },
       {
-        "q": "Je vis en bord de Marne — la nappe peut-elle fissurer mon bâti ?",
+        "q": "Je vis en bord de Marne - la nappe peut-elle fissurer mon bâti ?",
         "r": "Oui. Les variations saisonnières de la nappe d'accompagnement de la Marne, accentuées par les épisodes de crue ou de pompage, peuvent provoquer des mouvements lents des fondations. Les bâtiments construits sur fondations superficielles (semelles filantes peu profondes) sont les plus vulnérables. Une expertise détermine si vos désordres sont compatibles avec ce mécanisme."
       }
     ],
@@ -313,10 +313,10 @@
     "accroche": "Plaine de France argileuse, Vexin de pierre et de meulière, grandes couronnes pavillonnaires : le Val-d'Oise présente une diversité géologique et bâtie qui rend chaque expertise singulière.",
     "intro_paragraphs": [
       "Le Val-d'Oise est, comme les autres départements de la grande couronne, fortement exposé au phénomène de retrait-gonflement des argiles, en particulier dans la plaine de France au nord-est et au centre du département (Sarcelles, Garges, Goussainville, Argenteuil, Bezons). Les argiles vertes et les limons lœssiques y dominent largement.",
-      "À l'ouest, le plateau du Vexin présente un bâti rural ancien spécifique : maisons en pierre de meulière, fondations souvent rudimentaires, parfois centenaires. Les pathologies y sont différentes — moins liées au RGA, plus aux tassements lents, aux infiltrations et aux désordres structurels du bâti pré-1900.",
+      "À l'ouest, le plateau du Vexin présente un bâti rural ancien spécifique : maisons en pierre de meulière, fondations souvent rudimentaires, parfois centenaires. Les pathologies y sont différentes - moins liées au RGA, plus aux tassements lents, aux infiltrations et aux désordres structurels du bâti pré-1900.",
       "Cergy-Pontoise, ville nouvelle, présente un bâti plus récent (résidences des années 1970-1990) construit sur des sols rapportés ou aménagés. Les pathologies y sont parfois liées à la qualité du remblaiement initial, aux tassements résiduels et à la conception des fondations dans des zones à fort potentiel d'aléa."
     ],
-    "pullquote": "Du Vexin rural à la plaine de France pavillonnaire, le 95 fissure différemment selon l'endroit où vous êtes — l'expertise locale est non négociable.",
+    "pullquote": "Du Vexin rural à la plaine de France pavillonnaire, le 95 fissure différemment selon l'endroit où vous êtes - l'expertise locale est non négociable.",
     "enjeux": [
       "RGA très présent dans la plaine de France (Sarcelles, Argenteuil, Goussainville)",
       "Bâti ancien en meulière et pierre du Vexin : pathologies spécifiques",
@@ -338,7 +338,7 @@
     ],
     "faq_specific": [
       {
-        "q": "Mon pavillon à Argenteuil ou Sarcelles est fissuré — est-ce la sécheresse ?",
+        "q": "Mon pavillon à Argenteuil ou Sarcelles est fissuré - est-ce la sécheresse ?",
         "r": "C'est probable. La couronne sud-est du Val-d'Oise figure parmi les zones les plus sinistrées sécheresse d'Île-de-France. Une expertise visuelle permet d'identifier les signatures RGA (fissures en escalier sur façades, lézardes au-dessus des ouvertures, décollement des annexes). Si votre commune a été reconnue Cat-Nat, l'expertise est la première étape d'une demande d'indemnisation."
       },
       {

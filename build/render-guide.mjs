@@ -1,5 +1,5 @@
 /**
- * render-guide.mjs — génère le HTML d'une page guide.
+ * render-guide.mjs - génère le HTML d'une page guide.
  * Croise seo-pages.json (title, meta, h1) + guide-content.json (rédactionnel).
  * Pages "enriched" (ex. fissure-horizontale) bénéficient d'un layout étendu :
  * sous-types, cas concret, FAQ étendue, schémas multiples.
@@ -354,7 +354,7 @@ function stripHtml(s) {
  * Convertit un path interne (ex /77/, /93/saint-denis/) en label lisible.
  */
 function pathToLabel(p, geoIndex) {
-  if (p === "/") return "Accueil — Île-de-France";
+  if (p === "/") return "Accueil - Île-de-France";
   const parts = p.split("/").filter(Boolean);
   if (parts.length === 1) {
     // Dépt

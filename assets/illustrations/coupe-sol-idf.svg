@@ -32,7 +32,7 @@
   <rect x="0" y="160" width="800" height="40" fill="#ede7dc"/>
   <rect x="0" y="160" width="800" height="40" fill="url(#dots)" opacity="0.5"/>
 
-  <!-- Strate 2 : Argiles plastiques (sensibles au RGA) — soulignée en ocre -->
+  <!-- Strate 2 : Argiles plastiques (sensibles au RGA) - soulignée en ocre -->
   <rect x="0" y="200" width="800" height="80" fill="#e6dfd2"/>
   <rect x="0" y="200" width="800" height="80" fill="url(#hatch-fine)" opacity="0.4"/>
 
@@ -66,7 +66,7 @@
   <!-- Légendes des strates -->
   <g font-family="Sora, system-ui, sans-serif" font-size="11" fill="#3a3a3a">
     <text x="20" y="178" letter-spacing="1.2" text-transform="uppercase">REMBLAIS · LIMONS</text>
-    <text x="20" y="220" letter-spacing="1.2" fill="#b8552e" font-weight="500">ARGILES PLASTIQUES — SENSIBLES AU RGA</text>
+    <text x="20" y="220" letter-spacing="1.2" fill="#b8552e" font-weight="500">ARGILES PLASTIQUES - SENSIBLES AU RGA</text>
     <text x="20" y="312" letter-spacing="1.2">MARNES · CALCAIRE GROSSIER</text>
     <text x="20" y="412" letter-spacing="1.2">GYPSE · CRAIE</text>
   </g>

@@ -68,7 +68,7 @@ Sitemap : **114 URLs** (mentions-legales en noindex donc exclue).
 
 ### URLs (slugs)
 - Départements : `/75/`, `/77/`, `/78/`, `/91/`, `/92/`, `/93/`, `/94/`, `/95/`
-- Villes : `/<dept>/<slug-ville>/` — ex. `/95/cergy/`, `/92/boulogne-billancourt/`
+- Villes : `/<dept>/<slug-ville>/` - ex. `/95/cergy/`, `/92/boulogne-billancourt/`
 - Guides : `/guide/<slug>/`
 - Toutes les URL en kebab-case sans accent, lowercase, **trailing slash obligatoire**.
 
@@ -88,7 +88,7 @@ Sitemap : **114 URLs** (mentions-legales en noindex donc exclue).
 Modifier `site.config.js` pour propager les coordonnées :
 - `email` : `quentinwebredac@gmail.com` (placeholder)
 - `phone` : à renseigner quand la ligne IDF sera disponible
-- `formEndpoint` : actuellement `/api/contact` (placeholder) — à remplacer par Formspree, Web3Forms ou un endpoint custom
+- `formEndpoint` : actuellement `/api/contact` (placeholder) - à remplacer par Formspree, Web3Forms ou un endpoint custom
 
 ## Direction artistique
 

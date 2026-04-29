@@ -1,5 +1,5 @@
 /**
- * build.mjs — orchestrateur de génération.
+ * build.mjs - orchestrateur de génération.
  * Lance la génération de toutes les pages dérivées des données :
  *   - 8 piliers départementaux  (étape 2)
  *   - 17 guides + 1 index /guide/  (étape 3)
@@ -58,13 +58,13 @@ const guideIndexSeo = seoPages.pages_statiques.find(p => p.type === "guide_index
 let counts = { dept: 0, guide: 0, index: 0, ville: 0, blog: 0 };
 
 // ----- 1. Piliers départementaux -------------------------------------------
-console.log("\n— Piliers départementaux —");
+console.log("\n- Piliers départementaux -");
 for (const dept of idfGeo.departements) {
   const code = dept.code;
   const content = deptContent[code];
   const seo = seoPages.pages_statiques.find(p => p.slug === `/${code}/` && p.type === "pilier_departemental");
   if (!content || !seo) {
-    console.warn(`⚠️  Skip /${code}/ — données manquantes.`);
+    console.warn(`⚠️  Skip /${code}/ - données manquantes.`);
     continue;
   }
   const html = renderDept({ geo: dept, content, seo });
@@ -76,12 +76,12 @@ for (const dept of idfGeo.departements) {
 }
 
 // ----- 2. Pages guides ------------------------------------------------------
-console.log("\n— Guides —");
+console.log("\n- Guides -");
 for (const [slug, content] of Object.entries(guideContent)) {
   if (slug.startsWith("_")) continue;
   const seo = allGuidesSeo[slug];
   if (!seo) {
-    console.warn(`⚠️  Skip /guide/${slug}/ — pas d'entrée SEO.`);
+    console.warn(`⚠️  Skip /guide/${slug}/ - pas d'entrée SEO.`);
     continue;
   }
   const html = renderGuide({
@@ -99,7 +99,7 @@ for (const [slug, content] of Object.entries(guideContent)) {
 }
 
 // ----- 3. Index /guide/ ----------------------------------------------------
-console.log("\n— Index Guide —");
+console.log("\n- Index Guide -");
 if (guideIndexSeo) {
   const html = renderGuideIndex({
     seo: guideIndexSeo,
@@ -113,7 +113,7 @@ if (guideIndexSeo) {
 }
 
 // ----- 4. Pages villes ------------------------------------------------------
-console.log("\n— Villes —");
+console.log("\n- Villes -");
 const allGuidesSeoForVille = allGuidesSeo;
 for (const dept of idfGeo.departements) {
   const code = dept.code;
@@ -122,7 +122,7 @@ for (const dept of idfGeo.departements) {
     const content = villeContent[villeKey]; // null si non enrichie (étapes 5-7)
     const seo = seoPages.pages_statiques.find(p => p.slug === `/${code}/${ville.slug}/` && p.type === "ville");
     if (!seo) continue;
-    // Étape 7 : génération complète — toutes les villes de tous les dépts IDF.
+    // Étape 7 : génération complète - toutes les villes de tous les dépts IDF.
     // Filtre conservé pour clarté du code mais accepte désormais tous les codes.
     // (Si on devait restreindre à nouveau, modifier ici.)
 
@@ -138,14 +138,14 @@ for (const dept of idfGeo.departements) {
     const outPath = join(ROOT, code, ville.slug, "index.html");
     mkdirSync(dirname(outPath), { recursive: true });
     writeFileSync(outPath, html, "utf8");
-    const tier = content?.tier || "—";
+    const tier = content?.tier || "-";
     console.log(`✓ /${code}/${ville.slug}/ [${tier}] (${(html.length / 1024).toFixed(1)} KB)`);
     counts.ville++;
   }
 }
 
 // ----- 5. Blog : index + 6 catégories + N articles -------------------------
-console.log("\n— Blog —");
+console.log("\n- Blog -");
 const blogIndexSeo = seoPages.blog?.index || {
   title: "Blog fissure bâtiment actualités et conseils d'experts en IDF",
   meta_description: "Actualités, cas pratiques et conseils d'experts sur les fissures du bâtiment en Île-de-France. Arrêtés sécheresse, nouvelles méthodes, retours d'expérience.",
@@ -161,7 +161,7 @@ const articles = Object.entries(blogContent.articles || {}).map(([slug, a]) => (
   ...a
 }));
 
-// 5.a — Index
+// 5.a - Index
 const blogIndexHtml = renderBlogIndex({
   seo: blogIndexSeo,
   blogContent,
@@ -174,7 +174,7 @@ writeFileSync(blogIndexPath, blogIndexHtml, "utf8");
 console.log(`✓ /blog/ (${(blogIndexHtml.length / 1024).toFixed(1)} KB)`);
 counts.blog++;
 
-// 5.b — Catégories (6)
+// 5.b - Catégories (6)
 for (const [catSlug, catContent] of Object.entries(blogContent.categories)) {
   const seoCat = categoriesSeoMap[catSlug] || {};
   const catArticles = articles.filter(a => a.category === catSlug);
@@ -191,7 +191,7 @@ for (const [catSlug, catContent] of Object.entries(blogContent.categories)) {
   counts.blog++;
 }
 
-// 5.c — Articles
+// 5.c - Articles
 for (const article of articles) {
   const html = renderBlogArticle({
     slug: article.slug,
@@ -207,4 +207,4 @@ for (const article of articles) {
 }
 
 const total = counts.dept + counts.guide + counts.index + counts.ville + counts.blog;
-console.log(`\n${total} page(s) générée(s) — ${counts.dept} dépt, ${counts.guide} guides, ${counts.index} index, ${counts.ville} villes, ${counts.blog} blog.`);
+console.log(`\n${total} page(s) générée(s) - ${counts.dept} dépt, ${counts.guide} guides, ${counts.index} index, ${counts.ville} villes, ${counts.blog} blog.`);

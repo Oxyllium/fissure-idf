@@ -1,5 +1,5 @@
 /**
- * render-blog.mjs — renderers du silo blog :
+ * render-blog.mjs - renderers du silo blog :
  *   - renderBlogIndex : page /blog/ (hub éditorial)
  *   - renderBlogCategory : pages /blog/{slug-cat}/
  *   - renderBlogArticle : pages /blog/{slug-article}/
@@ -91,7 +91,7 @@ export function renderBlogIndex(ctx) {
         <div class="hero__grid">
           <div>
             <span class="eyebrow">Hub éditorial</span>
-            <h1 class="display hero__title">Actualités, cas pratiques, conseils — par nos <em>ingénieurs experts</em>.</h1>
+            <h1 class="display hero__title">Actualités, cas pratiques, conseils - par nos <em>ingénieurs experts</em>.</h1>
             <p class="lead" style="margin-top: var(--s-5);">
               Le blog de notre cabinet rassemble retours de terrain anonymisés, actualités réglementaires (arrêtés sécheresse, jurisprudence), méthodes de diagnostic et avancées techniques. Un complément vivant à nos guides d'expert.
             </p>
@@ -185,7 +185,7 @@ export function renderBlogCategory(ctx) {
         </div>`;
 
   return `${head({
-    title: seo.title || `${label} — Blog Expert Fissure IDF`,
+    title: seo.title || `${label} - Blog Expert Fissure IDF`,
     description: seo.description || content.intro_long.slice(0, 158),
     canonical,
     schemas

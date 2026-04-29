@@ -1,5 +1,5 @@
 /**
- * main.js — interactions globales (header sticky shadow, burger, form, FAQ).
+ * main.js - interactions globales (header sticky shadow, burger, form, FAQ).
  * Aucun framework. Tout en vanilla, chargé en defer.
  */
 
@@ -109,7 +109,7 @@
   });
 
   // ---------- FAQ : un seul ouvert à la fois (option) -----------------------
-  // Désactivé par défaut — chaque détails est indépendant pour permettre une
+  // Désactivé par défaut - chaque détails est indépendant pour permettre une
   // lecture confortable. Décommente le bloc ci-dessous pour le mode "accordéon".
   /*
   document.querySelectorAll('.faq details').forEach((d) => {

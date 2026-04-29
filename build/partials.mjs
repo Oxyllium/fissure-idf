@@ -205,25 +205,25 @@ export function methodeBlock() {
             <ol class="editorial-list">
               <li>
                 <div>
-                  <h3 style="margin-top: 0;">Prise de contact <span style="color: var(--graphite-soft); font-family: var(--font-sans); font-size: var(--fs-small); margin-left: var(--s-3);">— sous 24 h ouvrées</span></h3>
+                  <h3 style="margin-top: 0;">Prise de contact <span style="color: var(--graphite-soft); font-family: var(--font-sans); font-size: var(--fs-small); margin-left: var(--s-3);">- sous 24 h ouvrées</span></h3>
                   <p>Vous nous contactez par formulaire ou par email. Un expert vous rappelle pour analyser votre situation, comprendre l'évolution des désordres et planifier l'intervention.</p>
                 </div>
               </li>
               <li>
                 <div>
-                  <h3 style="margin-top: 0;">Visite sur site <span style="color: var(--graphite-soft); font-family: var(--font-sans); font-size: var(--fs-small); margin-left: var(--s-3);">— sous 7 à 15 jours</span></h3>
+                  <h3 style="margin-top: 0;">Visite sur site <span style="color: var(--graphite-soft); font-family: var(--font-sans); font-size: var(--fs-small); margin-left: var(--s-3);">- sous 7 à 15 jours</span></h3>
                   <p>L'ingénieur se déplace à votre domicile. Relevés métriques, photographies haute définition, lecture du bâti et du sol environnant, entretien sur l'historique du bien.</p>
                 </div>
               </li>
               <li>
                 <div>
-                  <h3 style="margin-top: 0;">Rapport d'expertise <span style="color: var(--graphite-soft); font-family: var(--font-sans); font-size: var(--fs-small); margin-left: var(--s-3);">— sous 10 à 15 jours après visite</span></h3>
+                  <h3 style="margin-top: 0;">Rapport d'expertise <span style="color: var(--graphite-soft); font-family: var(--font-sans); font-size: var(--fs-small); margin-left: var(--s-3);">- sous 10 à 15 jours après visite</span></h3>
                   <p>Document technique détaillé&nbsp;: identification des désordres, hypothèses causales argumentées, niveau de gravité, préconisations de travaux et chiffrage indicatif.</p>
                 </div>
               </li>
               <li>
                 <div>
-                  <h3 style="margin-top: 0;">Accompagnement post-expertise <span style="color: var(--graphite-soft); font-family: var(--font-sans); font-size: var(--fs-small); margin-left: var(--s-3);">— selon besoin</span></h3>
+                  <h3 style="margin-top: 0;">Accompagnement post-expertise <span style="color: var(--graphite-soft); font-family: var(--font-sans); font-size: var(--fs-small); margin-left: var(--s-3);">- selon besoin</span></h3>
                   <p>Assistance dans les démarches d'assurance, contre-expertise, dialogue avec les entreprises de réparation, et présence en expertise judiciaire si nécessaire.</p>
                 </div>
               </li>
@@ -276,7 +276,7 @@ export function contactForm(p = {}) {
               <div class="field">
                 <label for="f-tel">Téléphone</label>
                 <input id="f-tel" name="telephone" type="tel" autocomplete="tel" inputmode="tel">
-                <span class="field__hint">Optionnel — facilite la prise de contact.</span>
+                <span class="field__hint">Optionnel - facilite la prise de contact.</span>
               </div>
               <div class="field">
                 <label for="f-ville">Ville d'intervention <span class="req">*</span></label>
@@ -287,7 +287,7 @@ export function contactForm(p = {}) {
             <div class="field">
               <label for="f-type">Type de fissure observée</label>
               <select id="f-type" name="type_fissure">
-                <option value="">— Sélectionner —</option>
+                <option value="">- Sélectionner -</option>
                 <option>Fissure horizontale</option>
                 <option>Fissure verticale</option>
                 <option>Fissure en escalier / oblique</option>
@@ -392,7 +392,7 @@ export function footer() {
 </html>`;
 }
 
-// Helper minimal escape pour JSON-LD strings (pas pour HTML — pour ça utiliser textContent côté client).
+// Helper minimal escape pour JSON-LD strings (pas pour HTML - pour ça utiliser textContent côté client).
 export function esc(s) {
   return String(s).replace(/"/g, '\\"').replace(/\n/g, '\\n');
 }

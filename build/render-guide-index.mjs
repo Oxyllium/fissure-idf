@@ -1,5 +1,5 @@
 /**
- * render-guide-index.mjs — page /guide/ (index des 17 guides).
+ * render-guide-index.mjs - page /guide/ (index des 17 guides).
  */
 
 import {

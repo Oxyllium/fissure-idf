@@ -1,5 +1,5 @@
 /**
- * render-ville.mjs — page ville (P0/P1 enrichies, P2 standard).
+ * render-ville.mjs - page ville (P0/P1 enrichies, P2 standard).
  * Croise idf-geo.json (quartiers, cp, dept), seo-pages.json (title, h1, meta),
  * ville-content.json (rédactionnel enrichi, optionnel) + dept-content.json
  * (fallback : reprend les enjeux et guides du dépt si la ville n'a pas son propre contenu).
@@ -89,7 +89,7 @@ export function renderVille(ctx) {
       <div class="container container--narrow">
         <span class="eyebrow">Quartiers couverts</span>
         <h2 style="margin-top: var(--s-2);">Nous intervenons dans tous les quartiers de ${escapeHtml(ville.name)}</h2>
-        <p class="lead" style="margin-top: var(--s-4); margin-bottom: var(--s-6);">Diagnostic d'expert sur l'ensemble du territoire communal — centre, périphérie, zones pavillonnaires et résidentielles.</p>
+        <p class="lead" style="margin-top: var(--s-4); margin-bottom: var(--s-6);">Diagnostic d'expert sur l'ensemble du territoire communal - centre, périphérie, zones pavillonnaires et résidentielles.</p>
         <ul style="display: flex; flex-wrap: wrap; gap: var(--s-3); list-style: none; margin-top: var(--s-5);">
           ${(ville.quartiers || []).map(q => `<li style="background: var(--mist); padding: var(--s-3) var(--s-5); font-family: var(--font-serif); font-style: italic; color: var(--ink);">${escapeHtml(q)}</li>`).join("")}
         </ul>

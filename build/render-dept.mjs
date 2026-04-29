@@ -1,5 +1,5 @@
 /**
- * render-dept.mjs — génère le HTML d'une page pilier départemental.
+ * render-dept.mjs - génère le HTML d'une page pilier départemental.
  * Données croisées : idf-geo.json (sols, bâti, tribunal, villes) + dept-content.json
  * (rédactionnel différencié) + seo-pages.json (title, meta, h1, canonical).
  */
@@ -19,7 +19,7 @@ import {
 } from "./partials.mjs";
 
 /**
- * @param {{ geo, content, seo }} ctx — données fusionnées d'un département.
+ * @param {{ geo, content, seo }} ctx - données fusionnées d'un département.
  * @returns {string} HTML complet.
  */
 export function renderDept(ctx) {

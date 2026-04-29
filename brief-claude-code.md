@@ -1,4 +1,4 @@
-# Brief Claude Code — Site local Expert Fissure Île-de-France
+# Brief Claude Code - Site local Expert Fissure Île-de-France
 
 ## Contexte de la mission
 
@@ -15,7 +15,7 @@ L'analyse Search Console du site principal (Global Expertises) a révélé :
 
 ---
 
-## Mode opératoire — TRÈS IMPORTANT
+## Mode opératoire - TRÈS IMPORTANT
 
 **Tu ne dois PAS produire les 112 pages d'un coup.**
 
@@ -25,24 +25,24 @@ Tu vas travailler **par lots** pour garantir la qualité de chaque contenu. Chaq
 
 Tu dois traiter **une étape à la fois** et attendre ma validation avant de passer à la suivante.
 
-**Étape 1 — Fondations**
+**Étape 1 - Fondations**
 - Architecture du repo, design system, variables CSS, composants partagés (header, footer, sticky bar mobile, formulaire de contact, schema.org partagé)
 - Page d'accueil (pilier régional `/`)
 - Page contact `/contact/`
 - Page mentions légales `/mentions-legales/`
 - Push initial sur GitHub
 
-**Étape 2 — 8 piliers départementaux**
+**Étape 2 - 8 piliers départementaux**
 - `/75/`, `/77/`, `/78/`, `/91/`, `/92/`, `/93/`, `/94/`, `/95/`
 - Chaque page exploite les `sols_dominants`, `bati_dominant`, `contexte_fissures`, `tribunal_competent` du JSON `idf-geo.json`
 - Maillage vers toutes les villes du département
 
-**Étape 3 — Silo Guide (18 pages thématiques + index)**
+**Étape 3 - Silo Guide (18 pages thématiques + index)**
 - Index `/guide/`
 - Les 18 guides définis dans `seo-pages.json` (fissure horizontale, plafond, mur intérieur, façade, sécheresse/RGA, maison ancienne, etc.)
 - **Priorité absolue : `/guide/fissure-horizontale/`** car c'est la formule prouvée chez Global Expertises (174 clicks, CTR 4,79 %). Cette page doit être ton chef-d'œuvre éditorial : 1 800-2 500 mots, visuels explicatifs (schémas), FAQ, cas concrets.
 
-**Étape 4 — 7 villes prioritaires P0 (Search Console)**
+**Étape 4 - 7 villes prioritaires P0 (Search Console)**
 Ces villes ont des impressions déjà mesurées sur Global Expertises. Pages enrichies (1 200-1 800 mots), avec quartiers détaillés, données locales :
 - `/92/boulogne-billancourt/`
 - `/93/saint-denis/`
@@ -52,15 +52,15 @@ Ces villes ont des impressions déjà mesurées sur Global Expertises. Pages enr
 - `/75/paris-15e/` (le plus peuplé de Paris)
 - `/75/paris-16e/` (forte zone d'enjeu)
 
-**Étape 5 — Pages villes Paris (20 arrondissements)**
+**Étape 5 - Pages villes Paris (20 arrondissements)**
 - 20 pages `/75/[arrondissement]/`
 - Différenciation par les quartiers du JSON
 
-**Étape 6 — Pages villes petite couronne (92, 93, 94)**
+**Étape 6 - Pages villes petite couronne (92, 93, 94)**
 - ~28 pages
 - Différenciation par sols (gypse 93, alluvions 92/94…) et typologies bâti
 
-**Étape 7 — Pages villes grande couronne (77, 78, 91, 95)**
+**Étape 7 - Pages villes grande couronne (77, 78, 91, 95)**
 - ~30 pages
 - Forte coloration RGA / sécheresse / pavillonnaire
 
@@ -101,7 +101,7 @@ Contient aussi une section `gsc_insights` qui liste les villes P0/P1, les mots-c
 
 **Convention de nommage des slugs (à respecter strictement) :**
 - Départements : `/75/`, `/77/`, `/78/`, `/91/`, `/92/`, `/93/`, `/94/`, `/95/`
-- Villes : `/[code-dept]/[slug-ville]/` — exemple `/95/cergy/`, `/92/boulogne-billancourt/`
+- Villes : `/[code-dept]/[slug-ville]/` - exemple `/95/cergy/`, `/92/boulogne-billancourt/`
 - Guides : `/guide/[slug]/`
 
 ---
@@ -121,12 +121,12 @@ Chaque page doit comporter :
 
 1. **H1** + accroche locale (1 phrase mentionnant la ville et les enjeux fissures locaux)
 2. **Bloc réassurance** (5 chiffres-clés)
-3. **"Pourquoi des fissures à [ville] ?"** — exploite les sols/bâti/contexte du dept depuis `idf-geo.json`
-4. **"Notre méthode d'expertise"** — 4 étapes (depuis `processus_expertise` du JSON)
-5. **"Expert fissure indépendant : ce que ça change pour vous"** — argument SEO validé
-6. **"Quartiers & communes voisines couverts"** — exploite les quartiers + lien vers 3-5 villes voisines du même dept
-7. **"Cas typiques traités à [ville]"** — exploite `cas_traites` + ancrage local
-8. **FAQ** — questions du JSON adaptées à la ville
+3. **"Pourquoi des fissures à [ville] ?"** - exploite les sols/bâti/contexte du dept depuis `idf-geo.json`
+4. **"Notre méthode d'expertise"** - 4 étapes (depuis `processus_expertise` du JSON)
+5. **"Expert fissure indépendant : ce que ça change pour vous"** - argument SEO validé
+6. **"Quartiers & communes voisines couverts"** - exploite les quartiers + lien vers 3-5 villes voisines du même dept
+7. **"Cas typiques traités à [ville]"** - exploite `cas_traites` + ancrage local
+8. **FAQ** - questions du JSON adaptées à la ville
 9. **Bloc CTA** + formulaire contact
 10. **Maillage** : breadcrumb (Accueil > Dept > Ville) + bloc "Vous êtes peut-être aussi concerné par" qui lie vers 2-3 guides pertinents
 
@@ -135,7 +135,7 @@ Chaque page doit comporter :
 1. **H1** + accroche directe (le problème + promesse de réponse)
 2. **Sommaire ancré** (table des matières cliquable)
 3. **Définition / typologie** (avec schémas visuels)
-4. **"Quand s'inquiéter ?"** — critères visuels d'évaluation, niveaux de gravité
+4. **"Quand s'inquiéter ?"** - critères visuels d'évaluation, niveaux de gravité
 5. **Causes fréquentes** (en priorisant les causes IDF si pertinent)
 6. **Méthode de diagnostic d'expert**
 7. **Solutions et coûts** (fourchettes)
