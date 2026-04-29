@@ -7,6 +7,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-labelledby="carte-idf-title carte-idf-desc" class="footer-map__svg">
   <title id="carte-idf-title">Carte des 8 départements d'Île-de-France</title>
   <desc id="carte-idf-desc">Disposition schématique des départements 75, 77, 78, 91, 92, 93, 94 et 95.</desc>
+  <style>
+    .dept {
+      fill: rgba(245, 241, 234, 0.06);
+      stroke: rgba(245, 241, 234, 0.4);
+      stroke-width: 1;
+      transition: fill 200ms ease;
+      cursor: pointer;
+    }
+    a:hover .dept,
+    a:focus-visible .dept { fill: #b8552e; }
+    .dept-label {
+      fill: #f5f1ea;
+      font-size: 11px;
+      font-family: 'Sora', system-ui, sans-serif;
+      font-weight: 500;
+      pointer-events: none;
+      text-anchor: middle;
+    }
+  </style>
 
   <!-- 95 Val-d'Oise (nord) -->
   <a href="/95/" aria-label="Expert fissure Val-d'Oise (95)">
