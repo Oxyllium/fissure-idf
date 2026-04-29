@@ -100,7 +100,6 @@ export function renderDept(ctx) {
       <div class="container">
         <div class="hero__grid">
           <div>
-            <span class="eyebrow">Département ${code} · ${geo.nom_long}</span>
             <h1 class="display hero__title">${seo.h1.replace(/Expert fissure/, "Expert <em>fissure</em>")}</h1>
             <p class="lead" style="margin-top: var(--s-5);">
               ${escapeHtml(content.accroche)}

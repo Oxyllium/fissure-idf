@@ -90,7 +90,6 @@ export function renderBlogIndex(ctx) {
       <div class="container">
         <div class="hero__grid">
           <div>
-            <span class="eyebrow">Hub éditorial</span>
             <h1 class="display hero__title">Actualités, cas pratiques, conseils - par nos <em>ingénieurs experts</em>.</h1>
             <p class="lead" style="margin-top: var(--s-5);">
               Le blog de notre cabinet rassemble retours de terrain anonymisés, actualités réglementaires (arrêtés sécheresse, jurisprudence), méthodes de diagnostic et avancées techniques. Un complément vivant à nos guides d'expert.
@@ -202,7 +201,6 @@ export function renderBlogCategory(ctx) {
       <div class="container">
         <div class="hero__grid">
           <div>
-            <span class="eyebrow">Catégorie · Blog</span>
             <h1 class="display hero__title">${escapeHtml(seo.h1 || label)}</h1>
             <p class="lead" style="margin-top: var(--s-5);">${escapeHtml(content.intro_long)}</p>
           </div>
@@ -351,7 +349,6 @@ export function renderBlogArticle(ctx) {
       <div class="container">
         <div class="hero__grid">
           <div>
-            <span class="eyebrow">${escapeHtml(categoryLabel)} · Publié le ${formatDate(article.date_published)}</span>
             <h1 class="display hero__title">${escapeHtml(article.h1)}</h1>
             ${article.intro_paragraphs.map((p, i) => i === 0
               ? `<p class="lead" style="margin-top: var(--s-5);">${escapeHtml(p)}</p>`

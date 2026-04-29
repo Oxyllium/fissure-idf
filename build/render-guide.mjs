@@ -192,7 +192,6 @@ export function renderGuide(ctx) {
       <div class="container">
         <div class="hero__grid">
           <div>
-            <span class="eyebrow">Guide d'expert</span>
             <h1 class="display hero__title">${escapeHtml(seo.h1)}</h1>
             <p class="lead" style="margin-top: var(--s-5);">${escapeHtml(content.intro_paragraphs[0])}</p>
             ${content.intro_paragraphs[1] ? `<p style="margin-top: var(--s-4); color: var(--graphite);">${escapeHtml(content.intro_paragraphs[1])}</p>` : ""}

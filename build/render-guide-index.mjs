@@ -110,7 +110,6 @@ export function renderGuideIndex(ctx) {
       <div class="container">
         <div class="hero__grid">
           <div>
-            <span class="eyebrow">17 guides d'expert</span>
             <h1 class="display hero__title">Tout savoir sur les <em>fissures</em>, écrit par des ingénieurs.</h1>
             <p class="lead" style="margin-top: var(--s-5);">
               Diagnostic, typologie, niveaux de gravité, solutions et coûts. Nos guides synthétisent l'essentiel à connaître pour interpréter les fissures de votre bien et décider d'agir au bon moment.

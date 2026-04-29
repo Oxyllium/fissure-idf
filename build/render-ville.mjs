@@ -235,12 +235,11 @@ export function renderVille(ctx) {
       <div class="container">
         <div class="hero__grid">
           <div>
-            <span class="eyebrow">${escapeHtml(dept.name)} (${code}) · ${ville.cp}</span>
             <h1 class="display hero__title">${formatH1(seo.h1)}</h1>
             <p class="lead" style="margin-top: var(--s-5);">${escapeHtml(heroAccroche)}</p>
             <div style="display:flex; gap: var(--s-3); flex-wrap: wrap; margin-top: var(--s-6);">
               <a href="#contact" class="btn btn--primary btn--lg">Demander un devis gratuit</a>
-              <a href="/${code}/" class="btn btn--ghost">Pilier ${escapeHtml(dept.name)}</a>
+              <a href="/${code}/" class="btn btn--ghost">Voir toutes les villes</a>
             </div>
           </div>
           <dl class="hero__meta">
